@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">resto-app</string>
+    <string name="food_for_everyone">Food for Everyone</string>
+
 </resources>
