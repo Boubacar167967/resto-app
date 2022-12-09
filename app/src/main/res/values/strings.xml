@@ -2,5 +2,6 @@
     <string name="app_name">resto-app</string>
     <string name="food_for_everyone">Food for Everyone</string>
     <string name="mot_de_passe">Mot de passe</string>
+    <string name="cr_er_un_compte">Créer un compte</string>
 
 </resources>

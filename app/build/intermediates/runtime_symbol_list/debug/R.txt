@@ -2842,7 +2842,6 @@ int id easeOut 0x7f0a00a9
 int id east 0x7f0a00aa
 int id edit_query 0x7f0a00ab
 int id elastic 0x7f0a00ac
-int id email_txt 0x7f0a00ad
 int id embed 0x7f0a00ae
 int id end 0x7f0a00af
 int id endToStart 0x7f0a00b0
@@ -2869,6 +2868,12 @@ int id fragment_container_view_tag 0x7f0a00c4
 int id fragment_loginBtnConnect 0x7f0a01ee
 int id fragment_loginNumCarte 0x7f0a01ec
 int id fragment_loginPassWord 0x7f0a01ed
+int id fragment_registerBtnValid 0x7f0a01ef
+int id fragment_registerEmail_txt 0x7f0a01f0
+int id fragment_registerLastName_txt 0x7f0a01f1
+int id fragment_registerName_txt 0x7f0a01f2
+int id fragment_registerNumCart_txt 0x7f0a01f3
+int id fragment_registerPassword_txt 0x7f0a01f4
 int id frost 0x7f0a00c5
 int id fullscreen_header 0x7f0a00c6
 int id ghost_view 0x7f0a00c7
@@ -2971,7 +2976,6 @@ int id mtrl_picker_text_input_range_start 0x7f0a0128
 int id mtrl_picker_title_text 0x7f0a0129
 int id mtrl_view_tag_bottom_padding 0x7f0a012a
 int id multiply 0x7f0a012b
-int id name_txt 0x7f0a012c
 int id navigation_bar_item_active_indicator_view 0x7f0a012d
 int id navigation_bar_item_icon_container 0x7f0a012e
 int id navigation_bar_item_icon_view 0x7f0a012f
@@ -2990,7 +2994,6 @@ int id north 0x7f0a013b
 int id notification_background 0x7f0a013c
 int id notification_main_column 0x7f0a013d
 int id notification_main_column_container 0x7f0a013e
-int id numeroCarte 0x7f0a013f
 int id off 0x7f0a0140
 int id on 0x7f0a0141
 int id onInterceptTouchReturnSwipe 0x7f0a0142
@@ -3004,12 +3007,10 @@ int id parentPanel 0x7f0a0149
 int id parentRelative 0x7f0a014a
 int id parent_matrix 0x7f0a014b
 int id password_toggle 0x7f0a014c
-int id password_txt 0x7f0a014d
 int id path 0x7f0a014e
 int id pathRelative 0x7f0a014f
 int id peekHeight 0x7f0a0150
 int id percent 0x7f0a0151
-int id phone_txt 0x7f0a0152
 int id pin 0x7f0a0153
 int id position 0x7f0a0154
 int id postLayout 0x7f0a0155
@@ -3019,7 +3020,6 @@ int id progress_horizontal 0x7f0a0158
 int id radio 0x7f0a0159
 int id ratio 0x7f0a015a
 int id rectangles 0x7f0a015b
-int id register_btn 0x7f0a015c
 int id reverseSawtooth 0x7f0a015d
 int id right 0x7f0a015e
 int id rightToLeft 0x7f0a015f
@@ -3406,6 +3406,7 @@ int string character_counter_content_description 0x7f110024
 int string character_counter_overflowed_content_description 0x7f110025
 int string character_counter_pattern 0x7f110026
 int string clear_text_end_icon_content_description 0x7f110027
+int string cr_er_un_compte 0x7f110091
 int string error_a11y_label 0x7f110028
 int string error_icon_content_description 0x7f110029
 int string exposed_dropdown_menu_content_description 0x7f11002a

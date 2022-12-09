@@ -2843,7 +2843,6 @@ id easeOut
 id east
 id edit_query
 id elastic
-id email_txt
 id embed
 id end
 id endToStart
@@ -2870,6 +2869,12 @@ id fragment_container_view_tag
 id fragment_loginBtnConnect
 id fragment_loginNumCarte
 id fragment_loginPassWord
+id fragment_registerBtnValid
+id fragment_registerEmail_txt
+id fragment_registerLastName_txt
+id fragment_registerName_txt
+id fragment_registerNumCart_txt
+id fragment_registerPassword_txt
 id frost
 id fullscreen_header
 id ghost_view
@@ -2972,7 +2977,6 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id name_txt
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -2991,7 +2995,6 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
-id numeroCarte
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -3005,12 +3008,10 @@ id parentPanel
 id parentRelative
 id parent_matrix
 id password_toggle
-id password_txt
 id path
 id pathRelative
 id peekHeight
 id percent
-id phone_txt
 id pin
 id position
 id postLayout
@@ -3020,7 +3021,6 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id register_btn
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3407,6 +3407,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string cr_er_un_compte
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
