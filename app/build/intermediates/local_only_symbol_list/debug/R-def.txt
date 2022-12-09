@@ -42,8 +42,10 @@ font nunito
 font nunito_semibold
 id background_image
 id email_txt
+id fragment_loginBtnConnect
+id fragment_loginNumCarte
+id fragment_loginPassWord
 id imageView
-id login_btn
 id logo_image
 id name_txt
 id numeroCarte
@@ -55,6 +57,7 @@ id tabLayout
 id title_text
 id view
 id viewPager
+layout activity_home
 layout activity_login
 layout activity_splash
 layout fragment_login
@@ -63,6 +66,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
 string food_for_everyone
+string mot_de_passe
 style Theme.Restoapp
 xml backup_rules
 xml data_extraction_rules

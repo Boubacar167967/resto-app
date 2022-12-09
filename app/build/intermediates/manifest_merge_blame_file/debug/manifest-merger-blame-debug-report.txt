@@ -6,86 +6,103 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml
+8-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml
+9-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:5:5-32:19
-12        android:allowBackup="true"
-12-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.8.0] C:\Users\hp 840\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:7:9-65
-15        android:debuggable="true"
-16        android:fullBackupContent="@xml/backup_rules"
-16-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:8:9-54
-17        android:icon="@mipmap/ic_launcher"
-17-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:9:9-43
-18        android:label="@string/app_name"
-18-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:10:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:11:9-54
-20        android:supportsRtl="true"
-20-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:12:9-35
-21        android:testOnly="true"
-22        android:theme="@style/Theme.Restoapp" >
-22-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:13:9-46
-23        <activity
-23-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:15:9-21:20
-24            android:name="com.b1707b.cours.resto_app.LoginActivity"
-24-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:16:13-42
-25            android:exported="false" >
-25-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:17:13-37
-26            <meta-data
-26-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:18:13-20:36
-27                android:name="android.app.lib_name"
-27-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:19:17-52
-28                android:value="" />
-28-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:20:17-33
-29        </activity>
-30        <activity
-30-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:22:9-31:20
-31            android:name="com.b1707b.cours.resto_app.SplashActivity"
-31-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:23:13-43
-32            android:exported="true"
-32-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:24:13-36
-33            android:label="@string/app_name" >
-33-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:25:13-45
-34            <intent-filter>
-34-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:26:13-30:29
-35                <action android:name="android.intent.action.MAIN" />
-35-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:27:17-69
-35-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:27:25-66
-36
-37                <category android:name="android.intent.category.LAUNCHER" />
-37-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:29:17-77
-37-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:29:27-74
-38            </intent-filter>
-39        </activity>
-40
-41        <provider
-41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp 840\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-42            android:name="androidx.startup.InitializationProvider"
-42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp 840\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-43            android:authorities="com.b1707b.cours.resto_app.androidx-startup"
-43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp 840\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-44            android:exported="false" >
-44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp 840\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-45            <meta-data
-45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp 840\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp 840\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-47                android:value="androidx.startup" />
-47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp 840\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-48            <meta-data
-48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hp 840\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-49-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hp 840\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-50                android:value="androidx.startup" />
-50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hp 840\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-51        </provider>
-52    </application>
-53
-54</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:5:5-39:19
+14        android:allowBackup="true"
+14-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.8.0] C:\Users\B1707D\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:7:9-65
+17        android:debuggable="true"
+18        android:fullBackupContent="@xml/backup_rules"
+18-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:8:9-54
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:9:9-43
+20        android:label="@string/app_name"
+20-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:10:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:11:9-54
+22        android:supportsRtl="true"
+22-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:12:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.Restoapp" >
+24-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:13:9-46
+25        <activity
+25-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:15:9-21:20
+26            android:name="com.b1707b.cours.resto_app.HomeActivity"
+26-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:16:13-41
+27            android:exported="false" >
+27-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:17:13-37
+28            <meta-data
+28-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:18:13-20:36
+29                android:name="android.app.lib_name"
+29-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:19:17-52
+30                android:value="" />
+30-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:20:17-33
+31        </activity>
+32        <activity
+32-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:22:9-28:20
+33            android:name="com.b1707b.cours.resto_app.LoginActivity"
+33-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:23:13-42
+34            android:exported="false" >
+34-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:24:13-37
+35            <meta-data
+35-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:18:13-20:36
+36                android:name="android.app.lib_name"
+36-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:19:17-52
+37                android:value="" />
+37-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:20:17-33
+38        </activity>
+39        <activity
+39-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:29:9-38:20
+40            android:name="com.b1707b.cours.resto_app.SplashActivity"
+40-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:30:13-43
+41            android:exported="true"
+41-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:31:13-36
+42            android:label="@string/app_name" >
+42-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:32:13-45
+43            <intent-filter>
+43-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:33:13-37:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:34:17-69
+44-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:34:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:36:17-77
+46-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:36:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+52            android:authorities="com.b1707b.cours.resto_app.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\B1707D\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\B1707D\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\B1707D\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+60        </provider>
+61    </application>
+62
+63</manifest>

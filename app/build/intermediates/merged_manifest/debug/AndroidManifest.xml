@@ -8,6 +8,8 @@
         android:minSdkVersion="22"
         android:targetSdkVersion="32" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -20,6 +22,13 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Restoapp" >
+        <activity
+            android:name="com.b1707b.cours.resto_app.HomeActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name="com.b1707b.cours.resto_app.LoginActivity"
             android:exported="false" >

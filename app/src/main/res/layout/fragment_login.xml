@@ -28,7 +28,7 @@
                 android:layout_margin="5dp">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/email_txt"
+                    android:id="@+id/fragment_loginNumCarte"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Numero Carte étudiant "
@@ -46,10 +46,10 @@
                 app:passwordToggleEnabled="true">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/password_txt"
+                    android:id="@+id/fragment_loginPassWord"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Mot de passe"
+                    android:hint="@string/mot_de_passe"
                     android:inputType="textPassword"
                     app:hintAnimationEnabled="true"
                     app:hintTextColor="@color/colorPrimary" />
@@ -57,8 +57,8 @@
         </LinearLayout>
     </ScrollView>
 
-    <TextView
-        android:id="@+id/login_btn"
+    <Button
+        android:id="@+id/fragment_loginBtnConnect"
         android:layout_width="314dp"
         android:layout_height="70dp"
         android:layout_marginBottom="32dp"

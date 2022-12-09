@@ -2867,6 +2867,9 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id fragment_loginBtnConnect
+id fragment_loginNumCarte
+id fragment_loginPassWord
 id frost
 id fullscreen_header
 id ghost_view
@@ -2911,7 +2914,6 @@ id line3
 id linear
 id listMode
 id list_item
-id login_btn
 id logo_image
 id marquee
 id masked
@@ -3283,6 +3285,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_home
 layout activity_login
 layout activity_splash
 layout custom_dialog
@@ -3444,6 +3447,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string mot_de_passe
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name
