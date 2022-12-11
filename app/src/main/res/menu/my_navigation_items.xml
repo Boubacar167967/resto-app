@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Acceuil" />
+    <item
+        android:id="@+id/nav_message"
+        android:icon="@drawable/ic_baseline_security_24"
+        android:title="Securité" />
+    <item
+        android:id="@+id/synch"
+        android:icon="@drawable/ic_baseline_sync_24"
+        android:title="Synch" />
+    <item
+        android:id="@+id/trash"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Vidé cache" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Paramétres" />
+
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="Se déconnerter" />
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Partager" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_baseline_rate_review_24"
+                android:title="Évaluez-nous" />
+        </menu>
+    </item>
+</menu>

@@ -20,11 +20,13 @@
     </array>
     <color name="black">#FF000000</color>
     <color name="colorPrimary">#FA4A0C</color>
+    <color name="lighgrey">#989797</color>
     <color name="purple_200">#FF6200EE</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
+    <color name="underline">#D8D6D6</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">resto-app</string>
     <string name="food_for_everyone">Food for Everyone</string>
@@ -41,5 +43,10 @@
         
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         
+    </style>
+    <style name="line">
+        <item name="android:background">@color/underline</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_height">1dp</item>
     </style>
 </resources>
