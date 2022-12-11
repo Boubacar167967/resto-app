@@ -10718,7 +10718,11 @@
     </string-array></file><file path="C:\xampp\htdocs\resto-app\app\src\main\res\values\preloaded_fonts.xml" qualifiers=""><array name="preloaded_fonts" translatable="false">
         <item>@font/nunito</item>
         <item>@font/nunito_semibold</item>
+<<<<<<< HEAD
     </array></file><file path="C:\xampp\htdocs\resto-app\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">resto-app</string><string name="food_for_everyone">Food for Everyone</string><string name="mot_de_passe">Mot de passe</string></file><file path="C:\xampp\htdocs\resto-app\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.Restoapp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+=======
+    </array></file><file path="C:\xampp\htdocs\memoir\resto-app\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">resto-app</string><string name="food_for_everyone">Food for Everyone</string><string name="mot_de_passe">Mot de passe</string><string name="cr_er_un_compte">Créer un compte</string></file><file path="C:\xampp\htdocs\memoir\resto-app\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.Restoapp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+>>>>>>> 847090b2c7d8b59a71af816eed3833b9799e5327
         
         <item name="colorPrimary">#FA4A0C</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

@@ -54,16 +54,26 @@ drawable splash_image
 font nunito
 font nunito_semibold
 id background_image
+<<<<<<< HEAD
 id drawer_layout
 id email_txt
 id followers
 id following
 id following_txt
+=======
+>>>>>>> 847090b2c7d8b59a71af816eed3833b9799e5327
 id fragment_loginBtnConnect
 id fragment_loginNumCarte
 id fragment_loginPassWord
+id fragment_registerBtnValid
+id fragment_registerEmail_txt
+id fragment_registerLastName_txt
+id fragment_registerName_txt
+id fragment_registerNumCart_txt
+id fragment_registerPassword_txt
 id imageView
 id logo_image
+<<<<<<< HEAD
 id name
 id name_txt
 id nav_home
@@ -77,6 +87,8 @@ id password_txt
 id phone_txt
 id profilepic
 id register_btn
+=======
+>>>>>>> 847090b2c7d8b59a71af816eed3833b9799e5327
 id scrollView2
 id settings
 id synch
@@ -97,6 +109,7 @@ menu my_navigation_items
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string cr_er_un_compte
 string food_for_everyone
 string mot_de_passe
 style Theme.Restoapp
