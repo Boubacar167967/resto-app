@@ -14,12 +14,14 @@ color teal_200
 color teal_700
 color underline
 color white
+drawable card
 drawable circle_background
 drawable food_for_everyone
 drawable food_img_1
 drawable food_img_2
 drawable food_title
 drawable get_started_background
+drawable home_background
 drawable ic_baseline_delete_24
 drawable ic_baseline_handshake_24
 drawable ic_baseline_home_24

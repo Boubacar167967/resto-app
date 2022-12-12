@@ -2563,6 +2563,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable card
 drawable circle_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -2574,6 +2575,7 @@ drawable food_img_1
 drawable food_img_2
 drawable food_title
 drawable get_started_background
+drawable home_background
 drawable ic_baseline_delete_24
 drawable ic_baseline_handshake_24
 drawable ic_baseline_home_24
