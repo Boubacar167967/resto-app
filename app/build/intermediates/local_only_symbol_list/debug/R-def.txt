@@ -47,6 +47,7 @@ drawable login_background
 drawable logo_one
 drawable no_internet_background
 drawable rectangle_background
+drawable resto1
 drawable rone
 drawable small_icon
 drawable splash_circle_background
@@ -54,14 +55,10 @@ drawable splash_image
 font nunito
 font nunito_semibold
 id background_image
-<<<<<<< HEAD
 id drawer_layout
-id email_txt
 id followers
 id following
 id following_txt
-=======
->>>>>>> 847090b2c7d8b59a71af816eed3833b9799e5327
 id fragment_loginBtnConnect
 id fragment_loginNumCarte
 id fragment_loginPassWord
@@ -73,22 +70,14 @@ id fragment_registerNumCart_txt
 id fragment_registerPassword_txt
 id imageView
 id logo_image
-<<<<<<< HEAD
 id name
-id name_txt
 id nav_home
 id nav_login
 id nav_message
 id nav_rate
 id nav_share
 id navigation_view
-id numeroCarte
-id password_txt
-id phone_txt
 id profilepic
-id register_btn
-=======
->>>>>>> 847090b2c7d8b59a71af816eed3833b9799e5327
 id scrollView2
 id settings
 id synch

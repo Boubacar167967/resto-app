@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-#Sun Dec 11 00:08:10 GMT 2022
+#Mon Dec 12 00:08:20 GMT 2022
 path.3=12/classes.dex
 path.2=10/classes.dex
-=======
-#Fri Dec 09 21:09:09 GMT 2022
-path.3=10/classes.dex
-path.2=12/classes.dex
->>>>>>> 847090b2c7d8b59a71af816eed3833b9799e5327
 path.1=0/classes.dex
 path.0=classes.dex
 base.3=C\:\\xampp\\htdocs\\resto-app\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
