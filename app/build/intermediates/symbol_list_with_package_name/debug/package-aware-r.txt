@@ -2575,14 +2575,17 @@ drawable food_img_2
 drawable food_title
 drawable get_started_background
 drawable ic_baseline_delete_24
+drawable ic_baseline_handshake_24
 drawable ic_baseline_home_24
 drawable ic_baseline_login_24
 drawable ic_baseline_menu_24
 drawable ic_baseline_message_24
 drawable ic_baseline_rate_review_24
 drawable ic_baseline_security_24
+drawable ic_baseline_sentiment_dissatisfied_24
 drawable ic_baseline_settings_24
 drawable ic_baseline_share_24
+drawable ic_baseline_shopping_cart_24
 drawable ic_baseline_sync_24
 drawable ic_clock_black_24dp
 drawable ic_food_back
@@ -2736,6 +2739,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id achat_tickets
 id actionDown
 id actionDownUp
 id actionUp
@@ -2783,6 +2787,8 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottomAppBar
+id bottomNavigationView
 id bounce
 id bounceBoth
 id bounceEnd
@@ -2826,6 +2832,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2846,6 +2853,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id dont_tickets
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -2897,6 +2905,7 @@ id fragment_registerLastName_txt
 id fragment_registerName_txt
 id fragment_registerNumCart_txt
 id fragment_registerPassword_txt
+id frame_layout
 id frost
 id fullscreen_header
 id ghost_view
@@ -2942,6 +2951,7 @@ id linear
 id listMode
 id list_item
 id logo_image
+id main_top_bar
 id marquee
 id masked
 id match_constraint
@@ -3026,6 +3036,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id onAttachStateChangeListener
+id onDateChanged
 id onInterceptTouchReturnSwipe
 id outline
 id outward
@@ -3069,6 +3081,7 @@ id scrollIndicatorUp
 id scrollView
 id scrollView2
 id scrollable
+id se_regaler
 id search_badge
 id search_bar
 id search_button
@@ -3144,6 +3157,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textWatcher
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3339,8 +3353,12 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_dont
+layout fragment_eat
+layout fragment_home
 layout fragment_login
 layout fragment_register
+layout fragment_ticket
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3400,6 +3418,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu bottom_menu
 menu my_navigation_items
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -3431,6 +3450,8 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string acceuil
+string achat_tickets
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -3445,12 +3466,14 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
 string cr_er_un_compte
+string dont_tickets
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string food_for_everyone
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -3547,6 +3570,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string se_regaler
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

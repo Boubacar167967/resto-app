@@ -3,5 +3,11 @@
     <string name="food_for_everyone">Food for Everyone</string>
     <string name="mot_de_passe">Mot de passe</string>
     <string name="cr_er_un_compte">Créer un compte</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="acceuil">Acceuil</string>
+    <string name="achat_tickets">Achat ticket</string>
+    <string name="se_regaler">Se regaler</string>
+    <string name="dont_tickets">Dont ticket</string>
 
 </resources>

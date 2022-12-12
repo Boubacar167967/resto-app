@@ -2574,14 +2574,17 @@ int drawable food_img_2 0x7f080084
 int drawable food_title 0x7f080085
 int drawable get_started_background 0x7f080086
 int drawable ic_baseline_delete_24 0x7f080087
+int drawable ic_baseline_handshake_24 0x7f0800f7
 int drawable ic_baseline_home_24 0x7f080088
 int drawable ic_baseline_login_24 0x7f080089
 int drawable ic_baseline_menu_24 0x7f08008a
 int drawable ic_baseline_message_24 0x7f08008b
 int drawable ic_baseline_rate_review_24 0x7f08008c
 int drawable ic_baseline_security_24 0x7f08008d
+int drawable ic_baseline_sentiment_dissatisfied_24 0x7f0800f8
 int drawable ic_baseline_settings_24 0x7f08008e
 int drawable ic_baseline_share_24 0x7f08008f
+int drawable ic_baseline_shopping_cart_24 0x7f0800f9
 int drawable ic_baseline_sync_24 0x7f080090
 int drawable ic_clock_black_24dp 0x7f080091
 int drawable ic_food_back 0x7f080092
@@ -2735,6 +2738,7 @@ int id accessibility_custom_action_6 0x7f0a002c
 int id accessibility_custom_action_7 0x7f0a002d
 int id accessibility_custom_action_8 0x7f0a002e
 int id accessibility_custom_action_9 0x7f0a002f
+int id achat_tickets 0x7f0a0208
 int id actionDown 0x7f0a0030
 int id actionDownUp 0x7f0a0031
 int id actionUp 0x7f0a0032
@@ -2782,6 +2786,8 @@ int id beginning 0x7f0a005b
 int id bestChoice 0x7f0a005c
 int id blocking 0x7f0a005d
 int id bottom 0x7f0a005e
+int id bottomAppBar 0x7f0a01fe
+int id bottomNavigationView 0x7f0a01ff
 int id bounce 0x7f0a005f
 int id bounceBoth 0x7f0a0060
 int id bounceEnd 0x7f0a0061
@@ -2825,6 +2831,7 @@ int id currentState 0x7f0a0086
 int id custom 0x7f0a0087
 int id customPanel 0x7f0a0088
 int id cut 0x7f0a0089
+int id dataBinding 0x7f0a0204
 int id date_picker_actions 0x7f0a008a
 int id decelerate 0x7f0a008b
 int id decelerateAndComplete 0x7f0a008c
@@ -2845,6 +2852,7 @@ int id disableIntraAutoTransition 0x7f0a009a
 int id disablePostScroll 0x7f0a009b
 int id disableScroll 0x7f0a009c
 int id disjoint 0x7f0a009d
+int id dont_tickets 0x7f0a0209
 int id dragAnticlockwise 0x7f0a009e
 int id dragClockwise 0x7f0a009f
 int id dragDown 0x7f0a00a0
@@ -2896,6 +2904,7 @@ int id fragment_registerLastName_txt 0x7f0a00cd
 int id fragment_registerName_txt 0x7f0a00ce
 int id fragment_registerNumCart_txt 0x7f0a00cf
 int id fragment_registerPassword_txt 0x7f0a00d0
+int id frame_layout 0x7f0a0200
 int id frost 0x7f0a00d1
 int id fullscreen_header 0x7f0a00d2
 int id ghost_view 0x7f0a00d3
@@ -2941,6 +2950,7 @@ int id linear 0x7f0a00fa
 int id listMode 0x7f0a00fb
 int id list_item 0x7f0a00fc
 int id logo_image 0x7f0a00fd
+int id main_top_bar 0x7f0a020b
 int id marquee 0x7f0a00fe
 int id masked 0x7f0a00ff
 int id match_constraint 0x7f0a0100
@@ -3025,6 +3035,8 @@ int id notification_main_column 0x7f0a014e
 int id notification_main_column_container 0x7f0a014f
 int id off 0x7f0a0150
 int id on 0x7f0a0151
+int id onAttachStateChangeListener 0x7f0a0205
+int id onDateChanged 0x7f0a0206
 int id onInterceptTouchReturnSwipe 0x7f0a0152
 int id outline 0x7f0a0153
 int id outward 0x7f0a0154
@@ -3068,6 +3080,7 @@ int id scrollIndicatorUp 0x7f0a0179
 int id scrollView 0x7f0a017a
 int id scrollView2 0x7f0a017b
 int id scrollable 0x7f0a017c
+int id se_regaler 0x7f0a020a
 int id search_badge 0x7f0a017d
 int id search_bar 0x7f0a017e
 int id search_button 0x7f0a017f
@@ -3143,6 +3156,7 @@ int id textSpacerNoButtons 0x7f0a01c4
 int id textSpacerNoTitle 0x7f0a01c5
 int id textStart 0x7f0a01c6
 int id textTop 0x7f0a01c7
+int id textWatcher 0x7f0a0207
 int id text_input_end_icon 0x7f0a01c8
 int id text_input_error_icon 0x7f0a01c9
 int id text_input_start_icon 0x7f0a01ca
@@ -3338,8 +3352,12 @@ int layout design_navigation_menu 0x7f0d002b
 int layout design_navigation_menu_item 0x7f0d002c
 int layout design_text_input_end_icon 0x7f0d002d
 int layout design_text_input_start_icon 0x7f0d002e
+int layout fragment_dont 0x7f0d006c
+int layout fragment_eat 0x7f0d006d
+int layout fragment_home 0x7f0d006e
 int layout fragment_login 0x7f0d002f
 int layout fragment_register 0x7f0d0030
+int layout fragment_ticket 0x7f0d006f
 int layout m3_alert_dialog 0x7f0d0031
 int layout m3_alert_dialog_actions 0x7f0d0032
 int layout m3_alert_dialog_title 0x7f0d0033
@@ -3399,6 +3417,7 @@ int layout select_dialog_item_material 0x7f0d0068
 int layout select_dialog_multichoice_material 0x7f0d0069
 int layout select_dialog_singlechoice_material 0x7f0d006a
 int layout support_simple_spinner_dropdown_item 0x7f0d006b
+int menu bottom_menu 0x7f0f0001
 int menu my_navigation_items 0x7f0f0000
 int mipmap ic_launcher 0x7f100000
 int mipmap ic_launcher_round 0x7f100001
@@ -3430,6 +3449,8 @@ int string abc_searchview_description_voice 0x7f120017
 int string abc_shareactionprovider_share_with 0x7f120018
 int string abc_shareactionprovider_share_with_application 0x7f120019
 int string abc_toolbar_collapse_description 0x7f12001a
+int string acceuil 0x7f120091
+int string achat_tickets 0x7f120092
 int string androidx_startup 0x7f12001b
 int string app_name 0x7f12001c
 int string appbar_scrolling_view_behavior 0x7f12001d
@@ -3444,12 +3465,14 @@ int string character_counter_overflowed_content_description 0x7f120025
 int string character_counter_pattern 0x7f120026
 int string clear_text_end_icon_content_description 0x7f120027
 int string cr_er_un_compte 0x7f120028
+int string dont_tickets 0x7f120093
 int string error_a11y_label 0x7f120029
 int string error_icon_content_description 0x7f12002a
 int string exposed_dropdown_menu_content_description 0x7f12002b
 int string fab_transformation_scrim_behavior 0x7f12002c
 int string fab_transformation_sheet_behavior 0x7f12002d
 int string food_for_everyone 0x7f12002e
+int string hello_blank_fragment 0x7f120094
 int string hide_bottom_view_on_scroll_behavior 0x7f12002f
 int string icon_content_description 0x7f120030
 int string item_view_role_description 0x7f120031
@@ -3546,6 +3569,7 @@ int string path_password_eye 0x7f12008b
 int string path_password_eye_mask_strike_through 0x7f12008c
 int string path_password_eye_mask_visible 0x7f12008d
 int string path_password_strike_through 0x7f12008e
+int string se_regaler 0x7f120095
 int string search_menu_title 0x7f12008f
 int string status_bar_notification_info_overflow 0x7f120090
 int style AlertDialog_AppCompat 0x7f130000

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/home"
+        android:title="@string/acceuil"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/achat_tickets"
+        android:title="@string/achat_tickets"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"/>
+    <item
+        android:id="@+id/se_regaler"
+        android:title="@string/se_regaler"
+        android:icon="@drawable/ic_baseline_sentiment_dissatisfied_24"/>
+    <item
+        android:id="@+id/dont_tickets"
+        android:title="@string/dont_tickets"
+        android:icon="@drawable/ic_baseline_handshake_24"/>
+
+</menu>

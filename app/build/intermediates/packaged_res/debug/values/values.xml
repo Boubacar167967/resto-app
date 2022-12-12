@@ -28,10 +28,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="underline">#D8D6D6</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="acceuil">Acceuil</string>
+    <string name="achat_tickets">Achat ticket</string>
     <string name="app_name">resto-app</string>
     <string name="cr_er_un_compte">Créer un compte</string>
+    <string name="dont_tickets">Dont ticket</string>
     <string name="food_for_everyone">Food for Everyone</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="mot_de_passe">Mot de passe</string>
+    <string name="se_regaler">Se regaler</string>
     <style name="Theme.Restoapp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">#FA4A0C</item>
