@@ -152,6 +152,10 @@
         "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-32:\\drawable\\ic_food_history.xml"
     },
     {
+        "merged": "com.b1707b.cours.resto_app-merged_res-30:/drawable_rone.jpeg.flat",
+        "source": "com.b1707b.cours.resto_app-main-32:/drawable/rone.jpeg"
+    },
+    {
         "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-30:\\font_nunito_semibold.xml.flat",
         "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-32:\\font\\nunito_semibold.xml"
     },
@@ -174,10 +178,6 @@
     {
         "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-32:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.b1707b.cours.resto_app-merged_res-30:/layout_activity_login.xml.flat",
-        "source": "com.b1707b.cours.resto_app-main-32:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-30:\\drawable_ic_launcher_background.xml.flat",
