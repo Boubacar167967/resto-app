@@ -1,318 +1,314 @@
 [
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_internet_bg.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\internet_bg.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_resto1.png.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/resto1.png"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\xml\\data_extraction_rules.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_rectangle_background.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\rectangle_background.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_food_img_1.png.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/food_img_1.png"
     },
     {
-        "merged": "com.b1707b.cours.resto_app-merged_res-32:/layout_fragment_eat.xml.flat",
-        "source": "com.b1707b.cours.resto_app-main-34:/layout/fragment_eat.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/xml_data_extraction_rules.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\fragment_home.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_food_search.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_food_search.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_food_cart.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_food_cart.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\activity_home.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/menu_bottom_menu.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/menu/bottom_menu.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\layout_fragment_dont.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\fragment_dont.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_no_internet.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_no_internet.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_food_user.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_food_user.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.b1707b.cours.resto_app-pngs-28:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_baseline_share_24.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_baseline_share_24.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_get_started_background.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\get_started_background.png"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_baseline_settings_24.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_baseline_settings_24.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_rone.jpeg.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\rone.jpeg"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_food_back.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_food_back.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_home_background.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/home_background.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_card.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\card.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.b1707b.cours.resto_app-pngs-28:/drawable-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\xml\\backup_rules.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/layout_fragment_ticket.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/layout/fragment_ticket.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/xml_backup_rules.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_baseline_security_24.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_baseline_security_24.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_splash_image.png.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/splash_image.png"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_baseline_handshake_24.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_baseline_handshake_24.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_logo_one.png.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/logo_one.png"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_restaurant.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\restaurant.png"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\layout_nav_header.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\nav_header.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/font_nunito.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/font/nunito.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_baseline_login_24.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_baseline_login_24.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_login_background.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/login_background.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_login_background.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\login_background.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_baseline_rate_review_24.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_baseline_rate_review_24.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_food_img_2.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\food_img_2.png"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/layout_fragment_home.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\menu_bottom_menu.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\menu\\bottom_menu.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_food_user.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_food_user.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_internet_background.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\internet_background.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_baseline_message_24.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_baseline_message_24.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_baseline_shopping_cart_24.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_baseline_shopping_cart_24.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_internet_bg.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/internet_bg.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\layout_fragment_login.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\fragment_login.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.b1707b.cours.resto_app-pngs-28:/drawable-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_food_menu.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_food_menu.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/layout_activity_login.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_no_internet_background.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\no_internet_background.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_baseline_home_24.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_baseline_home_24.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_logo_one.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\logo_one.png"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\layout_fragment_eat.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\fragment_eat.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_splash_circle_background.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/splash_circle_background.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-pngs-27:\\drawable-xhdpi\\ic_launcher_foreground.png"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/layout_fragment_login.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/layout/fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\activity_login.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_baseline_delete_24.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_baseline_delete_24.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_food_menu.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_food_menu.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.b1707b.cours.resto_app-pngs-28:/drawable-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\activity_splash.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_small_icon.png.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/small_icon.png"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_resto1.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\resto1.png"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/menu_my_navigation_items.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/menu/my_navigation_items.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_food_search.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_food_search.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_baseline_handshake_24.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_baseline_handshake_24.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-pngs-27:\\drawable-mdpi\\ic_launcher_foreground.png"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.b1707b.cours.resto_app-pngs-28:/drawable-ldpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\menu_my_navigation_items.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\menu\\my_navigation_items.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_baseline_menu_24.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_baseline_menu_24.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_no_internet_background.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/no_internet_background.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_baseline_sync_24.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_baseline_sync_24.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/layout_activity_splash.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/layout_fragment_dont.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/layout/fragment_dont.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_food_img_1.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\food_img_1.png"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_baseline_delete_24.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_baseline_delete_24.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_circle_background.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\circle_background.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_baseline_share_24.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_baseline_share_24.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_baseline_menu_24.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_baseline_menu_24.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_rectangle_background.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/rectangle_background.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_food_fav.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_food_fav.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/font_nunito_semibold.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/font/nunito_semibold.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_baseline_rate_review_24.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_baseline_rate_review_24.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_baseline_login_24.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_baseline_login_24.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_food_history.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_food_history.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_food_cart.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_food_cart.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-pngs-27:\\drawable-hdpi\\ic_launcher_foreground.png"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_food_title.png.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/food_title.png"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_baseline_shopping_cart_24.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_baseline_shopping_cart_24.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-pngs-27:\\drawable-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/layout_fragment_eat.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/layout/fragment_eat.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_no_internet.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_no_internet.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_baseline_sync_24.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_baseline_sync_24.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_restaurant.png.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/restaurant.png"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\font_nunito.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\font\\nunito.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/layout_fragment_register.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/layout/fragment_register.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_baseline_sentiment_dissatisfied_24.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_baseline_sentiment_dissatisfied_24.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_baseline_message_24.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_baseline_message_24.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\layout_fragment_register.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\fragment_register.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_food_img_2.png.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/food_img_2.png"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_home_background.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\home_background.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_baseline_security_24.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_baseline_security_24.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_card.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/card.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_splash_image.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\splash_image.png"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/layout_activity_home.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-pngs-27:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.b1707b.cours.resto_app-pngs-28:/drawable-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_food_back.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_food_back.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_get_started_background.png.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/get_started_background.png"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_food_for_everyone.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\food_for_everyone.png"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_rone.jpeg.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/rone.jpeg"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_food_home.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_food_home.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.b1707b.cours.resto_app-pngs-28:/drawable-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable-ldpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-pngs-27:\\drawable-ldpi\\ic_launcher_foreground.png"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_baseline_home_24.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_baseline_home_24.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_internet_background.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/internet_background.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_baseline_settings_24.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_baseline_settings_24.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_food_home.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_food_home.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_splash_circle_background.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\splash_circle_background.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_circle_background.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/circle_background.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\font_nunito_semibold.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\font\\nunito_semibold.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_food_for_everyone.png.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/food_for_everyone.png"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_small_icon.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\small_icon.png"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/layout_nav_header.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/layout/nav_header.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_baseline_sentiment_dissatisfied_24.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_baseline_sentiment_dissatisfied_24.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\layout_fragment_ticket.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\fragment_ticket.xml"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_food_fav.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_food_fav.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_food_title.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\food_title.png"
-    },
-    {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-pngs-27:\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "com.b1707b.cours.resto_app-merged_res-33:/drawable_ic_food_history.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-35:/drawable/ic_food_history.xml"
     }
 ]

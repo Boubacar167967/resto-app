@@ -35,6 +35,8 @@ anim linear_indeterminate_line2_tail_interpolator
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim slide_in_up
+anim slide_out_up
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1288,7 +1290,9 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color colorAccent
 color colorPrimary
+color colorPrimaryDark
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1936,6 +1940,7 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen activity_vertical_margin
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
@@ -2686,6 +2691,8 @@ drawable rectangle_background
 drawable restaurant
 drawable resto1
 drawable rone
+drawable rounded_dialog
+drawable rounded_top_layout
 drawable small_icon
 drawable splash_circle_background
 drawable splash_image
@@ -2914,6 +2921,7 @@ id fragment_registerLastName_txt
 id fragment_registerName_txt
 id fragment_registerNumCart_txt
 id fragment_registerPassword_txt
+id fragment_ticket_btnLaunch
 id frame_layout
 id frost
 id fullscreen_header
@@ -3212,6 +3220,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id webview
 id west
 id withText
 id with_icon
@@ -3345,6 +3354,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_home
 layout activity_login
+layout activity_main
 layout activity_splash
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3423,6 +3433,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout roundedwebview
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3464,6 +3475,7 @@ string achat_tickets
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string appuyer_ici_pour_continuer
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -3852,6 +3864,9 @@ style Base_Widget_MaterialComponents_Snackbar
 style Base_Widget_MaterialComponents_TextInputEditText
 style Base_Widget_MaterialComponents_TextInputLayout
 style Base_Widget_MaterialComponents_TextView
+style BaseBottomSheetDialog
+style BottomSheet
+style BottomSheetDialogTheme
 style CardView
 style CardView_Dark
 style CardView_Light

@@ -84,6 +84,7 @@ id fragment_registerLastName_txt
 id fragment_registerName_txt
 id fragment_registerNumCart_txt
 id fragment_registerPassword_txt
+id fragment_ticket_btnLaunch
 id frame_layout
 id home
 id imageView
@@ -125,6 +126,7 @@ mipmap ic_launcher_round
 string acceuil
 string achat_tickets
 string app_name
+string appuyer_ici_pour_continuer
 string cr_er_un_compte
 string dont_tickets
 string food_for_everyone
