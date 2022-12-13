@@ -7,17 +7,46 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.b1707b.cours.resto_app.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentEatBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
 
-  private FragmentEatBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final CardView card1;
+
+  @NonNull
+  public final CardView card2;
+
+  @NonNull
+  public final CardView card3;
+
+  @NonNull
+  public final CardView card4;
+
+  @NonNull
+  public final CardView card5;
+
+  @NonNull
+  public final CardView card6;
+
+  private FragmentEatBinding(@NonNull FrameLayout rootView, @NonNull CardView card1,
+      @NonNull CardView card2, @NonNull CardView card3, @NonNull CardView card4,
+      @NonNull CardView card5, @NonNull CardView card6) {
     this.rootView = rootView;
+    this.card1 = card1;
+    this.card2 = card2;
+    this.card3 = card3;
+    this.card4 = card4;
+    this.card5 = card5;
+    this.card6 = card6;
   }
 
   @Override
@@ -43,10 +72,50 @@ public final class FragmentEatBinding implements ViewBinding {
 
   @NonNull
   public static FragmentEatBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.card1;
+      CardView card1 = ViewBindings.findChildViewById(rootView, id);
+      if (card1 == null) {
+        break missingId;
+      }
 
-    return new FragmentEatBinding((FrameLayout) rootView);
+      id = R.id.card2;
+      CardView card2 = ViewBindings.findChildViewById(rootView, id);
+      if (card2 == null) {
+        break missingId;
+      }
+
+      id = R.id.card3;
+      CardView card3 = ViewBindings.findChildViewById(rootView, id);
+      if (card3 == null) {
+        break missingId;
+      }
+
+      id = R.id.card4;
+      CardView card4 = ViewBindings.findChildViewById(rootView, id);
+      if (card4 == null) {
+        break missingId;
+      }
+
+      id = R.id.card5;
+      CardView card5 = ViewBindings.findChildViewById(rootView, id);
+      if (card5 == null) {
+        break missingId;
+      }
+
+      id = R.id.card6;
+      CardView card6 = ViewBindings.findChildViewById(rootView, id);
+      if (card6 == null) {
+        break missingId;
+      }
+
+      return new FragmentEatBinding((FrameLayout) rootView, card1, card2, card3, card4, card5,
+          card6);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

@@ -2683,6 +2683,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable rectangle_background
+drawable restaurant
 drawable resto1
 drawable rone
 drawable small_icon
@@ -2799,6 +2800,12 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id card1
+id card2
+id card3
+id card4
+id card5
+id card6
 id carryVelocity
 id center
 id centerCrop

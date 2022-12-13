@@ -4,10 +4,6 @@
         "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.b1707b.cours.resto_app-mergeDebugResources-31:/layout/fragment_home.xml",
-        "source": "com.b1707b.cours.resto_app-main-34:/layout/fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-mergeDebugResources-31:\\layout\\fragment_dont.xml",
         "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\fragment_dont.xml"
     },
@@ -22,6 +18,10 @@
     {
         "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-mergeDebugResources-31:\\layout\\activity_login.xml",
         "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "com.b1707b.cours.resto_app-mergeDebugResources-31:/layout/fragment_eat.xml",
+        "source": "com.b1707b.cours.resto_app-main-34:/layout/fragment_eat.xml"
     },
     {
         "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-mergeDebugResources-31:\\layout\\activity_home.xml",

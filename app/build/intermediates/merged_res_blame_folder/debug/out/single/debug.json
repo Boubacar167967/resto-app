@@ -12,16 +12,20 @@
         "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\rectangle_background.xml"
     },
     {
+        "merged": "com.b1707b.cours.resto_app-merged_res-32:/layout_fragment_eat.xml.flat",
+        "source": "com.b1707b.cours.resto_app-main-34:/layout/fragment_eat.xml"
+    },
+    {
         "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\layout_fragment_home.xml.flat",
         "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\activity_home.xml"
-    },
-    {
         "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_food_cart.xml.flat",
         "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_food_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\layout\\activity_home.xml"
     },
     {
         "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\layout_fragment_dont.xml.flat",
@@ -48,10 +52,6 @@
         "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.b1707b.cours.resto_app-merged_res-32:/layout_fragment_home.xml.flat",
-        "source": "com.b1707b.cours.resto_app-main-34:/layout/fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_card.xml.flat",
         "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\card.xml"
     },
@@ -74,6 +74,10 @@
     {
         "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_ic_baseline_handshake_24.xml.flat",
         "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\ic_baseline_handshake_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\drawable_restaurant.png.flat",
+        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-main-34:\\drawable\\restaurant.png"
     },
     {
         "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.b1707b.cours.resto_app-merged_res-32:\\layout_nav_header.xml.flat",

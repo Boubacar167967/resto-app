@@ -52,6 +52,7 @@ drawable login_background
 drawable logo_one
 drawable no_internet_background
 drawable rectangle_background
+drawable restaurant
 drawable resto1
 drawable rone
 drawable small_icon
@@ -63,6 +64,12 @@ id achat_tickets
 id background_image
 id bottomAppBar
 id bottomNavigationView
+id card1
+id card2
+id card3
+id card4
+id card5
+id card6
 id dont_tickets
 id drawer_layout
 id followers
