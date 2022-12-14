@@ -114,6 +114,7 @@ id viewPager
 layout activity_home
 layout activity_login
 layout activity_splash
+layout fragment_detail_menu
 layout fragment_dont
 layout fragment_eat
 layout fragment_home

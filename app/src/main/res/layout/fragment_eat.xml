@@ -12,9 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
-
-
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -25,8 +22,6 @@
             android:layout_marginBottom="55dp"
             android:columnCount="2"
             android:rowCount="4">
-
-
             <androidx.cardview.widget.CardView
                 android:id="@+id/card1"
                 android:layout_width="wrap_content"
