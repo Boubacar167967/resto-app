@@ -4,6 +4,7 @@ package com.b1707b.cours.resto_app.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
@@ -20,11 +21,15 @@ public final class FragmentTicketBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final AutoCompleteTextView autoComplexe;
+
+  @NonNull
   public final Button fragmentTicketBtnLaunch;
 
   private FragmentTicketBinding(@NonNull RelativeLayout rootView,
-      @NonNull Button fragmentTicketBtnLaunch) {
+      @NonNull AutoCompleteTextView autoComplexe, @NonNull Button fragmentTicketBtnLaunch) {
     this.rootView = rootView;
+    this.autoComplexe = autoComplexe;
     this.fragmentTicketBtnLaunch = fragmentTicketBtnLaunch;
   }
 
@@ -55,13 +60,20 @@ public final class FragmentTicketBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.autoComplexe;
+      AutoCompleteTextView autoComplexe = ViewBindings.findChildViewById(rootView, id);
+      if (autoComplexe == null) {
+        break missingId;
+      }
+
       id = R.id.fragment_ticket_btnLaunch;
       Button fragmentTicketBtnLaunch = ViewBindings.findChildViewById(rootView, id);
       if (fragmentTicketBtnLaunch == null) {
         break missingId;
       }
 
-      return new FragmentTicketBinding((RelativeLayout) rootView, fragmentTicketBtnLaunch);
+      return new FragmentTicketBinding((RelativeLayout) rootView, autoComplexe,
+          fragmentTicketBtnLaunch);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
