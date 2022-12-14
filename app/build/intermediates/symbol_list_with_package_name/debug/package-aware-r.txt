@@ -3524,6 +3524,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string acceuil
 string achat_tickets
+string acheter
 string androidx_startup
 string app_name
 string app_version

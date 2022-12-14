@@ -141,6 +141,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string acceuil
 string achat_tickets
+string acheter
 string app_name
 string appuyer_ici_pour_continuer
 string cr_er_un_compte
