@@ -77,6 +77,7 @@ id following
 id following_txt
 id fragment_home
 id fragment_home_imgQrCode
+id fragment_home_riclerView
 id fragment_loginBtnConnect
 id fragment_loginNumCarte
 id fragment_loginPassWord
@@ -99,6 +100,9 @@ id nav_message
 id nav_rate
 id nav_share
 id navigation_view
+id oneRow_date
+id oneRow_nature
+id oneRow_price
 id profilepic
 id scrollView2
 id se_regaler
@@ -122,6 +126,7 @@ layout fragment_login
 layout fragment_register
 layout fragment_ticket
 layout nav_header
+layout one_row_detail
 menu bottom_menu
 menu my_navigation_items
 mipmap ic_launcher
@@ -131,10 +136,13 @@ string achat_tickets
 string app_name
 string appuyer_ici_pour_continuer
 string cr_er_un_compte
+string date_de_la_transaction
 string dont_tickets
 string food_for_everyone
 string hello_blank_fragment
+string montant
 string mot_de_passe
+string nature_du_trasation
 string se_regaler
 style Theme.Restoapp
 style line

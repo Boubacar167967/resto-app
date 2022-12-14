@@ -10,5 +10,8 @@
     <string name="se_regaler">Se regaler</string>
     <string name="dont_tickets">Dont ticket</string>
     <string name="appuyer_ici_pour_continuer">Appuyer ici pour continuer</string>
+    <string name="montant">Montant</string>
+    <string name="date_de_la_transaction">date de la transaction</string>
+    <string name="nature_du_trasation">Nature du trasation</string>
 
 </resources>

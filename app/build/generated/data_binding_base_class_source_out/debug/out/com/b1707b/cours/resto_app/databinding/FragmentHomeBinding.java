@@ -4,10 +4,11 @@ package com.b1707b.cours.resto_app.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.b1707b.cours.resto_app.R;
@@ -17,28 +18,33 @@ import java.lang.String;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final FrameLayout fragmentHome;
+  public final RelativeLayout fragmentHome;
 
   @NonNull
   public final ImageView fragmentHomeImgQrCode;
 
   @NonNull
+  public final RecyclerView fragmentHomeRiclerView;
+
+  @NonNull
   public final View view;
 
-  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull FrameLayout fragmentHome,
-      @NonNull ImageView fragmentHomeImgQrCode, @NonNull View view) {
+  private FragmentHomeBinding(@NonNull RelativeLayout rootView,
+      @NonNull RelativeLayout fragmentHome, @NonNull ImageView fragmentHomeImgQrCode,
+      @NonNull RecyclerView fragmentHomeRiclerView, @NonNull View view) {
     this.rootView = rootView;
     this.fragmentHome = fragmentHome;
     this.fragmentHomeImgQrCode = fragmentHomeImgQrCode;
+    this.fragmentHomeRiclerView = fragmentHomeRiclerView;
     this.view = view;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -63,11 +69,17 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      FrameLayout fragmentHome = (FrameLayout) rootView;
+      RelativeLayout fragmentHome = (RelativeLayout) rootView;
 
       id = R.id.fragment_home_imgQrCode;
       ImageView fragmentHomeImgQrCode = ViewBindings.findChildViewById(rootView, id);
       if (fragmentHomeImgQrCode == null) {
+        break missingId;
+      }
+
+      id = R.id.fragment_home_riclerView;
+      RecyclerView fragmentHomeRiclerView = ViewBindings.findChildViewById(rootView, id);
+      if (fragmentHomeRiclerView == null) {
         break missingId;
       }
 
@@ -77,8 +89,8 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((FrameLayout) rootView, fragmentHome, fragmentHomeImgQrCode,
-          view);
+      return new FragmentHomeBinding((RelativeLayout) rootView, fragmentHome, fragmentHomeImgQrCode,
+          fragmentHomeRiclerView, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

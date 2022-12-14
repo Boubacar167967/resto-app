@@ -2933,6 +2933,7 @@ int id forever 0x7f0a00d1
 int id fragment_container_view_tag 0x7f0a00d2
 int id fragment_home 0x7f0a021f
 int id fragment_home_imgQrCode 0x7f0a00d3
+int id fragment_home_riclerView 0x7f0a0220
 int id fragment_loginBtnConnect 0x7f0a00d4
 int id fragment_loginNumCarte 0x7f0a00d5
 int id fragment_loginPassWord 0x7f0a00d6
@@ -3077,6 +3078,9 @@ int id on 0x7f0a0160
 int id onAttachStateChangeListener 0x7f0a0161
 int id onDateChanged 0x7f0a0162
 int id onInterceptTouchReturnSwipe 0x7f0a0163
+int id oneRow_date 0x7f0a0221
+int id oneRow_nature 0x7f0a0222
+int id oneRow_price 0x7f0a0223
 int id outline 0x7f0a0164
 int id outward 0x7f0a0165
 int id overshoot 0x7f0a0166
@@ -3468,6 +3472,7 @@ int layout notification_template_custom_big 0x7f0d0069
 int layout notification_template_icon_group 0x7f0d006a
 int layout notification_template_part_chronometer 0x7f0d006b
 int layout notification_template_part_time 0x7f0d006c
+int layout one_row_detail 0x7f0d0075
 int layout roundedwebview 0x7f0d006d
 int layout select_dialog_item_material 0x7f0d006e
 int layout select_dialog_multichoice_material 0x7f0d006f
@@ -3526,6 +3531,7 @@ int string character_counter_overflowed_content_description 0x7f130029
 int string character_counter_pattern 0x7f13002a
 int string clear_text_end_icon_content_description 0x7f13002b
 int string cr_er_un_compte 0x7f13002c
+int string date_de_la_transaction 0x7f1300a6
 int string define_zxingandroidembedded 0x7f13002d
 int string dont_tickets 0x7f13002e
 int string error_a11y_label 0x7f13002f
@@ -3578,6 +3584,7 @@ int string material_timepicker_minute 0x7f13005d
 int string material_timepicker_pm 0x7f13005e
 int string material_timepicker_select_time 0x7f13005f
 int string material_timepicker_text_input_mode_description 0x7f130060
+int string montant 0x7f1300a7
 int string mot_de_passe 0x7f130061
 int string mtrl_badge_numberless_content_description 0x7f130062
 int string mtrl_checkbox_button_icon_path_checked 0x7f130063
@@ -3635,6 +3642,7 @@ int string mtrl_switch_track_decoration_path 0x7f130096
 int string mtrl_switch_track_path 0x7f130097
 int string mtrl_timepicker_cancel 0x7f130098
 int string mtrl_timepicker_confirm 0x7f130099
+int string nature_du_trasation 0x7f1300a8
 int string password_toggle_content_description 0x7f13009a
 int string path_password_eye 0x7f13009b
 int string path_password_eye_mask_strike_through 0x7f13009c
