@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.b1707b.cours.resto_app-mergeDebugResources-31:/values-sl/values-sl.xml",
+            "outputFile": "com.b1707b.cours.resto_app-mergeDebugResources-32:/values-sl/values-sl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\B1707D\\.gradle\\caches\\transforms-3\\034f511a629c0fda711794a09fef4382\\transformed\\appcompat-1.5.1\\res\\values-sl\\values-sl.xml",
@@ -37,6 +37,23 @@
                         "endLines": "7,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91",
                         "endColumns": "12,87,105,125,83,65,93,75,62,111,64,53,69,59,55,111,56,61,55,72,133,84,84,142,83,82,88,55,54,65,72,76,83,73,75,74,72,87,72,89,90,71,73,90,51,66,83,86,61,63,62,102,96,97,96,59,58,76",
                         "endOffsets": "412,3240,3346,3472,3556,3622,3716,3792,3855,3967,4032,4086,4156,4216,4272,4384,4441,4503,4559,4632,4766,4851,4936,5079,5163,5246,5335,5391,5446,5512,5585,5662,5746,5820,5896,5971,6044,6132,6205,6295,6386,6458,6532,6623,6675,6742,6826,6913,6975,7039,7102,7205,7302,7400,7497,7557,7616,7693"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\B1707D\\.gradle\\caches\\transforms-3\\1fa6f96f8c5f79554d8645abde103ad6\\transformed\\zxing-android-embedded-4.3.0\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,165,318",
+                        "endColumns": "58,50,152,99",
+                        "endOffsets": "109,160,313,413"
+                    },
+                    "to": {
+                        "startLines": "94,95,96,97",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "7883,7942,7993,8146",
+                        "endColumns": "58,50,152,99",
+                        "endOffsets": "7937,7988,8141,8241"
                     }
                 },
                 {

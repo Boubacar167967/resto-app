@@ -75,6 +75,8 @@ id drawer_layout
 id followers
 id following
 id following_txt
+id fragment_home
+id fragment_home_imgQrCode
 id fragment_loginBtnConnect
 id fragment_loginNumCarte
 id fragment_loginPassWord

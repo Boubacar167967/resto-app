@@ -9,23 +9,52 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.b1707b.cours.resto_app.databinding.ActivityHomeBinding;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.navigation.NavigationView;
 
+import org.w3c.dom.Text;
+
 public class HomeActivity extends AppCompatActivity {
     ActivityHomeBinding binding;
+    private TextView mTextViewName;
+    private NavigationView mNavigationView;
+    private TextView mTextViewNumCart;
+    private String numCart;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setContentView(R.layout.activity_home);
         super.onCreate(savedInstanceState);
         binding = ActivityHomeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        //get names
+        Bundle bundle =getIntent().getExtras();
+        String name = bundle.getString("name");
+        String lastName = bundle.getString("prenom");
+        String numCart = bundle.getString("numcard");
+        this.numCart = numCart;
+        String email = bundle.getString("email");
+        //set the cart number to the Home fragment
+        //openFragment(numCart);
         replaceFragment(new HomeFragment());
+        //find the nav_header using the navigationView
+        mNavigationView = (NavigationView) findViewById(R.id.navigation_view);
+        View nav_header =  mNavigationView.getHeaderView(0);
+        //Find the views reference using the nav_header
+        TextView textViewName = nav_header.findViewById(R.id.name);
+        TextView viewNumCart = nav_header.findViewById(R.id.username);
+        TextView viewEmail = nav_header.findViewById(R.id.following);
+        //set the data in the name_header.hml
+        textViewName.setText(lastName+" "+ name);
+        viewNumCart.setText(numCart);
+        viewEmail.setText(email);
+        //
         binding.bottomNavigationView.setBackground(null);
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
             switch (item.getItemId()) {
@@ -90,10 +119,23 @@ public class HomeActivity extends AppCompatActivity {
 
 
         }
+
+    private void openFragment(String numCart) {
+        Bundle bundle1 = new Bundle();
+        bundle1.putString("myData", numCart);
+        HomeFragment homeFragment = new HomeFragment();
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        homeFragment.setArguments(bundle1);
+        transaction.replace(R.id.fragment_home, homeFragment).commit();
+    }
     private void replaceFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.frame_layout, fragment);
         fragmentTransaction.commit();
+    }
+
+    public String getNumCart() {
+        return numCart;
     }
 }

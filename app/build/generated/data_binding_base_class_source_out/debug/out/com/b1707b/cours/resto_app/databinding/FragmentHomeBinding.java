@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -19,10 +20,19 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
+  public final FrameLayout fragmentHome;
+
+  @NonNull
+  public final ImageView fragmentHomeImgQrCode;
+
+  @NonNull
   public final View view;
 
-  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull View view) {
+  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull FrameLayout fragmentHome,
+      @NonNull ImageView fragmentHomeImgQrCode, @NonNull View view) {
     this.rootView = rootView;
+    this.fragmentHome = fragmentHome;
+    this.fragmentHomeImgQrCode = fragmentHomeImgQrCode;
     this.view = view;
   }
 
@@ -53,13 +63,22 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      FrameLayout fragmentHome = (FrameLayout) rootView;
+
+      id = R.id.fragment_home_imgQrCode;
+      ImageView fragmentHomeImgQrCode = ViewBindings.findChildViewById(rootView, id);
+      if (fragmentHomeImgQrCode == null) {
+        break missingId;
+      }
+
       id = R.id.view;
       View view = ViewBindings.findChildViewById(rootView, id);
       if (view == null) {
         break missingId;
       }
 
-      return new FragmentHomeBinding((FrameLayout) rootView, view);
+      return new FragmentHomeBinding((FrameLayout) rootView, fragmentHome, fragmentHomeImgQrCode,
+          view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

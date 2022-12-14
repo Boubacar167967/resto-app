@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.b1707b.cours.resto_app-mergeDebugResources-31:/values-ja/values-ja.xml",
+            "outputFile": "com.b1707b.cours.resto_app-mergeDebugResources-32:/values-ja/values-ja.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\B1707D\\.gradle\\caches\\transforms-3\\1fa6f96f8c5f79554d8645abde103ad6\\transformed\\zxing-android-embedded-4.3.0\\res\\values-ja\\values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,109,156,256",
+                        "endColumns": "53,46,99,81",
+                        "endOffsets": "104,151,251,333"
+                    },
+                    "to": {
+                        "startLines": "92,93,94,95",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "7096,7150,7197,7297",
+                        "endColumns": "53,46,99,81",
+                        "endOffsets": "7145,7192,7292,7374"
+                    }
+                },
                 {
                     "source": "C:\\Users\\B1707D\\.gradle\\caches\\transforms-3\\459731560744495d36c7572f4eaf1462\\transformed\\material-1.7.0\\res\\values-ja\\values-ja.xml",
                     "from": {
