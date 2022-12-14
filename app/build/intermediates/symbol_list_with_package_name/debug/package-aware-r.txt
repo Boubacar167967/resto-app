@@ -2590,6 +2590,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable card
 drawable circle_background
+drawable couscous
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2707,18 +2708,23 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rate
 drawable rectangle_background
 drawable restaurant
 drawable resto1
 drawable rone
+drawable ronr
 drawable rounded_dialog
 drawable rounded_top_layout
 drawable small_icon
 drawable splash_circle_background
 drawable splash_image
 drawable test_level_drawable
+drawable thiebou
+drawable thiere
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable yassa
 font nunito
 font nunito_semibold
 id ALT
@@ -2809,6 +2815,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id autoComplexe
 id background_image
 id barrier
 id baseline
@@ -3407,6 +3414,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout drawpo
 layout fragment_detail_menu
 layout fragment_dont
 layout fragment_eat

@@ -4,6 +4,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TicketFragment">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:hint="Selectionner  "
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/autoComplexe"
+            android:inputType="none">
+
+        </AutoCompleteTextView>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

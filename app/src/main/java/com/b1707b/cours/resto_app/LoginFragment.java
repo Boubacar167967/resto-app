@@ -30,7 +30,7 @@ public class LoginFragment extends Fragment {
     private Button mButtonConnect;
     private TextInputEditText mTextInputNumCart;
     private TextInputEditText mTextInputPassword;
-    private  final String url = "http://192.168.56.1/memoir/server/logApp.php";
+    private  final String url = "http://10.106.248.67/server/logApp.php";
     public LoginFragment() {
     }
 

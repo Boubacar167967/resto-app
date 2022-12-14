@@ -1,14 +1,271 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".FragmentDetailMenu">
-
-    <!-- TODO: Update blank fragment layout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="24dp"
+tools:context=".FragmentDetailMenu">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:orientation="horizontal">
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+
+        android:textColor="@color/colorPrimary"
+        android:text="Menu"
+
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DuJour"
+        android:layout_marginLeft="5dp"
+        android:textSize="20dp"
+
+        >
+
+    </TextView>
+
+</LinearLayout>
+<androidx.cardview.widget.CardView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+
+    app:cardCornerRadius="8dp"
+    >
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:padding="12dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:text="Menu Repas">
 
-</FrameLayout>
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/rate"
+                >
+
+            </ImageView>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/rate"
+                >
+
+            </ImageView>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/rate"
+                >
+
+            </ImageView>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/rate"
+                >
+
+            </ImageView>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/yassa">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/thiebou">
+
+            </ImageView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Yassa au poulet">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginRight="5dp"
+                android:text="Thiebou Djeune">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
+<androidx.cardview.widget.CardView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+
+    app:cardCornerRadius="8dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:text="Menu Dinner">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/rate"
+                >
+
+            </ImageView>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/rate"
+                >
+
+            </ImageView>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/rate"
+                >
+
+            </ImageView>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/rate"
+                >
+
+            </ImageView>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/thiere">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/couscous">
+
+            </ImageView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Thiéré Bassé">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+
+                android:text="Couscous marocain">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

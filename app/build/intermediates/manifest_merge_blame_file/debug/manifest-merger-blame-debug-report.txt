@@ -6,175 +6,175 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml
+8-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml
+9-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:4:5-67
-11-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:4:22-64
+11-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
-12-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
-12-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
+12-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+12-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
 13    <uses-feature
-13-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+13-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
 14        android:name="android.hardware.camera"
-14-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+14-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
 15        android:required="false" />
-15-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+15-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
 16    <uses-feature
-16-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+16-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
 17        android:name="android.hardware.camera.front"
-17-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+17-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
 18        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
-18-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+18-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
 19    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
 20    <uses-feature
-20-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+20-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
 21        android:name="android.hardware.camera.autofocus"
-21-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+21-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
 22        android:required="false" />
-22-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+22-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
 23    <uses-feature
-23-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+23-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
 24        android:name="android.hardware.camera.flash"
-24-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+24-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
 25        android:required="false" />
-25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
 26    <uses-feature
-26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
 27        android:name="android.hardware.screen.landscape"
-27-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
 28        android:required="false" />
-28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
 29    <uses-feature
-29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
 30        android:name="android.hardware.wifi"
-30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
 31        android:required="false" />
-31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
 32
 33    <application
-33-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:5:5-44:19
+33-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:5:5-44:19
 34        android:allowBackup="true"
-34-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:6:9-35
+34-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:6:9-35
 35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-35-->[androidx.core:core:1.8.0] C:\Users\B1707D\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+35-->[androidx.core:core:1.8.0] C:\Users\hp 840\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 36        android:dataExtractionRules="@xml/data_extraction_rules"
-36-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:7:9-65
+36-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:7:9-65
 37        android:debuggable="true"
 38        android:fullBackupContent="@xml/backup_rules"
-38-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:8:9-54
+38-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:8:9-54
 39        android:icon="@mipmap/ic_launcher"
-39-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:9:9-43
+39-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:9:9-43
 40        android:label="@string/app_name"
-40-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:10:9-41
+40-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:10:9-41
 41        android:roundIcon="@mipmap/ic_launcher_round"
-41-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:11:9-54
+41-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:11:9-54
 42        android:supportsRtl="true"
-42-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:12:9-35
+42-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:12:9-35
 43        android:testOnly="true"
 44        android:theme="@style/Theme.Restoapp" >
-44-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:13:9-46
+44-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:13:9-46
 45        <activity
-45-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:15:9-21:20
+45-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:15:9-21:20
 46            android:name="com.b1707b.cours.resto_app.HomeActivity"
-46-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:16:13-41
+46-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:16:13-41
 47            android:exported="false" >
-47-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:17:13-37
+47-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:17:13-37
 48            <meta-data
-48-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:18:13-20:36
+48-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:18:13-20:36
 49                android:name="android.app.lib_name"
-49-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:19:17-52
+49-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:19:17-52
 50                android:value="" />
-50-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:20:17-33
+50-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:20:17-33
 51        </activity>
 52        <activity
-52-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:22:9-28:20
+52-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:22:9-28:20
 53            android:name="com.b1707b.cours.resto_app.LoginActivity"
-53-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:23:13-42
+53-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:23:13-42
 54            android:exported="false" >
-54-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:24:13-37
+54-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:24:13-37
 55            <meta-data
-55-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:18:13-20:36
+55-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:18:13-20:36
 56                android:name="android.app.lib_name"
-56-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:19:17-52
+56-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:19:17-52
 57                android:value="" />
-57-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:20:17-33
+57-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:20:17-33
 58        </activity>
 59        <activity
-59-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:29:9-38:20
+59-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:29:9-38:20
 60            android:name="com.b1707b.cours.resto_app.SplashActivity"
-60-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:30:13-43
+60-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:30:13-43
 61            android:exported="true"
-61-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:31:13-36
+61-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:31:13-36
 62            android:label="@string/app_name" >
-62-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:32:13-45
+62-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:32:13-45
 63            <intent-filter>
-63-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:33:13-37:29
+63-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:33:13-37:29
 64                <action android:name="android.intent.action.MAIN" />
-64-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:34:17-69
-64-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:34:25-66
+64-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:34:17-69
+64-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:34:25-66
 65
 66                <category android:name="android.intent.category.LAUNCHER" />
-66-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:36:17-77
-66-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:36:27-74
+66-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:36:17-77
+66-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:36:27-74
 67            </intent-filter>
 68        </activity>
 69        <activity
-69-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:39:9-43:15
+69-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:39:9-43:15
 70            android:name="com.b1707b.cours.resto_app.CaptureAct"
-70-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:39:19-45
+70-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:39:19-45
 71            android:screenOrientation="portrait"
-71-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:40:13-49
+71-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:40:13-49
 72            android:stateNotNeeded="true"
-72-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:41:13-42
+72-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:41:13-42
 73            android:theme="@style/zxing_CaptureTheme" />
-73-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:42:13-54
+73-->C:\xampp\htdocs\resto-app\app\src\main\AndroidManifest.xml:42:13-54
 74        <activity
-74-->[paytech-sdk-release.aar] C:\Users\B1707D\.gradle\caches\transforms-3\6346a93a51f83e1e96abd16da4ed92ff\transformed\paytech-sdk-release\AndroidManifest.xml:17:9-21:20
+74-->[paytech-sdk-release.aar] C:\Users\hp 840\.gradle\caches\transforms-3\6346a93a51f83e1e96abd16da4ed92ff\transformed\paytech-sdk-release\AndroidManifest.xml:17:9-21:20
 75            android:name="sdk.paytech.sn.ViewActivity"
-75-->[paytech-sdk-release.aar] C:\Users\B1707D\.gradle\caches\transforms-3\6346a93a51f83e1e96abd16da4ed92ff\transformed\paytech-sdk-release\AndroidManifest.xml:18:13-55
+75-->[paytech-sdk-release.aar] C:\Users\hp 840\.gradle\caches\transforms-3\6346a93a51f83e1e96abd16da4ed92ff\transformed\paytech-sdk-release\AndroidManifest.xml:18:13-55
 76            android:configChanges="keyboardHidden|orientation|screenSize"
-76-->[paytech-sdk-release.aar] C:\Users\B1707D\.gradle\caches\transforms-3\6346a93a51f83e1e96abd16da4ed92ff\transformed\paytech-sdk-release\AndroidManifest.xml:19:13-74
+76-->[paytech-sdk-release.aar] C:\Users\hp 840\.gradle\caches\transforms-3\6346a93a51f83e1e96abd16da4ed92ff\transformed\paytech-sdk-release\AndroidManifest.xml:19:13-74
 77            android:screenOrientation="portrait" >
-77-->[paytech-sdk-release.aar] C:\Users\B1707D\.gradle\caches\transforms-3\6346a93a51f83e1e96abd16da4ed92ff\transformed\paytech-sdk-release\AndroidManifest.xml:20:13-49
+77-->[paytech-sdk-release.aar] C:\Users\hp 840\.gradle\caches\transforms-3\6346a93a51f83e1e96abd16da4ed92ff\transformed\paytech-sdk-release\AndroidManifest.xml:20:13-49
 78        </activity>
 79        <activity
-79-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+79-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
 80            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-80-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+80-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
 81            android:clearTaskOnLaunch="true"
-81-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+81-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
 82            android:screenOrientation="sensorLandscape"
-82-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+82-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
 83            android:stateNotNeeded="true"
-83-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+83-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
 84            android:theme="@style/zxing_CaptureTheme"
-84-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+84-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
 85            android:windowSoftInputMode="stateAlwaysHidden" />
-85-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+85-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hp 840\.gradle\caches\transforms-3\1fa6f96f8c5f79554d8645abde103ad6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
 86
 87        <provider
-87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp 840\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 88            android:name="androidx.startup.InitializationProvider"
-88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp 840\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 89            android:authorities="com.b1707b.cours.resto_app.androidx-startup"
-89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp 840\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 90            android:exported="false" >
-90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp 840\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 91            <meta-data
-91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp 840\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 92                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp 840\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 93                android:value="androidx.startup" />
-93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp 840\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 94            <meta-data
-94-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\B1707D\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+94-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hp 840\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 95                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-95-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\B1707D\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+95-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hp 840\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 96                android:value="androidx.startup" />
-96-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\B1707D\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+96-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hp 840\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 97        </provider>
 98    </application>
 99
