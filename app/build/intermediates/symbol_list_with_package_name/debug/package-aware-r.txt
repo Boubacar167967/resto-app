@@ -2589,6 +2589,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable card
+drawable card_solde
 drawable circle_background
 drawable couscous
 drawable design_fab_background
@@ -3160,6 +3161,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id solde
 id south
 id spacer
 id special_effects_controller_view_tag

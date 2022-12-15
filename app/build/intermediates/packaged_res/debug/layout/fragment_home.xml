@@ -12,18 +12,68 @@
     <View
         android:id="@+id/view"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="260dp"
         android:background="@drawable/home_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />
 
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/card_solde"
+        android:layout_centerHorizontal="true"
+        >
+
+        <ImageView
+            android:id="@+id/solde"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+
+            android:layout_centerInParent="true" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:text="0 P'Dej">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:text="0 Repas">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
     <RelativeLayout
         android:layout_width="300dp"
         android:layout_height="160dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="90dp"
         android:background="@drawable/card"
         android:layout_centerHorizontal="true"
         >
@@ -32,7 +82,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_centerInParent="true"
-            android:background="@color/zxing_result_view"
+
             />
     </RelativeLayout>
     <androidx.recyclerview.widget.RecyclerView

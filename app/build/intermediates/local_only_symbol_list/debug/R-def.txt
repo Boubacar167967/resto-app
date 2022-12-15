@@ -15,6 +15,7 @@ color teal_700
 color underline
 color white
 drawable card
+drawable card_solde
 drawable circle_background
 drawable couscous
 drawable food_for_everyone
@@ -114,6 +115,7 @@ id profilepic
 id scrollView2
 id se_regaler
 id settings
+id solde
 id synch
 id tabLayout
 id title_text

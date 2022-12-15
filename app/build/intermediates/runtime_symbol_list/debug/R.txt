@@ -2588,6 +2588,7 @@ int drawable btn_radio_off_to_on_mtrl_animation 0x7f080079
 int drawable btn_radio_on_mtrl 0x7f08007a
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f08007b
 int drawable card 0x7f08007c
+int drawable card_solde 0x7f080105
 int drawable circle_background 0x7f08007d
 int drawable couscous 0x7f08007e
 int drawable design_fab_background 0x7f08007f
@@ -3159,6 +3160,7 @@ int id snackbar_action 0x7f0a01ad
 int id snackbar_text 0x7f0a01ae
 int id snap 0x7f0a01af
 int id snapMargins 0x7f0a01b0
+int id solde 0x7f0a0225
 int id south 0x7f0a01b1
 int id spacer 0x7f0a01b2
 int id special_effects_controller_view_tag 0x7f0a01b3
