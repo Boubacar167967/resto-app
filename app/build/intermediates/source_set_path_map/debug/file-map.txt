@@ -27,11 +27,11 @@ com.b1707b.cours.resto_app-lifecycle-viewmodel-savedstate-2.5.1-25 C:\Users\hp 8
 com.b1707b.cours.resto_app-databinding-runtime-7.3.1-26 C:\Users\hp 840\.gradle\caches\transforms-3\f2f03771593b1043a50d45b983a18431\transformed\databinding-runtime-7.3.1\res
 com.b1707b.cours.resto_app-cardview-1.0.0-27 C:\Users\hp 840\.gradle\caches\transforms-3\fa3659a04c6e45d556b5f8662112b28b\transformed\cardview-1.0.0\res
 com.b1707b.cours.resto_app-coordinatorlayout-1.1.0-28 C:\Users\hp 840\.gradle\caches\transforms-3\fe0fd5ae30eba395a4c7b39f593407e5\transformed\coordinatorlayout-1.1.0\res
-com.b1707b.cours.resto_app-pngs-29 C:\xampp\htdocs\resto-app\app\build\generated\res\pngs\debug
-com.b1707b.cours.resto_app-resValues-30 C:\xampp\htdocs\resto-app\app\build\generated\res\resValues\debug
-com.b1707b.cours.resto_app-rs-31 C:\xampp\htdocs\resto-app\app\build\generated\res\rs\debug
-com.b1707b.cours.resto_app-packageDebugResources-32 C:\xampp\htdocs\resto-app\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.b1707b.cours.resto_app-packageDebugResources-33 C:\xampp\htdocs\resto-app\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.b1707b.cours.resto_app-merged_res-34 C:\xampp\htdocs\resto-app\app\build\intermediates\merged_res\debug
-com.b1707b.cours.resto_app-debug-35 C:\xampp\htdocs\resto-app\app\src\debug\res
-com.b1707b.cours.resto_app-main-36 C:\xampp\htdocs\resto-app\app\src\main\res
+com.b1707b.cours.resto_app-pngs-29 C:\xampp\htdocs\memoir\resto-app\app\build\generated\res\pngs\debug
+com.b1707b.cours.resto_app-resValues-30 C:\xampp\htdocs\memoir\resto-app\app\build\generated\res\resValues\debug
+com.b1707b.cours.resto_app-rs-31 C:\xampp\htdocs\memoir\resto-app\app\build\generated\res\rs\debug
+com.b1707b.cours.resto_app-packageDebugResources-32 C:\xampp\htdocs\memoir\resto-app\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.b1707b.cours.resto_app-packageDebugResources-33 C:\xampp\htdocs\memoir\resto-app\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.b1707b.cours.resto_app-merged_res-34 C:\xampp\htdocs\memoir\resto-app\app\build\intermediates\merged_res\debug
+com.b1707b.cours.resto_app-debug-35 C:\xampp\htdocs\memoir\resto-app\app\src\debug\res
+com.b1707b.cours.resto_app-main-36 C:\xampp\htdocs\memoir\resto-app\app\src\main\res

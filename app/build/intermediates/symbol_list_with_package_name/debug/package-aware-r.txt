@@ -2939,6 +2939,8 @@ id followers
 id following
 id following_txt
 id forever
+id fragmentTabLayout
+id fragmentViewPager
 id fragment_container_view_tag
 id fragment_home
 id fragment_home_imgQrCode
@@ -3421,12 +3423,14 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout drawpo
+layout fragment_carte_fargment
 layout fragment_detail_menu
 layout fragment_dont
 layout fragment_eat
 layout fragment_home
 layout fragment_login
 layout fragment_register
+layout fragment_scanne
 layout fragment_ticket
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3484,6 +3488,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout one_row_detail
+layout par_carte
 layout roundedwebview
 layout select_dialog_item_material
 layout select_dialog_multichoice_material

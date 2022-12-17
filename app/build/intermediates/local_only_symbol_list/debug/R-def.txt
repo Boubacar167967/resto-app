@@ -83,6 +83,8 @@ id drawer_layout
 id followers
 id following
 id following_txt
+id fragmentTabLayout
+id fragmentViewPager
 id fragment_home
 id fragment_home_imgQrCode
 id fragment_home_riclerView
@@ -128,15 +130,18 @@ layout activity_home
 layout activity_login
 layout activity_splash
 layout drawpo
+layout fragment_carte_fargment
 layout fragment_detail_menu
 layout fragment_dont
 layout fragment_eat
 layout fragment_home
 layout fragment_login
 layout fragment_register
+layout fragment_scanne
 layout fragment_ticket
 layout nav_header
 layout one_row_detail
+layout par_carte
 menu bottom_menu
 menu my_navigation_items
 mipmap ic_launcher
