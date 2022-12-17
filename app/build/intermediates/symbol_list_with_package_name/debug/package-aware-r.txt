@@ -2891,6 +2891,8 @@ id design_menu_item_text
 id design_navigation_view
 id dialog_button
 id dimensions
+id diner
+id diner1
 id direct
 id disableHome
 id disableIntraAutoTransition
@@ -2942,6 +2944,8 @@ id forever
 id fragmentTabLayout
 id fragmentViewPager
 id fragment_container_view_tag
+id fragment_detail_dateMenu
+id fragment_detail_titleRepas
 id fragment_home
 id fragment_home_imgQrCode
 id fragment_home_riclerView
@@ -2957,6 +2961,7 @@ id fragment_registerPassword_txt
 id fragment_ticket_btnLaunch
 id frame_layout
 id frost
+id ftNbrTicket
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
@@ -2980,6 +2985,10 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id img_diner1
+id img_diner2
+id img_repas_1
+id img_repas_2
 id immediateStop
 id included
 id indeterminate
@@ -3073,6 +3082,7 @@ id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
 id navigation_header_container
 id navigation_view
+id nbr
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
@@ -3116,6 +3126,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id repas1
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3212,9 +3223,15 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textWatcher
+id text_argentin
+id text_central
+id text_ensetp
+id text_esp
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_normal
+id text_self
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -3665,8 +3682,10 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string saisir_le_nombre_de_ticket_s
 string se_regaler
 string search_menu_title
+string selectionner
 string status_bar_notification_info_overflow
 string zxing_app_name
 string zxing_button_ok

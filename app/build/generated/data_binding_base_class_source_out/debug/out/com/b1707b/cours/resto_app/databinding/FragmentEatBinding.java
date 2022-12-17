@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
@@ -37,9 +38,29 @@ public final class FragmentEatBinding implements ViewBinding {
   @NonNull
   public final CardView card6;
 
+  @NonNull
+  public final TextView textArgentin;
+
+  @NonNull
+  public final TextView textCentral;
+
+  @NonNull
+  public final TextView textEnsetp;
+
+  @NonNull
+  public final TextView textEsp;
+
+  @NonNull
+  public final TextView textNormal;
+
+  @NonNull
+  public final TextView textSelf;
+
   private FragmentEatBinding(@NonNull FrameLayout rootView, @NonNull CardView card1,
       @NonNull CardView card2, @NonNull CardView card3, @NonNull CardView card4,
-      @NonNull CardView card5, @NonNull CardView card6) {
+      @NonNull CardView card5, @NonNull CardView card6, @NonNull TextView textArgentin,
+      @NonNull TextView textCentral, @NonNull TextView textEnsetp, @NonNull TextView textEsp,
+      @NonNull TextView textNormal, @NonNull TextView textSelf) {
     this.rootView = rootView;
     this.card1 = card1;
     this.card2 = card2;
@@ -47,6 +68,12 @@ public final class FragmentEatBinding implements ViewBinding {
     this.card4 = card4;
     this.card5 = card5;
     this.card6 = card6;
+    this.textArgentin = textArgentin;
+    this.textCentral = textCentral;
+    this.textEnsetp = textEnsetp;
+    this.textEsp = textEsp;
+    this.textNormal = textNormal;
+    this.textSelf = textSelf;
   }
 
   @Override
@@ -112,8 +139,44 @@ public final class FragmentEatBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.text_argentin;
+      TextView textArgentin = ViewBindings.findChildViewById(rootView, id);
+      if (textArgentin == null) {
+        break missingId;
+      }
+
+      id = R.id.text_central;
+      TextView textCentral = ViewBindings.findChildViewById(rootView, id);
+      if (textCentral == null) {
+        break missingId;
+      }
+
+      id = R.id.text_ensetp;
+      TextView textEnsetp = ViewBindings.findChildViewById(rootView, id);
+      if (textEnsetp == null) {
+        break missingId;
+      }
+
+      id = R.id.text_esp;
+      TextView textEsp = ViewBindings.findChildViewById(rootView, id);
+      if (textEsp == null) {
+        break missingId;
+      }
+
+      id = R.id.text_normal;
+      TextView textNormal = ViewBindings.findChildViewById(rootView, id);
+      if (textNormal == null) {
+        break missingId;
+      }
+
+      id = R.id.text_self;
+      TextView textSelf = ViewBindings.findChildViewById(rootView, id);
+      if (textSelf == null) {
+        break missingId;
+      }
+
       return new FragmentEatBinding((FrameLayout) rootView, card1, card2, card3, card4, card5,
-          card6);
+          card6, textArgentin, textCentral, textEnsetp, textEsp, textNormal, textSelf);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

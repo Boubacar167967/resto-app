@@ -128,10 +128,10 @@ public class HomeActivity extends AppCompatActivity {
         homeFragment.setArguments(bundle1);
         transaction.replace(R.id.fragment_home, homeFragment).commit();
     }
-    public void replaceFragment(Fragment fragment) {
+    public void replaceFragment(Fragment fragment,Bundle ... bundles) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-            fragmentTransaction.replace(R.id.frame_layout, fragment);
+        fragmentTransaction.replace(R.id.frame_layout, fragment);
         fragmentTransaction.commit();
     }
 

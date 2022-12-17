@@ -4,20 +4,64 @@ package com.b1707b.cours.resto_app.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.b1707b.cours.resto_app.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentDetailMenuBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
 
-  private FragmentDetailMenuBinding(@NonNull LinearLayout rootView) {
+  @NonNull
+  public final TextView diner;
+
+  @NonNull
+  public final TextView diner1;
+
+  @NonNull
+  public final TextView fragmentDetailDateMenu;
+
+  @NonNull
+  public final TextView fragmentDetailTitleRepas;
+
+  @NonNull
+  public final ImageView imgDiner1;
+
+  @NonNull
+  public final ImageView imgDiner2;
+
+  @NonNull
+  public final ImageView imgRepas1;
+
+  @NonNull
+  public final ImageView imgRepas2;
+
+  @NonNull
+  public final TextView repas1;
+
+  private FragmentDetailMenuBinding(@NonNull LinearLayout rootView, @NonNull TextView diner,
+      @NonNull TextView diner1, @NonNull TextView fragmentDetailDateMenu,
+      @NonNull TextView fragmentDetailTitleRepas, @NonNull ImageView imgDiner1,
+      @NonNull ImageView imgDiner2, @NonNull ImageView imgRepas1, @NonNull ImageView imgRepas2,
+      @NonNull TextView repas1) {
     this.rootView = rootView;
+    this.diner = diner;
+    this.diner1 = diner1;
+    this.fragmentDetailDateMenu = fragmentDetailDateMenu;
+    this.fragmentDetailTitleRepas = fragmentDetailTitleRepas;
+    this.imgDiner1 = imgDiner1;
+    this.imgDiner2 = imgDiner2;
+    this.imgRepas1 = imgRepas1;
+    this.imgRepas2 = imgRepas2;
+    this.repas1 = repas1;
   }
 
   @Override
@@ -43,10 +87,69 @@ public final class FragmentDetailMenuBinding implements ViewBinding {
 
   @NonNull
   public static FragmentDetailMenuBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.diner;
+      TextView diner = ViewBindings.findChildViewById(rootView, id);
+      if (diner == null) {
+        break missingId;
+      }
 
-    return new FragmentDetailMenuBinding((LinearLayout) rootView);
+      id = R.id.diner1;
+      TextView diner1 = ViewBindings.findChildViewById(rootView, id);
+      if (diner1 == null) {
+        break missingId;
+      }
+
+      id = R.id.fragment_detail_dateMenu;
+      TextView fragmentDetailDateMenu = ViewBindings.findChildViewById(rootView, id);
+      if (fragmentDetailDateMenu == null) {
+        break missingId;
+      }
+
+      id = R.id.fragment_detail_titleRepas;
+      TextView fragmentDetailTitleRepas = ViewBindings.findChildViewById(rootView, id);
+      if (fragmentDetailTitleRepas == null) {
+        break missingId;
+      }
+
+      id = R.id.img_diner1;
+      ImageView imgDiner1 = ViewBindings.findChildViewById(rootView, id);
+      if (imgDiner1 == null) {
+        break missingId;
+      }
+
+      id = R.id.img_diner2;
+      ImageView imgDiner2 = ViewBindings.findChildViewById(rootView, id);
+      if (imgDiner2 == null) {
+        break missingId;
+      }
+
+      id = R.id.img_repas_1;
+      ImageView imgRepas1 = ViewBindings.findChildViewById(rootView, id);
+      if (imgRepas1 == null) {
+        break missingId;
+      }
+
+      id = R.id.img_repas_2;
+      ImageView imgRepas2 = ViewBindings.findChildViewById(rootView, id);
+      if (imgRepas2 == null) {
+        break missingId;
+      }
+
+      id = R.id.repas1;
+      TextView repas1 = ViewBindings.findChildViewById(rootView, id);
+      if (repas1 == null) {
+        break missingId;
+      }
+
+      return new FragmentDetailMenuBinding((LinearLayout) rootView, diner, diner1,
+          fragmentDetailDateMenu, fragmentDetailTitleRepas, imgDiner1, imgDiner2, imgRepas1,
+          imgRepas2, repas1);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

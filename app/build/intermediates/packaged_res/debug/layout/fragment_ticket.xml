@@ -20,7 +20,6 @@
             android:textSize="20dp"
             android:text="@string/acheter"
             android:textAlignment="center">
-
         </TextView>
     </RelativeLayout>
     <com.google.android.material.textfield.TextInputLayout
@@ -29,15 +28,14 @@
         android:layout_marginTop="30dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
-        android:hint="Selectionner  "
+        android:hint="@string/selectionner"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
-
-        xmlns:android="http://schemas.android.com/apk/res/android">
+        android:id="@+id/nbr"
+        >
         <AutoCompleteTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/autoComplexe"
-
             android:inputType="none">
 
         </AutoCompleteTextView>
@@ -53,12 +51,14 @@
         >
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/fragment_loginNumCarte"
+            android:id="@+id/ftNbrTicket"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Saisir le nombre de ticket(s) "
+            android:hint="@string/saisir_le_nombre_de_ticket_s"
             app:hintAnimationEnabled="true"
-            app:hintTextColor="@color/colorPrimary" />
+            app:hintTextColor="@color/colorPrimary"
+            android:inputType="number"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
 

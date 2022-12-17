@@ -16,10 +16,8 @@ tools:context=".FragmentDetailMenu">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-
         android:textColor="@color/colorPrimary"
         android:text="Menu"
-
         >
 
     </TextView>
@@ -29,7 +27,7 @@ tools:context=".FragmentDetailMenu">
         android:text="DuJour"
         android:layout_marginLeft="5dp"
         android:textSize="20dp"
-
+        android:id="@+id/fragment_detail_dateMenu"
         >
 
     </TextView>
@@ -90,7 +88,6 @@ tools:context=".FragmentDetailMenu">
                 android:layout_marginLeft="5dp"
                 android:src="@drawable/rate"
                 >
-
             </ImageView>
 
 
@@ -107,14 +104,18 @@ tools:context=".FragmentDetailMenu">
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="10dp"
-                android:src="@drawable/yassa">
+                android:src="@drawable/yassa"
+                android:id="@+id/img_repas_1"
+                >
 
             </ImageView>
             <ImageView
                 android:layout_width="180dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="5dp"
-                android:src="@drawable/thiebou">
+                android:src="@drawable/thiebou"
+                android:id="@+id/img_repas_2"
+                >
 
             </ImageView>
 
@@ -129,7 +130,9 @@ tools:context=".FragmentDetailMenu">
                 android:layout_marginLeft="30dp"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimary"
-                android:text="Yassa au poulet">
+                android:text="Yassa au poulet"
+                android:id="@+id/fragment_detail_titleRepas"
+                >
 
             </TextView>
             <TextView
@@ -139,7 +142,9 @@ tools:context=".FragmentDetailMenu">
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimary"
                 android:layout_marginRight="5dp"
-                android:text="Thiebou Djeune">
+                android:text="Thiebou Djeune"
+                android:id="@+id/repas1"
+                >
 
             </TextView>
 
@@ -223,14 +228,18 @@ tools:context=".FragmentDetailMenu">
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="30dp"
-                android:src="@drawable/thiere">
+                android:src="@drawable/thiere"
+                android:id="@+id/img_diner1"
+                >
 
             </ImageView>
             <ImageView
                 android:layout_width="180dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="5dp"
-                android:src="@drawable/couscous">
+                android:src="@drawable/couscous"
+                android:id="@+id/img_diner2"
+                >
 
             </ImageView>
 
@@ -246,7 +255,9 @@ tools:context=".FragmentDetailMenu">
                 android:textSize="20dp"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/colorPrimary"
-                android:text="Thiéré Bassé">
+                android:text="Thiéré Bassé"
+                android:id="@+id/diner"
+                >
 
             </TextView>
             <TextView
@@ -255,7 +266,7 @@ tools:context=".FragmentDetailMenu">
                 android:layout_marginLeft="50dp"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimary"
-
+                android:id="@+id/diner1"
                 android:text="Couscous marocain">
 
             </TextView>
