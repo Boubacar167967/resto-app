@@ -11,7 +11,6 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -56,7 +55,9 @@
                         android:text="ARGENTIN "
                         android:textAlignment="center"
                         android:textColor="@color/colorPrimary"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:id="@+id/text_argentin"
+                        />
                 </LinearLayout>
 
 
@@ -97,7 +98,9 @@
                         android:text="CENTRALE"
                         android:textColor="@color/colorPrimary"
                         android:textAlignment="center"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:id="@+id/text_central"
+                        />
                 </LinearLayout>
 
 
@@ -133,10 +136,12 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="SELF "
+                        android:text="SELF"
                         android:textAlignment="center"
                         android:textColor="@color/colorPrimary"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:id="@+id/text_self"
+                        />
                 </LinearLayout>
 
 
@@ -167,7 +172,7 @@
                     <ImageView
                         android:layout_width="130dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/restaurant" /> />
+                        android:src="@drawable/restaurant" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -175,12 +180,11 @@
                         android:text="ESP"
                         android:textColor="@color/colorPrimary"
                         android:textAlignment="center"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:id="@+id/text_esp"
+                        />
                 </LinearLayout>
-
-
             </androidx.cardview.widget.CardView>
-
             <androidx.cardview.widget.CardView
                 android:id="@+id/card5"
                 android:layout_width="wrap_content"
@@ -214,7 +218,9 @@
                         android:text="ENSETP"
                         android:textColor="@color/colorPrimary"
                         android:textAlignment="center"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:id="@+id/text_ensetp"
+                        />
                 </LinearLayout>
 
 
@@ -253,14 +259,13 @@
                         android:text="ECOLE NORMALE"
                         android:textColor="@color/colorPrimary"
                         android:textAlignment="center"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:id="@+id/text_normal"
+                        />
                 </LinearLayout>
 
 
             </androidx.cardview.widget.CardView>
-
-
         </GridLayout>
     </RelativeLayout>
-
 </FrameLayout>

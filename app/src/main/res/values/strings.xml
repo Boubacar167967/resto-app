@@ -14,5 +14,7 @@
     <string name="date_de_la_transaction">date de la transaction</string>
     <string name="nature_du_trasation">Nature du trasation</string>
     <string name="acheter">Achat de tickets restaurant et paiement</string>
+    <string name="selectionner">Selectionner</string>
+    <string name="saisir_le_nombre_de_ticket_s">Saisir le nombre de ticket(s)</string>
 
 </resources>

@@ -1,7 +1,10 @@
 package com.b1707b.cours.resto_app;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.wifi.WifiManager;
 import android.os.Bundle;
+import android.text.format.Formatter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,7 +33,7 @@ public class LoginFragment extends Fragment {
     private Button mButtonConnect;
     private TextInputEditText mTextInputNumCart;
     private TextInputEditText mTextInputPassword;
-    private  final String url = "http://10.106.202.238/server/logApp.php";
+    private  final String url = "http://10.106.199.59/memoir/server/logApp.php";
     public LoginFragment() {
     }
 
@@ -43,6 +46,11 @@ public class LoginFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        //recuperation de address ip
+        Context context = requireContext().getApplicationContext();
+        WifiManager wm = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
+        String ip = Formatter.formatIpAddress(wm.getConnectionInfo().getIpAddress());
+        Toast.makeText(getContext(), ""+ip, Toast.LENGTH_SHORT).show();
         View mainView = inflater.inflate(R.layout.fragment_login, container, false);
         mButtonConnect = (Button) mainView.findViewById(R.id.fragment_loginBtnConnect);
         mTextInputNumCart = (TextInputEditText)mainView.findViewById(R.id.fragment_loginNumCarte);
@@ -55,60 +63,60 @@ public class LoginFragment extends Fragment {
     private View.OnClickListener btnClick = new View.OnClickListener() {
         @Override
         public void onClick(View view)
-        {
-            String string_NumCard_or_email =(String) mTextInputNumCart.getText().toString();
-            String string_Password = (String) mTextInputPassword.getText().toString();
-
-            if(string_Password.equals(""))
             {
-                //Toast.makeText(MainActivity.this, "Vide", Toast.LENGTH_LONG).show();
-                new Tools(getContext()).displayAlert("erreur","Remplissez les champs !");
-            }else{
-                StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        JSONObject jsonObject = null;
-                        JSONObject jsonObject1  =null;
-                        try {
-                            jsonObject = new JSONObject(response);
-                            String message =  jsonObject.getString("message");
-                            if (message.equals("message_error")){
-                                new Tools(getActivity()).displayAlert("erreur","Verifiez vos informations");
-                                //Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
-                            }
-                            else {
-                                Intent intent = new Intent(getContext(),HomeActivity.class);
-                                Bundle bundle = new Bundle();
-                                jsonObject1 = jsonObject.getJSONObject("content");
-                                bundle.putString("name",jsonObject1.getString("name"));
-                                bundle.putString("prenom",jsonObject1.getString("prenom"));
-                                bundle.putString("numcard",jsonObject1.getString("numcard"));
-                                bundle.putString("email",jsonObject1.getString("email"));
-                                intent.putExtras(bundle);
-                                startActivity(intent);
-                            }
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        }
+                String string_NumCard_or_email =(String) mTextInputNumCart.getText().toString();
+                String string_Password = (String) mTextInputPassword.getText().toString();
 
-                    }
-                }, new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(getContext(), error.getMessage(), Toast.LENGTH_SHORT).show();
-                    }
-                }){
-                    @Nullable
-                    @Override
-                    protected Map<String, String> getParams() throws AuthFailureError {
-                        Map<String,String> hashMap = new HashMap<>();
-                        hashMap.put("numCard",string_NumCard_or_email);
-                        hashMap.put("passwords",string_Password);
-                        return hashMap;
-                    }
-                };
-                MySingleton.getInstance(getContext()).addToRequestQueue(stringRequest);
+                if(string_Password.equals(""))
+                {
+                    //Toast.makeText(MainActivity.this, "Vide", Toast.LENGTH_LONG).show();
+                    new Tools(getContext()).displayAlert("erreur","Remplissez les champs !");
+                }else{
+                        StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
+                        @Override
+                        public void onResponse(String response) {
+                            JSONObject jsonObject = null;
+                            JSONObject jsonObject1  =null;
+                            try {
+                                jsonObject = new JSONObject(response);
+                                String message =  jsonObject.getString("message");
+                                if (message.equals("message_error")){
+                                    new Tools(getActivity()).displayAlert("erreur","Verifiez vos informations");
+                                    //Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
+                                }
+                                else {
+                                    Intent intent = new Intent(getContext(),HomeActivity.class);
+                                    Bundle bundle = new Bundle();
+                                    jsonObject1 = jsonObject.getJSONObject("content");
+                                    bundle.putString("name",jsonObject1.getString("name"));
+                                    bundle.putString("prenom",jsonObject1.getString("prenom"));
+                                    bundle.putString("numcard",jsonObject1.getString("numcard"));
+                                    bundle.putString("email",jsonObject1.getString("email"));
+                                    intent.putExtras(bundle);
+                                    startActivity(intent);
+                                }
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+
+                        }
+                    }, new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
+                            Toast.makeText(getContext(), error.getMessage(), Toast.LENGTH_SHORT).show();
+                        }
+                    }){
+                        @Nullable
+                        @Override
+                        protected Map<String, String> getParams() throws AuthFailureError {
+                            Map<String,String> hashMap = new HashMap<>();
+                            hashMap.put("numCard",string_NumCard_or_email);
+                            hashMap.put("passwords",string_Password);
+                            return hashMap;
+                        }
+                    };
+                    MySingleton.getInstance(getContext()).addToRequestQueue(stringRequest);
+                }
             }
-        }
     };
 }

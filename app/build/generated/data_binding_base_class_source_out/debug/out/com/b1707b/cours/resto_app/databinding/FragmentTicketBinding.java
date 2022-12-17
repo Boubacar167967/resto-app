@@ -13,6 +13,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.b1707b.cours.resto_app.R;
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -25,18 +26,22 @@ public final class FragmentTicketBinding implements ViewBinding {
   public final AutoCompleteTextView autoComplexe;
 
   @NonNull
-  public final TextInputEditText fragmentLoginNumCarte;
-
-  @NonNull
   public final Button fragmentTicketBtnLaunch;
 
+  @NonNull
+  public final TextInputEditText ftNbrTicket;
+
+  @NonNull
+  public final TextInputLayout nbr;
+
   private FragmentTicketBinding(@NonNull LinearLayout rootView,
-      @NonNull AutoCompleteTextView autoComplexe, @NonNull TextInputEditText fragmentLoginNumCarte,
-      @NonNull Button fragmentTicketBtnLaunch) {
+      @NonNull AutoCompleteTextView autoComplexe, @NonNull Button fragmentTicketBtnLaunch,
+      @NonNull TextInputEditText ftNbrTicket, @NonNull TextInputLayout nbr) {
     this.rootView = rootView;
     this.autoComplexe = autoComplexe;
-    this.fragmentLoginNumCarte = fragmentLoginNumCarte;
     this.fragmentTicketBtnLaunch = fragmentTicketBtnLaunch;
+    this.ftNbrTicket = ftNbrTicket;
+    this.nbr = nbr;
   }
 
   @Override
@@ -72,20 +77,26 @@ public final class FragmentTicketBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.fragment_loginNumCarte;
-      TextInputEditText fragmentLoginNumCarte = ViewBindings.findChildViewById(rootView, id);
-      if (fragmentLoginNumCarte == null) {
-        break missingId;
-      }
-
       id = R.id.fragment_ticket_btnLaunch;
       Button fragmentTicketBtnLaunch = ViewBindings.findChildViewById(rootView, id);
       if (fragmentTicketBtnLaunch == null) {
         break missingId;
       }
 
-      return new FragmentTicketBinding((LinearLayout) rootView, autoComplexe, fragmentLoginNumCarte,
-          fragmentTicketBtnLaunch);
+      id = R.id.ftNbrTicket;
+      TextInputEditText ftNbrTicket = ViewBindings.findChildViewById(rootView, id);
+      if (ftNbrTicket == null) {
+        break missingId;
+      }
+
+      id = R.id.nbr;
+      TextInputLayout nbr = ViewBindings.findChildViewById(rootView, id);
+      if (nbr == null) {
+        break missingId;
+      }
+
+      return new FragmentTicketBinding((LinearLayout) rootView, autoComplexe,
+          fragmentTicketBtnLaunch, ftNbrTicket, nbr);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
