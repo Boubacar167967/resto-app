@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 public class FragmantAdapterDont extends FragmentPagerAdapter {
     int tabCounts;
+
     public FragmantAdapterDont(@NonNull FragmentManager fm,int tabCounts) {
         super(fm);
         this.tabCounts = tabCounts;
@@ -27,6 +28,6 @@ public class FragmantAdapterDont extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 0;
+        return tabCounts;
     }
 }

@@ -1,6 +1,7 @@
 package com.b1707b.cours.resto_app;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -11,9 +12,18 @@ public class LoginActivity extends AppCompatActivity {
 
     TabLayout tabLayout;
     ViewPager viewPager;
-
+    private static String ipAdd;
+    public static String getIpAdd(){
+        return ipAdd;
+    }
+    public static void setIpadd(String ip){
+        ipAdd = ip;
+    }
+    private  final String url = "http://"+LoginActivity.getIpAdd()+"/memoir/server/logApp.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setIpadd("10.152.84.9");
+        Log.d("iAddresse", "onCreateView: "+url);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
@@ -28,7 +38,6 @@ public class LoginActivity extends AppCompatActivity {
         viewPager.setAdapter(adapter);
 
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
-
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {

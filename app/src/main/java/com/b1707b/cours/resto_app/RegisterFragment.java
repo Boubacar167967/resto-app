@@ -33,7 +33,7 @@ public class RegisterFragment extends Fragment {
     private TextInputEditText mNumCard;
     private TextInputEditText mPassword;
     private TextInputEditText mEmail;
-    private final String url = "http://192.168.137.156/memoir/server/registerApp.php";
+    private final String url = "http://"+LoginActivity.getIpAdd()+"/memoir/server/registerApp.php";
     public RegisterFragment() {
         // Required empty public constructor
     }

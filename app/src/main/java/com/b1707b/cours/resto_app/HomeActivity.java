@@ -22,6 +22,7 @@ import com.google.android.material.navigation.NavigationView;
 import org.w3c.dom.Text;
 
 public class HomeActivity extends AppCompatActivity {
+
     ActivityHomeBinding binding;
     private TextView mTextViewName;
     private NavigationView mNavigationView;
@@ -134,7 +135,6 @@ public class HomeActivity extends AppCompatActivity {
         fragmentTransaction.replace(R.id.frame_layout, fragment);
         fragmentTransaction.commit();
     }
-
     public String getNumCart() {
         return numCart;
     }

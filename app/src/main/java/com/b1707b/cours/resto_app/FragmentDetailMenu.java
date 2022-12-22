@@ -1,6 +1,8 @@
 package com.b1707b.cours.resto_app;
 
 import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -10,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,9 +23,12 @@ import com.b1707b.cours.resto_app.databinding.FragmentDetailMenuBinding;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
+import java.util.Objects;
 
 public class FragmentDetailMenu extends Fragment{
-    private static String ipAdd = "10.106.199.59";
+    SharedPreferences mPreferences;
+
+    private static String ipAdd = LoginActivity.getIpAdd();
     Handler mainHandler = new Handler();
      FragmentDetailMenuBinding binding;
     ProgressDialog progressDialog;
@@ -32,15 +38,23 @@ public class FragmentDetailMenu extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         binding = FragmentDetailMenuBinding.inflate(inflater,container,false);
-        String urlDiner = "http://"+ipAdd+""+"/memoir/mem-web/"+getArguments().getString("imgDiner").replace("\\","/").replace("(","").replace(")","");
-        String urlDiner1 = "http://"+ipAdd+""+"/memoir/mem-web/"+getArguments().getString("imgDiner1").replace("\\","/").replace("(","").replace(")","");
-        String urlRepas = "http://"+ipAdd+""+"/memoir/mem-web/"+getArguments().getString("imgRepas").replace("\\","/").replace("(","").replace(")","");
-        String urlRepas1 = "http://"+ipAdd+""+"/memoir/mem-web/"+getArguments().getString("imgRepas1").replace("\\","/").replace("(","").replace(")","");
-        Log.d("url",urlDiner);
+        String urlDiner = "http://"+ipAdd+""+"/memoir/res-web/"+getArguments().getString("imgDiner").replace("\\","/").replace("(","").replace(")","");
+        String urlDiner1 = "http://"+ipAdd+""+"/memoir/res-web/"+getArguments().getString("imgDiner1").replace("\\","/").replace("(","").replace(")","");
+        String urlRepas = "http://"+ipAdd+""+"/memoir/res-web/"+getArguments().getString("imgRepas").replace("\\","/").replace("(","").replace(")","");
+        String urlRepas1 = "http://"+ipAdd+""+"/memoir/res-web/"+getArguments().getString("imgRepas1").replace("\\","/").replace("(","").replace(")","");
+        Log.d("url_diner",urlDiner);
         new RunFetchImage(new FetchImage(urlDiner,binding.imgDiner1)).start();
         new RunFetchImage(new FetchImage(urlDiner1,binding.imgDiner2)).start();
         new RunFetchImage(new FetchImage(urlRepas,binding.imgRepas1)).start();
         new RunFetchImage(new FetchImage(urlRepas1,binding.imgRepas2)).start();
+        SharedPreferences sharedPreferences = requireActivity().getSharedPreferences("userDate", Context.MODE_PRIVATE);
+        SharedPreferences sharedPreferences1 = requireActivity().getSharedPreferences("id_plats",Context.MODE_PRIVATE);
+        int id = sharedPreferences.getInt("id_user",0);
+        int id_repas = sharedPreferences1.getInt("id_repas",0);
+        new Favorites(id,id_repas,binding.fsmFavRepas,getContext()).makeFavorite();
+        SharedPreferences preferences = getActivity().getSharedPreferences("phpResponse",Context.MODE_PRIVATE);
+        String s = preferences.getString("jsonResponse","");
+        Log.d("jsonResponse",s);
         return binding.getRoot();
     }
 
@@ -52,6 +66,7 @@ public class FragmentDetailMenu extends Fragment{
         binding.repas1.setText(getArguments().getString("nomRepas1"));
         binding.diner.setText(getArguments().getString("nomDiner"));
         binding.diner1.setText(getArguments().getString("nomDiner1"));
+        //Log.d("onViewCreatedeeeee", "onViewCreated: "+getResp());
 
     }
     class RunFetchImage extends Thread{

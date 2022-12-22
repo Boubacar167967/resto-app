@@ -1,64 +1,54 @@
 package com.b1707b.cours.resto_app;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link FragmentScanne#newInstance} factory method to
- * create an instance of this fragment.
- */
+import com.b1707b.cours.resto_app.databinding.FragmentScanneBinding;
+import com.journeyapps.barcodescanner.ScanContract;
+import com.journeyapps.barcodescanner.ScanOptions;
+
+import java.util.Objects;
+
 public class FragmentScanne extends Fragment {
-
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
+    FragmentScanneBinding mBinding;
     public FragmentScanne() {
         // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment FragmentScanne.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static FragmentScanne newInstance(String param1, String param2) {
-        FragmentScanne fragment = new FragmentScanne();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_scanne, container, false);
+        mBinding = FragmentScanneBinding.inflate(inflater,container,false);
+        scanQR();
+        return mBinding.getRoot();
     }
+    private void scanQR() {
+        ScanOptions options = new ScanOptions();
+        options.setPrompt("Volume up to flash on");
+        options.setBeepEnabled(true);
+        options.setOrientationLocked(true);
+        options.setCaptureActivity(CaptureAct.class);
+        mLauncher.launch(options);
+    }
+    ActivityResultLauncher<ScanOptions> mLauncher  = registerForActivityResult(new ScanContract(), result -> {
+        if (result.getContents()!=null){
+            AlertDialog.Builder builder = new AlertDialog.Builder(requireActivity());
+            builder.setTitle("Result");
+            builder.setMessage(result.getContents());
+            builder.setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialogInterface.dismiss();
+                }
+            }).show();
+        }
+    });
 }

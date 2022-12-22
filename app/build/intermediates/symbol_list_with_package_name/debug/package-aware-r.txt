@@ -2604,6 +2604,8 @@ drawable food_title
 drawable get_started_background
 drawable home_background
 drawable ic_baseline_delete_24
+drawable ic_baseline_favorite_24
+drawable ic_baseline_favorite_border_24
 drawable ic_baseline_handshake_24
 drawable ic_baseline_home_24
 drawable ic_baseline_login_24
@@ -2961,6 +2963,7 @@ id fragment_registerPassword_txt
 id fragment_ticket_btnLaunch
 id frame_layout
 id frost
+id fsmFavRepas
 id ftNbrTicket
 id fullscreen_header
 id ghost_view
@@ -3440,7 +3443,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout drawpo
-layout fragment_carte_fargment
+layout fragment_carte
 layout fragment_detail_menu
 layout fragment_dont
 layout fragment_eat

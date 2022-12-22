@@ -1,7 +1,10 @@
 package com.b1707b.cours.resto_app;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,13 +27,16 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public class LoginFragment extends Fragment {
     //declaration of the widgets
     private Button mButtonConnect;
     private TextInputEditText mTextInputNumCart;
     private TextInputEditText mTextInputPassword;
-    private  final String url = "http://192.168.137.156/memoir/server/logApp.php";
+    //share it is for sending the data over the application
+    SharedPreferences mSharedPreferences ;
+    private  final String url = "http://"+LoginActivity.getIpAdd()+"/memoir/server/logApp.php";
     public LoginFragment() {
     }
 
@@ -44,6 +50,7 @@ public class LoginFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        mSharedPreferences = requireActivity().getSharedPreferences("userDate", Context.MODE_PRIVATE);
         View mainView = inflater.inflate(R.layout.fragment_login, container, false);
         mButtonConnect = (Button) mainView.findViewById(R.id.fragment_loginBtnConnect);
         mTextInputNumCart = (TextInputEditText)mainView.findViewById(R.id.fragment_loginNumCarte);
@@ -75,9 +82,9 @@ public class LoginFragment extends Fragment {
                             String message =  jsonObject.getString("message");
                             if (message.equals("message_error")){
                                 new Tools(getActivity()).displayAlert("erreur","Verifiez vos informations");
-                                //Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
                             }
                             else {
+                                SharedPreferences.Editor editor = mSharedPreferences.edit();
                                 Intent intent = new Intent(getContext(),HomeActivity.class);
                                 Bundle bundle = new Bundle();
                                 jsonObject1 = jsonObject.getJSONObject("content");
@@ -86,6 +93,8 @@ public class LoginFragment extends Fragment {
                                 bundle.putString("numcard",jsonObject1.getString("numcard"));
                                 bundle.putString("email",jsonObject1.getString("email"));
                                 intent.putExtras(bundle);
+                                editor.putInt("id_user",jsonObject1.getInt("id"));
+                                editor.apply();
                                 startActivity(intent);
                             }
                         } catch (JSONException e) {

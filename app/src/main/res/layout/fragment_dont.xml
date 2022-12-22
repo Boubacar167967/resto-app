@@ -45,11 +45,12 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_above="@id/fragmentTabLayout"
-        android:layout_margin="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view" />
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        android:layout_marginBottom="64dp"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

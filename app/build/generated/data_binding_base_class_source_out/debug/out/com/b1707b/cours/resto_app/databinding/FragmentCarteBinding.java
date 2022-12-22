@@ -17,7 +17,7 @@ import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
-public final class FragmentCarteFargmentBinding implements ViewBinding {
+public final class FragmentCarteBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
@@ -30,7 +30,7 @@ public final class FragmentCarteFargmentBinding implements ViewBinding {
   @NonNull
   public final ScrollView scrollView2;
 
-  private FragmentCarteFargmentBinding(@NonNull ConstraintLayout rootView,
+  private FragmentCarteBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button fragmentLoginBtnConnect, @NonNull TextInputEditText fragmentLoginNumCarte,
       @NonNull ScrollView scrollView2) {
     this.rootView = rootView;
@@ -46,14 +46,14 @@ public final class FragmentCarteFargmentBinding implements ViewBinding {
   }
 
   @NonNull
-  public static FragmentCarteFargmentBinding inflate(@NonNull LayoutInflater inflater) {
+  public static FragmentCarteBinding inflate(@NonNull LayoutInflater inflater) {
     return inflate(inflater, null, false);
   }
 
   @NonNull
-  public static FragmentCarteFargmentBinding inflate(@NonNull LayoutInflater inflater,
+  public static FragmentCarteBinding inflate(@NonNull LayoutInflater inflater,
       @Nullable ViewGroup parent, boolean attachToParent) {
-    View root = inflater.inflate(R.layout.fragment_carte_fargment, parent, false);
+    View root = inflater.inflate(R.layout.fragment_carte, parent, false);
     if (attachToParent) {
       parent.addView(root);
     }
@@ -61,7 +61,7 @@ public final class FragmentCarteFargmentBinding implements ViewBinding {
   }
 
   @NonNull
-  public static FragmentCarteFargmentBinding bind(@NonNull View rootView) {
+  public static FragmentCarteBinding bind(@NonNull View rootView) {
     // The body of this method is generated in a way you would not otherwise write.
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
@@ -84,7 +84,7 @@ public final class FragmentCarteFargmentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentCarteFargmentBinding((ConstraintLayout) rootView, fragmentLoginBtnConnect,
+      return new FragmentCarteBinding((ConstraintLayout) rootView, fragmentLoginBtnConnect,
           fragmentLoginNumCarte, scrollView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
