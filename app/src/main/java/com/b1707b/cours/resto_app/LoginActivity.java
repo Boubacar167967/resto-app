@@ -22,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     private  final String url = "http://"+LoginActivity.getIpAdd()+"/memoir/server/logApp.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setIpadd("10.152.84.9");
+        setIpadd("10.106.220.187");
         Log.d("iAddresse", "onCreateView: "+url);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);

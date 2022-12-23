@@ -86,6 +86,23 @@ tools:context=".FragmentDetailMenu">
                 >
 
             </ImageView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:id="@+id/fsmFavRepas1"
+                    >
+                </ImageView>
+
+            </LinearLayout>
             <ImageView
                 android:layout_width="180dp"
                 android:layout_height="150dp"
@@ -162,36 +179,12 @@ tools:context=".FragmentDetailMenu">
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_marginLeft="5dp"
-                android:src="@drawable/rate"
+                android:src="@drawable/ic_baseline_favorite_24"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/fsmFavDiner"
                 >
-
             </ImageView>
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginLeft="5dp"
-                android:src="@drawable/rate"
-                >
-
-            </ImageView>
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginLeft="5dp"
-                android:src="@drawable/rate"
-                >
-
-            </ImageView>
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginLeft="5dp"
-                android:src="@drawable/rate"
-                >
-
-            </ImageView>
-
-
 
         </LinearLayout>
         <LinearLayout
@@ -210,6 +203,23 @@ tools:context=".FragmentDetailMenu">
                 >
 
             </ImageView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:id="@+id/fsmFavDiner1"
+                    >
+                </ImageView>
+
+            </LinearLayout>
             <ImageView
                 android:layout_width="180dp"
                 android:layout_height="150dp"
@@ -217,8 +227,8 @@ tools:context=".FragmentDetailMenu">
                 android:src="@drawable/couscous"
                 android:id="@+id/img_diner2"
                 >
-
             </ImageView>
+
 
         </LinearLayout>
         <LinearLayout
@@ -245,10 +255,10 @@ tools:context=".FragmentDetailMenu">
                 android:textColor="@color/colorPrimary"
                 android:id="@+id/diner1"
                 android:text="Couscous marocain">
-
             </TextView>
 
         </LinearLayout>
+
 
     </LinearLayout>
 

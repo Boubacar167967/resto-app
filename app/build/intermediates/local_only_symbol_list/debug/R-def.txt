@@ -87,8 +87,6 @@ id drawer_layout
 id followers
 id following
 id following_txt
-id fragmentTabLayout
-id fragmentViewPager
 id fragment_detail_dateMenu
 id fragment_detail_titleRepas
 id fragment_home
@@ -105,7 +103,10 @@ id fragment_registerNumCart_txt
 id fragment_registerPassword_txt
 id fragment_ticket_btnLaunch
 id frame_layout
+id fsmFavDiner
+id fsmFavDiner1
 id fsmFavRepas
+id fsmFavRepas1
 id ftNbrTicket
 id home
 id imageView

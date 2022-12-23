@@ -2942,8 +2942,6 @@ int id followers 0x7f0a00d1
 int id following 0x7f0a00d2
 int id following_txt 0x7f0a00d3
 int id forever 0x7f0a00d4
-int id fragmentTabLayout 0x7f0a00d5
-int id fragmentViewPager 0x7f0a00d6
 int id fragment_container_view_tag 0x7f0a00d7
 int id fragment_detail_dateMenu 0x7f0a00d8
 int id fragment_detail_titleRepas 0x7f0a00d9
@@ -2962,7 +2960,10 @@ int id fragment_registerPassword_txt 0x7f0a00e5
 int id fragment_ticket_btnLaunch 0x7f0a00e6
 int id frame_layout 0x7f0a00e7
 int id frost 0x7f0a00e8
+int id fsmFavDiner 0x7f0a023a
+int id fsmFavDiner1 0x7f0a023b
 int id fsmFavRepas 0x7f0a0239
+int id fsmFavRepas1 0x7f0a023c
 int id ftNbrTicket 0x7f0a00e9
 int id fullscreen_header 0x7f0a00ea
 int id ghost_view 0x7f0a00eb

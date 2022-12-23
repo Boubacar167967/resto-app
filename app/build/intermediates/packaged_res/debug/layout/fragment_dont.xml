@@ -5,52 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DontFragment">
+    
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="290dp"
-        android:background="@drawable/home_background"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-   <TextView
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:text="Dont de tickets"
-       android:textAlignment="center"
-       android:textSize="25dp"
-       android:textColor="@color/colorPrimary"
-       android:layout_marginTop="100dp"
-       >
-
-   </TextView>
-
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/fragmentTabLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:background="#BCBABA"
-        android:layout_marginEnd="30dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-    </com.google.android.material.tabs.TabLayout>
-
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/fragmentViewPager"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_above="@id/fragmentTabLayout"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view"
-        android:layout_marginBottom="64dp"
-        />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

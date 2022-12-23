@@ -77,10 +77,11 @@ public class EatFragment extends Fragment {
             @Override
             public void onResponse(String response) {
                 try {
-                    SharedPreferences.Editor editor = mSharedPreferences.edit();
+                    SharedPreferences.Editor    editor = mSharedPreferences.edit();
                     mJSONObject = new JSONObject(response) ;
                     JSONObject jsonObject = null;
                     String date = mJSONObject.getString("dateMenu");
+                    int id_menu = mJSONObject.getInt("id_menu");
                     //pour le repas
                     jsonObject = mJSONObject.getJSONObject("diner");
                     String nomDiner = jsonObject.getString("nom");
@@ -88,6 +89,7 @@ public class EatFragment extends Fragment {
                     String imgDiner = jsonObject.getString("img_diner");
                     int id_diner = jsonObject.getInt("id_diner");
                     editor.putInt("id_diner",id_diner);
+                    editor.putInt("id_menu",id_menu);
                     //pour le repas 1
                     jsonObject = mJSONObject.getJSONObject("repas");
                     String nomRepas = jsonObject.getString("nom");
@@ -113,10 +115,11 @@ public class EatFragment extends Fragment {
                     editor.putInt("id_repas1",id_repas1);
 
                     //------------------------------------------------
-                    Log.d("imgRepas1", imgRepas1);
+                    //Log.d("id_menu", ""+id_menu);
                     HomeActivity activity = (HomeActivity) getActivity();
                     Bundle bundle = new Bundle();
                     FragmentDetailMenu fragmentDetailMenu = new FragmentDetailMenu();
+                    bundle.putInt("id_menu",id_menu);
                     bundle.putString("dateMenu",date);
                     bundle.putString("descriptionDiner",descriptionDiner);
                     bundle.putString("nomDiner",nomDiner);

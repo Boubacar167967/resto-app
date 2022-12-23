@@ -2943,8 +2943,6 @@ id followers
 id following
 id following_txt
 id forever
-id fragmentTabLayout
-id fragmentViewPager
 id fragment_container_view_tag
 id fragment_detail_dateMenu
 id fragment_detail_titleRepas
@@ -2963,7 +2961,10 @@ id fragment_registerPassword_txt
 id fragment_ticket_btnLaunch
 id frame_layout
 id frost
+id fsmFavDiner
+id fsmFavDiner1
 id fsmFavRepas
+id fsmFavRepas1
 id ftNbrTicket
 id fullscreen_header
 id ghost_view

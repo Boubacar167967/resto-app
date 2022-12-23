@@ -49,12 +49,16 @@ public class FragmentDetailMenu extends Fragment{
         new RunFetchImage(new FetchImage(urlRepas1,binding.imgRepas2)).start();
         SharedPreferences sharedPreferences = requireActivity().getSharedPreferences("userDate", Context.MODE_PRIVATE);
         SharedPreferences sharedPreferences1 = requireActivity().getSharedPreferences("id_plats",Context.MODE_PRIVATE);
-        int id = sharedPreferences.getInt("id_user",0);
+        int id_user = sharedPreferences.getInt("id_user",0);
+        int id_menu = sharedPreferences1.getInt("id_menu",0);
         int id_repas = sharedPreferences1.getInt("id_repas",0);
-        new Favorites(id,id_repas,binding.fsmFavRepas,getContext()).makeFavorite();
-        SharedPreferences preferences = getActivity().getSharedPreferences("phpResponse",Context.MODE_PRIVATE);
-        String s = preferences.getString("jsonResponse","");
-        Log.d("jsonResponse",s);
+        int id_repas1 = sharedPreferences1.getInt("id_repas1",0);
+        int id_diner = sharedPreferences1.getInt("id_diner",0);
+        int id_diner1 = sharedPreferences1.getInt("id_diner1",0);
+        new Favorites(id_user,id_repas,id_menu,binding.fsmFavRepas,getContext()).makeFavorite("Repas");
+        new Favorites(id_user,id_repas1,id_menu,binding.fsmFavRepas1,getContext()).makeFavorite("Repas1");
+        new Favorites(id_user,id_diner,id_menu,binding.fsmFavDiner,getContext()).makeFavorite("Diner");
+        new Favorites(id_user,id_diner1,id_menu,binding.fsmFavDiner1,getContext()).makeFavorite("Diner1");
         return binding.getRoot();
     }
 
