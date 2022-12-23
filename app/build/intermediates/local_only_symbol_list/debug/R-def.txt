@@ -32,6 +32,7 @@ drawable ic_baseline_home_24
 drawable ic_baseline_login_24
 drawable ic_baseline_menu_24
 drawable ic_baseline_message_24
+drawable ic_baseline_qr_code_scanner_24
 drawable ic_baseline_rate_review_24
 drawable ic_baseline_security_24
 drawable ic_baseline_sentiment_dissatisfied_24
@@ -180,6 +181,7 @@ string hello_blank_fragment
 string montant
 string mot_de_passe
 string nature_du_trasation
+string numero
 string saisir_le_nombre_de_ticket_s
 string se_regaler
 string selectionner

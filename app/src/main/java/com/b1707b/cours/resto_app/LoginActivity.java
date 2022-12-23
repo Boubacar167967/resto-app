@@ -19,11 +19,11 @@ public class LoginActivity extends AppCompatActivity {
     public static void setIpadd(String ip){
         ipAdd = ip;
     }
-    private  final String url = "http://"+LoginActivity.getIpAdd()+"/memoir/server/logApp.php";
+    //private  final String url = "http://192.168.1.29/memoir/server/logApp.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setIpadd("10.106.220.187");
-        Log.d("iAddresse", "onCreateView: "+url);
+        setIpadd("192.168.1.29");
+        //Log.d("iAddresse", "onCreateView: "+url);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 

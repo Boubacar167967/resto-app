@@ -16,5 +16,6 @@
     <string name="acheter">Achat de tickets restaurant et paiement</string>
     <string name="selectionner">Selectionner</string>
     <string name="saisir_le_nombre_de_ticket_s">Saisir le nombre de ticket(s)</string>
+    <string name="numero">Saisir son numéro de carte</string>
 
 </resources>

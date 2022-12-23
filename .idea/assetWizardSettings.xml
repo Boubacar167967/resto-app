@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/favorite_border/baseline_favorite_border_24.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../../Users/hp%20840/AppData/Local/Android/Sdk/icons/material/materialicons/qr_code_scanner/baseline_qr_code_scanner_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,8 +28,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="ff0000" />
-                            <entry key="outputName" value="ic_baseline_favorite_border_24" />
+                            <entry key="color" value="fa4a0c" />
+                            <entry key="outputName" value="ic_baseline_qr_code_scanner_24" />
                             <entry key="sourceFile" value="C:\xampp\htdocs\resto-app" />
                           </map>
                         </option>

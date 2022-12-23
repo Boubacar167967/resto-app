@@ -41,6 +41,7 @@
     <string name="montant">Montant</string>
     <string name="mot_de_passe">Mot de passe</string>
     <string name="nature_du_trasation">Nature du trasation</string>
+    <string name="numero">Saisir son numéro de carte</string>
     <string name="saisir_le_nombre_de_ticket_s">Saisir le nombre de ticket(s)</string>
     <string name="se_regaler">Se regaler</string>
     <string name="selectionner">Selectionner</string>
