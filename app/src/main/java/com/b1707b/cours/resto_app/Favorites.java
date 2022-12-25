@@ -65,7 +65,7 @@ public class Favorites {
                 try {
                     jsonObject = new JSONObject(response);
                     String responsePhp = jsonObject.getString("response");
-                    Log.d("clikeddddddddd",responsePhp);
+                    //Log.d("clikeddddddddd",responsePhp);
                     if (Objects.equals(responsePhp, "true")) {
                         mImageView.setImageResource(R.drawable.ic_baseline_favorite_24);
                         Toast.makeText(mContext, "je suis dans le if", Toast.LENGTH_SHORT).show();
@@ -75,7 +75,7 @@ public class Favorites {
                     mImageView.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            Log.d("clikeddddddddd",responsePhp);
+                            //Log.d("clikeddddddddd",responsePhp);
                             String id_lastFav="";
                             if (Objects.equals(responsePhp, "false")) {
                                 Map<String, String> mapMakFavorite = new HashMap<>();

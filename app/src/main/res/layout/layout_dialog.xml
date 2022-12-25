@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:id="@+id/amInput"
+        android:hint="Selectionner"
+        >
+        <AutoCompleteTextView
+            android:id="@+id/autoComplexeDialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:id="@+id/ldNbrTickets"
+        android:hint="Donner le nombre"
+        android:layout_below="@+id/amInput"
+        >
+        <AutoCompleteTextView
+            android:id="@+id/autoComplexe1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnPositive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ldNbrTickets"
+        android:layout_marginLeft="184dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/btnNegative"
+        android:text="Valider" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Annuler"
+        android:id="@+id/btnNegative"
+        android:layout_below="@+id/ldNbrTickets"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        />
+</RelativeLayout>

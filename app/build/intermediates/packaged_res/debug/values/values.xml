@@ -45,6 +45,7 @@
     <string name="saisir_le_nombre_de_ticket_s">Saisir le nombre de ticket(s)</string>
     <string name="se_regaler">Se regaler</string>
     <string name="selectionner">Selectionner</string>
+    <string name="valider">Valider</string>
     <style name="Theme.Restoapp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">#FA4A0C</item>

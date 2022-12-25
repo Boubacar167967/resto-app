@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
@@ -37,6 +38,7 @@ public class LoginFragment extends Fragment {
     //share it is for sending the data over the application
     SharedPreferences mSharedPreferences ;
     private  final String url = "http://"+LoginActivity.getIpAdd()+"/memoir/server/logApp.php";
+
     public LoginFragment() {
     }
 
@@ -57,6 +59,7 @@ public class LoginFragment extends Fragment {
         mTextInputPassword = (TextInputEditText) mainView.findViewById(R.id.fragment_loginPassWord);
         mButtonConnect.setOnClickListener(btnClick);
         String s = mTextInputNumCart.getText() +""+ mTextInputPassword.getText();
+        Log.d("iAddresse", "onCreateView: "+url);
         return mainView;
     }
     //define the button for connection
@@ -69,7 +72,6 @@ public class LoginFragment extends Fragment {
 
             if(string_Password.equals(""))
             {
-                //Toast.makeText(MainActivity.this, "Vide", Toast.LENGTH_LONG).show();
                 new Tools(getContext()).displayAlert("erreur","Remplissez les champs !");
             }else{
                 StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
@@ -94,6 +96,7 @@ public class LoginFragment extends Fragment {
                                 bundle.putString("email",jsonObject1.getString("email"));
                                 intent.putExtras(bundle);
                                 editor.putInt("id_user",jsonObject1.getInt("id"));
+                                editor.putString("userNumberCart",jsonObject1.getString("numcard"));
                                 editor.apply();
                                 startActivity(intent);
                             }
@@ -102,13 +105,8 @@ public class LoginFragment extends Fragment {
                         }
 
                     }
-                }, new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(getContext(), error.getMessage(), Toast.LENGTH_SHORT).show();
-                    }
-                }){
-                    @Nullable
+                }, error -> Toast.makeText(getContext(), error.getMessage(), Toast.LENGTH_SHORT).show()){
+                    @NonNull
                     @Override
                     protected Map<String, String> getParams() throws AuthFailureError {
                         Map<String,String> hashMap = new HashMap<>();

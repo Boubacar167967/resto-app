@@ -2808,6 +2808,7 @@ id aligned
 id all
 id allStates
 id always
+id amInput
 id animateToEnd
 id animateToStart
 id antiClockwise
@@ -2820,6 +2821,8 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id autoComplexe
+id autoComplexe1
+id autoComplexeDialog
 id background_image
 id barrier
 id baseline
@@ -2834,6 +2837,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnNegative
+id btnPositive
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2928,6 +2933,9 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id fdBtnValider
+id fdNumCard
+id fdQrLaunch
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3006,6 +3014,7 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id ldNbrTickets
 id left
 id leftToRight
 id legacy
@@ -3452,8 +3461,8 @@ layout fragment_eat
 layout fragment_home
 layout fragment_login
 layout fragment_register
-layout fragment_scanne
 layout fragment_ticket
+layout layout_dialog
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3510,7 +3519,6 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout one_row_detail
-layout par_carte
 layout roundedwebview
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -3693,6 +3701,7 @@ string se_regaler
 string search_menu_title
 string selectionner
 string status_bar_notification_info_overflow
+string valider
 string zxing_app_name
 string zxing_button_ok
 string zxing_msg_camera_framework_bug

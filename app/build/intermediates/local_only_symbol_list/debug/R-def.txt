@@ -71,10 +71,15 @@ drawable yassa
 font nunito
 font nunito_semibold
 id achat_tickets
+id amInput
 id autoComplexe
+id autoComplexe1
+id autoComplexeDialog
 id background_image
 id bottomAppBar
 id bottomNavigationView
+id btnNegative
+id btnPositive
 id card1
 id card2
 id card3
@@ -85,6 +90,9 @@ id diner
 id diner1
 id dont_tickets
 id drawer_layout
+id fdBtnValider
+id fdNumCard
+id fdQrLaunch
 id followers
 id following
 id following_txt
@@ -115,6 +123,7 @@ id img_diner1
 id img_diner2
 id img_repas_1
 id img_repas_2
+id ldNbrTickets
 id logo_image
 id main_top_bar
 id name
@@ -159,11 +168,10 @@ layout fragment_eat
 layout fragment_home
 layout fragment_login
 layout fragment_register
-layout fragment_scanne
 layout fragment_ticket
+layout layout_dialog
 layout nav_header
 layout one_row_detail
-layout par_carte
 menu bottom_menu
 menu my_navigation_items
 mipmap ic_launcher
@@ -185,6 +193,7 @@ string numero
 string saisir_le_nombre_de_ticket_s
 string se_regaler
 string selectionner
+string valider
 style Theme.Restoapp
 style line
 xml backup_rules

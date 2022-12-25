@@ -37,7 +37,6 @@
     <androidx.cardview.widget.CardView
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-
         app:cardCornerRadius="8dp"
         >
         <LinearLayout
@@ -65,22 +64,23 @@
                 >
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/ftNbrTicket"
+                    android:id="@+id/fdNumCard"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/numero"
                     app:hintAnimationEnabled="true"
                     app:hintTextColor="@color/colorPrimary"
-                    android:inputType="number"
+                    android:inputType="text"
+                    android:maxLength="9"
                     />
             </com.google.android.material.textfield.TextInputLayout>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="70dp"
-                android:layout_marginLeft="150dp"
-                android:text="Valider">
-
+                android:layout_gravity="center"
+                android:text="@string/valider"
+                android:id="@+id/fdBtnValider"
+                >
             </Button>
 
         </LinearLayout>
@@ -117,6 +117,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:drawableBottom="@drawable/ic_baseline_qr_code_scanner_24"
+                android:id="@+id/fdQrLaunch"
+                android:clickable="true"
+                android:focusable="true"
                 >
 
             </TextView>

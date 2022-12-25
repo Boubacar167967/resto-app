@@ -4,6 +4,7 @@ package com.b1707b.cours.resto_app.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -21,16 +22,25 @@ public final class FragmentDontBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView fragmentDetailDateMenu;
+  public final Button fdBtnValider;
 
   @NonNull
-  public final TextInputEditText ftNbrTicket;
+  public final TextInputEditText fdNumCard;
 
-  private FragmentDontBinding(@NonNull LinearLayout rootView,
-      @NonNull TextView fragmentDetailDateMenu, @NonNull TextInputEditText ftNbrTicket) {
+  @NonNull
+  public final TextView fdQrLaunch;
+
+  @NonNull
+  public final TextView fragmentDetailDateMenu;
+
+  private FragmentDontBinding(@NonNull LinearLayout rootView, @NonNull Button fdBtnValider,
+      @NonNull TextInputEditText fdNumCard, @NonNull TextView fdQrLaunch,
+      @NonNull TextView fragmentDetailDateMenu) {
     this.rootView = rootView;
+    this.fdBtnValider = fdBtnValider;
+    this.fdNumCard = fdNumCard;
+    this.fdQrLaunch = fdQrLaunch;
     this.fragmentDetailDateMenu = fragmentDetailDateMenu;
-    this.ftNbrTicket = ftNbrTicket;
   }
 
   @Override
@@ -60,19 +70,32 @@ public final class FragmentDontBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.fdBtnValider;
+      Button fdBtnValider = ViewBindings.findChildViewById(rootView, id);
+      if (fdBtnValider == null) {
+        break missingId;
+      }
+
+      id = R.id.fdNumCard;
+      TextInputEditText fdNumCard = ViewBindings.findChildViewById(rootView, id);
+      if (fdNumCard == null) {
+        break missingId;
+      }
+
+      id = R.id.fdQrLaunch;
+      TextView fdQrLaunch = ViewBindings.findChildViewById(rootView, id);
+      if (fdQrLaunch == null) {
+        break missingId;
+      }
+
       id = R.id.fragment_detail_dateMenu;
       TextView fragmentDetailDateMenu = ViewBindings.findChildViewById(rootView, id);
       if (fragmentDetailDateMenu == null) {
         break missingId;
       }
 
-      id = R.id.ftNbrTicket;
-      TextInputEditText ftNbrTicket = ViewBindings.findChildViewById(rootView, id);
-      if (ftNbrTicket == null) {
-        break missingId;
-      }
-
-      return new FragmentDontBinding((LinearLayout) rootView, fragmentDetailDateMenu, ftNbrTicket);
+      return new FragmentDontBinding((LinearLayout) rootView, fdBtnValider, fdNumCard, fdQrLaunch,
+          fragmentDetailDateMenu);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

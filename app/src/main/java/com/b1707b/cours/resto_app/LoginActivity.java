@@ -9,7 +9,6 @@ import androidx.viewpager.widget.ViewPager;
 import com.google.android.material.tabs.TabLayout;
 
 public class LoginActivity extends AppCompatActivity {
-
     TabLayout tabLayout;
     ViewPager viewPager;
     private static String ipAdd;
@@ -19,21 +18,17 @@ public class LoginActivity extends AppCompatActivity {
     public static void setIpadd(String ip){
         ipAdd = ip;
     }
-    //private  final String url = "http://192.168.1.29/memoir/server/logApp.php";
+    private  final String url = "http://"+LoginActivity.getIpAdd()+"/memoir/server/logApp.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setIpadd("192.168.1.29");
-        //Log.d("iAddresse", "onCreateView: "+url);
+        setIpadd("192.168.56.1");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
         tabLayout = findViewById(R.id.tabLayout);
         viewPager = findViewById(R.id.viewPager);
-
         tabLayout.addTab(tabLayout.newTab().setText("Se Connecter"));
         tabLayout.addTab(tabLayout.newTab().setText("Créer un compte"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
-
         final FragmentAdapter adapter = new FragmentAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
 

@@ -4,7 +4,7 @@
             "outputFile": "com.b1707b.cours.resto_app-mergeDebugResources-32:/values-he/values-he.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hp 840\\.gradle\\caches\\transforms-3\\90c9ae6ae9785a7fd7a4f69fb1e390c6\\transformed\\zxing-android-embedded-4.3.0\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\B1707D\\.gradle\\caches\\transforms-3\\90c9ae6ae9785a7fd7a4f69fb1e390c6\\transformed\\zxing-android-embedded-4.3.0\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

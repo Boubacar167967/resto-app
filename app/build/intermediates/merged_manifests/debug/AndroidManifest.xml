@@ -69,7 +69,7 @@
         </activity>
         <activity
             android:name="com.b1707b.cours.resto_app.CaptureAct"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:stateNotNeeded="true"
             android:theme="@style/zxing_CaptureTheme" />
         <activity
