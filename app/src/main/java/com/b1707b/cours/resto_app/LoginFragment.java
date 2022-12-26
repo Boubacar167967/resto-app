@@ -97,6 +97,8 @@ public class LoginFragment extends Fragment {
                                 intent.putExtras(bundle);
                                 editor.putInt("id_user",jsonObject1.getInt("id"));
                                 editor.putString("userNumberCart",jsonObject1.getString("numcard"));
+                                editor.putString("nbr_repas",jsonObject1.getString("nbr_repas"));
+                                editor.putString("nbr_pet_deuj",jsonObject1.getString("nbr_pet_deuj"));
                                 editor.apply();
                                 startActivity(intent);
                             }

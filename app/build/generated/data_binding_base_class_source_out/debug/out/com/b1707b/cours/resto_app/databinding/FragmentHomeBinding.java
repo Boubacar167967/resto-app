@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
@@ -19,6 +20,12 @@ import java.lang.String;
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   private final RelativeLayout rootView;
+
+  @NonNull
+  public final TextView fhNbrPetDej;
+
+  @NonNull
+  public final TextView fhNbrRepas;
 
   @NonNull
   public final RelativeLayout fragmentHome;
@@ -35,10 +42,13 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final View view;
 
-  private FragmentHomeBinding(@NonNull RelativeLayout rootView,
-      @NonNull RelativeLayout fragmentHome, @NonNull ImageView fragmentHomeImgQrCode,
-      @NonNull RecyclerView fragmentHomeRiclerView, @NonNull ImageView solde, @NonNull View view) {
+  private FragmentHomeBinding(@NonNull RelativeLayout rootView, @NonNull TextView fhNbrPetDej,
+      @NonNull TextView fhNbrRepas, @NonNull RelativeLayout fragmentHome,
+      @NonNull ImageView fragmentHomeImgQrCode, @NonNull RecyclerView fragmentHomeRiclerView,
+      @NonNull ImageView solde, @NonNull View view) {
     this.rootView = rootView;
+    this.fhNbrPetDej = fhNbrPetDej;
+    this.fhNbrRepas = fhNbrRepas;
     this.fragmentHome = fragmentHome;
     this.fragmentHomeImgQrCode = fragmentHomeImgQrCode;
     this.fragmentHomeRiclerView = fragmentHomeRiclerView;
@@ -73,6 +83,18 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.fhNbrPetDej;
+      TextView fhNbrPetDej = ViewBindings.findChildViewById(rootView, id);
+      if (fhNbrPetDej == null) {
+        break missingId;
+      }
+
+      id = R.id.fhNbrRepas;
+      TextView fhNbrRepas = ViewBindings.findChildViewById(rootView, id);
+      if (fhNbrRepas == null) {
+        break missingId;
+      }
+
       RelativeLayout fragmentHome = (RelativeLayout) rootView;
 
       id = R.id.fragment_home_imgQrCode;
@@ -99,8 +121,8 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((RelativeLayout) rootView, fragmentHome, fragmentHomeImgQrCode,
-          fragmentHomeRiclerView, solde, view);
+      return new FragmentHomeBinding((RelativeLayout) rootView, fhNbrPetDej, fhNbrRepas,
+          fragmentHome, fragmentHomeImgQrCode, fragmentHomeRiclerView, solde, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

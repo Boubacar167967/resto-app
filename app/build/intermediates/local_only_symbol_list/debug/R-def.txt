@@ -93,6 +93,8 @@ id drawer_layout
 id fdBtnValider
 id fdNumCard
 id fdQrLaunch
+id fhNbrPetDej
+id fhNbrRepas
 id followers
 id following
 id following_txt

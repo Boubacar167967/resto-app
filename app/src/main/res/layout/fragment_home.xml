@@ -45,7 +45,9 @@
                 android:layout_marginLeft="30dp"
                 android:textSize="20dp"
                 android:textColor="@color/white"
-                android:text="0 P'Dej">
+                android:text="0 P'Dej"
+                android:id="@+id/fhNbrPetDej"
+                >
 
             </TextView>
         </LinearLayout>
@@ -59,7 +61,9 @@
                 android:layout_marginLeft="30dp"
                 android:textSize="20dp"
                 android:textColor="@color/white"
-                android:text="0 Repas">
+                android:text="0 Repas"
+                android:id="@+id/fhNbrRepas"
+                >
 
             </TextView>
 

@@ -2935,6 +2935,8 @@ int id fade 0x7f0a00c9
 int id fdBtnValider 0x7f0a00ca
 int id fdNumCard 0x7f0a00cb
 int id fdQrLaunch 0x7f0a0243
+int id fhNbrPetDej 0x7f0a0244
+int id fhNbrRepas 0x7f0a0245
 int id fill 0x7f0a00cc
 int id fill_horizontal 0x7f0a00cd
 int id fill_vertical 0x7f0a00ce

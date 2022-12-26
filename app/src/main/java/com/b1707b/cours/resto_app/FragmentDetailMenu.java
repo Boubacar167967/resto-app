@@ -92,12 +92,6 @@ public class FragmentDetailMenu extends Fragment{
 
         Bitmap bitmap;
         ImageView mView;
-
-        FetchImage(String URL){
-
-            this.URL = URL;
-
-        }
         FetchImage(String URL,ImageView view){
 
             this.URL = URL;
@@ -113,7 +107,7 @@ public class FragmentDetailMenu extends Fragment{
                     progressDialog = new ProgressDialog(getContext());
                     progressDialog.setMessage("Getting your pic....");
                     progressDialog.setCancelable(true);
-                    progressDialog.show();
+                    //progressDialog.show();
 
                 }
             });

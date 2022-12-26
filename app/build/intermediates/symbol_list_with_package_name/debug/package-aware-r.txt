@@ -2936,6 +2936,8 @@ id fade
 id fdBtnValider
 id fdNumCard
 id fdQrLaunch
+id fhNbrPetDej
+id fhNbrRepas
 id fill
 id fill_horizontal
 id fill_vertical

@@ -6,7 +6,6 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -15,65 +14,93 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
-import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.toolbox.StringRequest;
-import com.b1707b.cours.resto_app.functions.Tools;
 import com.b1707b.cours.resto_app.reclerview.DetailAdapter;
-import com.b1707b.cours.resto_app.reclerview.DetailHolder;
-import com.b1707b.cours.resto_app.reclerview.Email;
-import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.textfield.TextInputLayout;
+import com.b1707b.cours.resto_app.reclerview.DetailDont;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.journeyapps.barcodescanner.BarcodeEncoder;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
-import java.util.Objects;
 
 public class HomeFragment extends Fragment {
     RecyclerView mRecyclerView;
     private ImageView mImageQrCode;
-    private ArrayList<Email> mEmails  = new ArrayList<>();
+    private ArrayList<DetailDont> mDetailDonts = new ArrayList<>();
     DetailAdapter gmailAdapter;
+    String numCart;
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        mEmails.add(new Email("Boubacar","10-9-2022","Note de L3","Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates facere explicabo debitis dicta. Tempora ad neque quia mollitia fugit quisquam voluptatem"));
-        mEmails.add(new Email("ALpha diallo","18-9-2022","Note de L1","Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates facere explicabo debitis dicta. Tempora ad neque quia mollitia fugit quisquam voluptatem"));
-        mEmails.add(new Email("ALiou","10-3-2022","Note de L3","Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates facere explicabo debitis dicta. Tempora ad neque quia mollitia fugit quisquam voluptatem"));
-        mEmails.add(new Email("Diop","10-3-2022","Note de L3","Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates facere explicabo debitis dicta. Tempora ad neque quia mollitia fugit quisquam voluptatem"));
-        mEmails.add(new Email("Abdou","10-3-2022","Note de L3","Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates facere explicabo debitis dicta. Tempora ad neque quia mollitia fugit quisquam voluptatem"));
-        mEmails.add(new Email("Sara","10-3-2022","Note de L3","Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates facere explicabo debitis dicta. Tempora ad neque quia mollitia fugit quisquam voluptatem"));
-        mEmails.add(new Email("Fatimatou","10-3-2022","Note de L3","Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates facere explicabo debitis dicta. Tempora ad neque quia mollitia fugit quisquam voluptatem"));
-        mEmails.add(new Email("Moustapha","10-3-2022","Note de L3","Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates facere explicabo debitis dicta. Tempora ad neque quia mollitia fugit quisquam voluptatem"));
-        View view = inflater.inflate(R.layout.fragment_home, container, false);
-        mImageQrCode = view.findViewById(R.id.fragment_home_imgQrCode);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         HomeActivity activity = (HomeActivity) getActivity();
-        String numCart = activity.getNumCart();
+        assert activity != null;
+        numCart = activity.getNumCart().toUpperCase(Locale.ROOT);
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+        SharedPreferences sharedPreferences = activity.getSharedPreferences("userDate", Context.MODE_PRIVATE);
+        //--------------
+        {
+            String url = "http://" + LoginActivity.getIpAdd() + "/memoir/server/getDetail.php";
+            Map<String, String> hashMap = new HashMap<>();
+            hashMap.put("numCart", numCart);
+            Log.d("numCarteeeeeeee", "onCreateView: "+numCart);
+            StringRequest stringRequest = new StringRequest(Request.Method.POST, url, response -> {
+                JSONObject jsonObject;
+                try {
+                    jsonObject = new JSONObject(response);
+                    JSONArray array = (JSONArray) jsonObject.get("response");
+                    for (int i=0;i<array.length();i++){
+                        JSONObject object = (JSONObject) array.get(i);
+                        Log.d("numCarteeeeeeee", "onCreateView: "+object.get("receive"));
+                        if (object.get("sender").equals(numCart)){
+                                mDetailDonts.add(new DetailDont("Envoie à "+object.get("receive"),""+object.get("data_transaction"),object.get("nbr_ticket")+" "+object.get("type")));
+                        }
+                        if (object.get("receive").equals(numCart)){
+
+                            mDetailDonts.add(new DetailDont("Reçu de "+object.get("sender"),""+object.get("data_transaction"),object.get("nbr_ticket")+" "+object.get("type")));
+                        }
+                    }
+                    mRecyclerView = view.findViewById(R.id.fragment_home_riclerView);
+                    gmailAdapter = new DetailAdapter(mDetailDonts, getContext());
+                    LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
+                    layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+                    mRecyclerView.setLayoutManager(layoutManager);
+                    mRecyclerView.setAdapter(gmailAdapter);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }, error -> Toast.makeText(getContext(), error.getMessage(), Toast.LENGTH_SHORT).show()) {
+                @NonNull
+                @Override
+                protected Map<String, String> getParams() {
+                    return hashMap;
+                }
+            };
+            MySingleton.getInstance(getContext()).addToRequestQueue(stringRequest);
+        }
+        //--------------
+        mImageQrCode = view.findViewById(R.id.fragment_home_imgQrCode);
         generateQR(numCart);
-        mRecyclerView = view. findViewById(R.id.fragment_home_riclerView);
-        gmailAdapter = new DetailAdapter(mEmails,getContext());
-        LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
-        layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
-        mRecyclerView.setLayoutManager(layoutManager);
-        mRecyclerView.setAdapter(gmailAdapter);
+       TextView viewPetiDeuj =  view.findViewById(R.id.fhNbrPetDej);
+       TextView viewRepas = view.findViewById(R.id.fhNbrRepas);
+       String petitD = sharedPreferences.getString("nbr_pet_deuj","");
+       String repas = sharedPreferences.getString("nbr_repas","");
+       repas = repas+" Repas";
+       petitD = petitD+" P'Dej";
+       viewPetiDeuj.setText(petitD);
+       viewRepas.setText(repas);
         return view;
     }
 
@@ -87,29 +114,5 @@ public class HomeFragment extends Fragment {
         } catch (WriterException e) {
             e.printStackTrace();
         }
-    }
-    public void verifyIsExist(String s) {
-        HomeActivity activity = (HomeActivity) getActivity();
-        assert activity != null;
-        String numCart = activity.getNumCart();
-        String url = "http://" + LoginActivity.getIpAdd() + "/memoir/server/getDetail.php";
-        Map<String, String> hashMap = new HashMap<>();
-        hashMap.put("numCart", numCart);
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, url, response -> {
-            JSONObject jsonObject;
-            try {
-                jsonObject = new JSONObject(response);
-
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-        }, error -> Toast.makeText(getContext(), error.getMessage(), Toast.LENGTH_SHORT).show()) {
-            @NonNull
-            @Override
-            protected Map<String, String> getParams() {
-                return hashMap;
-            }
-        };
-        MySingleton.getInstance(getContext()).addToRequestQueue(stringRequest);
     }
 }
