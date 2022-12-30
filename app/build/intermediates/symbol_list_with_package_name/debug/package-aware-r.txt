@@ -3531,6 +3531,7 @@ layout zxing_capture
 menu bottom_menu
 menu my_navigation_items
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw zxing_beep

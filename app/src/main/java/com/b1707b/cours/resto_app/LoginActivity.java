@@ -21,7 +21,7 @@ public class LoginActivity extends AppCompatActivity {
     private  final String url = "http://"+LoginActivity.getIpAdd()+"/memoir/server/logApp.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setIpadd("192.168.56.1");
+        setIpadd("192.168.1.23");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         tabLayout = findViewById(R.id.tabLayout);
