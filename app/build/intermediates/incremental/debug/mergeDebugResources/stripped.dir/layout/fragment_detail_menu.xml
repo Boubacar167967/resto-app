@@ -10,14 +10,14 @@ tools:context=".FragmentDetailMenu">
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="20dp"
+    android:layout_marginBottom="50dp"
     android:orientation="horizontal">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:textColor="@color/colorPrimary"
-        android:text="Menu"
+        android:text="Menu du"
         >
 
     </TextView>
@@ -53,46 +53,12 @@ tools:context=".FragmentDetailMenu">
             android:text="Menu Repas">
 
         </TextView>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginLeft="5dp"
-                android:src="@drawable/ic_baseline_favorite_24"
-                android:focusable="true"
-                android:clickable="true"
-                android:id="@+id/fsmFavRepas"
-                >
-            </ImageView>
-            <TextView
-                android:id="@+id/fsmNbrFavRepas"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=" 0 likes"
-                android:textSize="16dp"
-                android:textStyle="bold"
-                />
-        </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
             >
-            <ImageView
-                android:layout_width="170dp"
-                android:layout_height="150dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="10dp"
-                android:src="@drawable/yassa"
-                android:id="@+id/img_repas_1"
-                >
-
-            </ImageView>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -102,21 +68,43 @@ tools:context=".FragmentDetailMenu">
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:layout_marginLeft="5dp"
-                    android:src="@drawable/ic_baseline_favorite_border_24"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:id="@+id/fsmFavRepas"
+                    >
+                </ImageView>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_repas_1"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/yassa">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/ic_baseline_favorite_24"
                     android:focusable="true"
                     android:clickable="true"
                     android:id="@+id/fsmFavRepas1"
                     >
-
                 </ImageView>
-                <TextView
-                    android:id="@+id/fsmNbrFavRepas1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text=" 0 likes"
-                    android:textSize="16dp"
-                    android:textStyle="bold"
-                    />
+
             </LinearLayout>
             <ImageView
                 android:layout_width="180dp"
@@ -147,10 +135,9 @@ tools:context=".FragmentDetailMenu">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="90dp"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimary"
-                android:layout_marginRight="5dp"
                 android:text="Thiebou Djeune"
                 android:id="@+id/repas1"
                 >
@@ -185,41 +172,35 @@ tools:context=".FragmentDetailMenu">
             android:text="Menu Dinner">
 
         </TextView>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginLeft="5dp"
-                android:src="@drawable/ic_baseline_favorite_border_24"
-                android:focusable="true"
-                android:clickable="true"
-                android:id="@+id/fsmFavDiner"
-                >
-            </ImageView>
-            <TextView
-                android:id="@+id/fsmNbrFavDiner"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=" 0 likes"
-                android:textSize="16dp"
-                android:textStyle="bold"
-                />
-        </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
             >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:id="@+id/fsmFavDiner"
+                    >
+                </ImageView>
+
+            </LinearLayout>
             <ImageView
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="0dp"
                 android:src="@drawable/thiere"
                 android:id="@+id/img_diner1"
                 >
@@ -230,24 +211,16 @@ tools:context=".FragmentDetailMenu">
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 >
+
                 <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:layout_marginLeft="5dp"
-                    android:src="@drawable/ic_baseline_favorite_border_24"
-                    android:focusable="true"
-                    android:clickable="true"
                     android:id="@+id/fsmFavDiner1"
-                    >
-                </ImageView>
-                <TextView
-                    android:id="@+id/fsmNbrFavDiner1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text=" 0 likes"
-                    android:textSize="16dp"
-                    android:textStyle="bold"
-                    />
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:src="@drawable/ic_baseline_favorite_24"></ImageView>
+
             </LinearLayout>
             <ImageView
                 android:layout_width="180dp"
@@ -269,7 +242,6 @@ tools:context=".FragmentDetailMenu">
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:textSize="20dp"
-                android:layout_marginRight="30dp"
                 android:textColor="@color/colorPrimary"
                 android:text="Thiéré Bassé"
                 android:id="@+id/diner"
@@ -279,11 +251,11 @@ tools:context=".FragmentDetailMenu">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="140dp"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimary"
-                android:id="@+id/diner1"
-                android:text="Couscous marocain">
+                android:text="Couscous"
+                android:id="@+id/diner1">
             </TextView>
 
         </LinearLayout>

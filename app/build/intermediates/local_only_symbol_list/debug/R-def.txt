@@ -181,6 +181,7 @@ layout one_row_detail
 menu bottom_menu
 menu my_navigation_items
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string acceuil
 string achat_tickets
