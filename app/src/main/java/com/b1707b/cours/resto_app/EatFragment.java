@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
@@ -18,6 +19,11 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+import com.b1707b.cours.resto_app.favorite.FirebaseDatabase;
+import com.b1707b.cours.resto_app.favorite.Menu;
+import com.b1707b.cours.resto_app.favorite.Plats;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -73,13 +79,14 @@ public class EatFragment extends Fragment {
     }
 
     private void getData(String restoName) {
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-                try {
-                    SharedPreferences.Editor    editor = mSharedPreferences.edit();
-                    mJSONObject = new JSONObject(response) ;
-                    JSONObject jsonObject = null;
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, url, response -> {
+            try {
+                SharedPreferences.Editor    editor = mSharedPreferences.edit();
+                mJSONObject = new JSONObject(response) ;
+                if (mJSONObject.get("error").equals("non_menu")){
+                    Toast.makeText(getContext(), "Pas encors de menu", Toast.LENGTH_SHORT).show();
+                }else {
+                    JSONObject jsonObject;
                     String date = mJSONObject.getString("dateMenu");
                     int id_menu = mJSONObject.getInt("id_menu");
                     //pour le repas
@@ -97,6 +104,7 @@ public class EatFragment extends Fragment {
                     String imgRepas = jsonObject.getString("img_repas");
                     int id_repas = jsonObject.getInt("id_repas");
                     editor.putInt("id_repas",id_repas);
+                    Log.d("DDDDDDDD", "onResponse: "+jsonObject);
                     //------------------------------------------------
                     //pour le repas
                     jsonObject = mJSONObject.getJSONObject("diner1");
@@ -140,11 +148,11 @@ public class EatFragment extends Fragment {
                     fragmentDetailMenu.setArguments(bundle);
                     assert activity != null;
                     activity.replaceFragment(fragmentDetailMenu);
-                } catch (JSONException e) {
-                    e.printStackTrace();
                 }
-
+            } catch (JSONException e) {
+                e.printStackTrace();
             }
+
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {

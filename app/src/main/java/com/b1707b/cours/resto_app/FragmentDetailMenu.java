@@ -12,20 +12,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.b1707b.cours.resto_app.databinding.FragmentDetailMenuBinding;
+import com.b1707b.cours.resto_app.favorite.FirebaseDatabase;
+import com.b1707b.cours.resto_app.favorite.Menu;
+import com.b1707b.cours.resto_app.favorite.Plats;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
-import java.util.Objects;
 
-public class FragmentDetailMenu extends Fragment{
+public  class FragmentDetailMenu extends Fragment{
     SharedPreferences mPreferences;
 
     private static String ipAdd = LoginActivity.getIpAdd();
@@ -55,10 +56,23 @@ public class FragmentDetailMenu extends Fragment{
         int id_repas1 = sharedPreferences1.getInt("id_repas1",0);
         int id_diner = sharedPreferences1.getInt("id_diner",0);
         int id_diner1 = sharedPreferences1.getInt("id_diner1",0);
-        new Favorites(id_user,id_repas,id_menu,binding.fsmFavRepas,getContext()).makeFavorite("Repas");
-        new Favorites(id_user,id_repas1,id_menu,binding.fsmFavRepas1,getContext()).makeFavorite("Repas1");
-        new Favorites(id_user,id_diner,id_menu,binding.fsmFavDiner,getContext()).makeFavorite("Diner");
-        new Favorites(id_user,id_diner1,id_menu,binding.fsmFavDiner1,getContext()).makeFavorite("Diner1");
+        String num_card = sharedPreferences.getString("userNumberCart","");
+        //new Favorites(id_user,id_repas,id_menu,binding.fsmFavRepas,getContext()).makeFavorite("Repas");
+        Plats diner = new Plats(id_diner);
+        Plats diner1 = new Plats(id_diner1);
+        Plats repas = new Plats(id_repas);
+        Plats repas1 = new Plats(id_repas1);
+        Menu menu = new Menu(id_menu,"2023-09-16",diner,diner1,repas,repas1);
+        FirebaseDatabase firebaseDatabase = new FirebaseDatabase(getContext());
+        firebaseDatabase.verifyExistKeyMenu(menu,""+id_menu);
+        firebaseDatabase.makeFavorite(binding.fsmFavRepas,num_card,id_menu+"","repas");
+        firebaseDatabase.loadNumberFavorite(binding.fsmNbrFavRepas,num_card, String.valueOf(id_menu),"repas");
+        firebaseDatabase.makeFavorite(binding.fsmFavRepas1,num_card,id_menu+"","repas1");
+        firebaseDatabase.loadNumberFavorite(binding.fsmNbrFavRepas1,num_card, String.valueOf(id_menu),"repas1");
+        firebaseDatabase.makeFavorite(binding.fsmFavDiner,num_card,id_menu+"","diner");
+        firebaseDatabase.loadNumberFavorite(binding.fsmNbrFavDiner,num_card, String.valueOf(id_menu),"diner");
+        firebaseDatabase.makeFavorite(binding.fsmFavDiner1,num_card,id_menu+"","diner1");
+        firebaseDatabase.loadNumberFavorite(binding.fsmNbrFavDiner1,num_card, String.valueOf(id_menu),"diner1");
         return binding.getRoot();
     }
 

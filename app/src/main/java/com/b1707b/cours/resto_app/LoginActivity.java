@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class LoginActivity extends AppCompatActivity {
     TabLayout tabLayout;
@@ -19,8 +21,12 @@ public class LoginActivity extends AppCompatActivity {
         ipAdd = ip;
     }
     private  final String url = "http://"+LoginActivity.getIpAdd()+"/memoir/server/logApp.php";
+    private FirebaseDatabase mFirebaseDatabase;
+    private DatabaseReference mDatabaseReferenceMenu;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         setIpadd("192.168.56.1");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
@@ -31,7 +37,6 @@ public class LoginActivity extends AppCompatActivity {
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         final FragmentAdapter adapter = new FragmentAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
-
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override

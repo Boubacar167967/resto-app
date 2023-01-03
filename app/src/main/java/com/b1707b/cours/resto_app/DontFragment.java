@@ -83,15 +83,15 @@ public class DontFragment extends Fragment {
     ActivityResultLauncher<ScanOptions> mLauncher = registerForActivityResult(new ScanContract(), result -> {
         if (result.getContents() != null) {
             AlertDialog.Builder builder = new AlertDialog.Builder(requireActivity());
-            /*builder.setTitle("Result");
+            builder.setTitle("Result");
             builder.setMessage(result.getContents());
-            builder.setPositiveButton("ok", (dialogInterface, i) -> dialogInterface.dismiss()).show();*/
+            builder.setPositiveButton("ok", (dialogInterface, i) -> dialogInterface.dismiss()).show();
             verifyIsExist(result.getContents());
         }
     });
 
     public void verifyIsExist(String s) {
-        String url = "http://" + LoginActivity.getIpAdd() + "/memoir/server/dont.php";
+        String url = "http://" + LoginActivity.getIpAdd() + "/memoir/server/scanner.php";
         Map<String, String> hashMap = new HashMap<>();
         hashMap.put("numberCartReceive", s);
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, response -> {

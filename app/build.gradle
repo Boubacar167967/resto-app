@@ -1,19 +1,34 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.gms.google-services'
 }
 
 android {
     namespace 'com.b1707b.cours.resto_app'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.b1707b.cours.resto_app"
         minSdk 22
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildscript {
+        repositories {
+            // Make sure that you have the following two repositories
+            google()  // Google's Maven repository
+
+            mavenCentral()  // Maven Central repository
+
+        }
+        dependencies {
+            // Add the dependency for the Google services Gradle plugin
+            classpath 'com.google.gms:google-services:4.3.14'
+
+        }
     }
 
     buildTypes {
@@ -40,6 +55,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-database:20.1.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
@@ -47,4 +63,7 @@ dependencies {
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     implementation files('../libs/paytech-sdk-release.aar')
     implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+    //for firebase
+    implementation platform('com.google.firebase:firebase-bom:31.1.1')
+    implementation 'com.google.firebase:firebase-analytics'
 }

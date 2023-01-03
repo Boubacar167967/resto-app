@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.b1707b.cours.resto_app-mergeDebugResources-32:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.b1707b.cours.resto_app-mergeDebugResources-36:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\B1707D\\.gradle\\caches\\transforms-3\\f2dce8d14dab160a609f9a20f56edf16\\transformed\\appcompat-1.5.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\B1707D\\.gradle\\caches\\transforms-3\\aaf54e45fa13ca092e6917170010ba68\\transformed\\appcompat-1.5.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

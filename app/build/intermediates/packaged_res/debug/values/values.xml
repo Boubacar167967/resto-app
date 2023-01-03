@@ -35,18 +35,25 @@
     <string name="appuyer_ici_pour_continuer">Acheter</string>
     <string name="cr_er_un_compte">Créer un compte</string>
     <string name="date_de_la_transaction">date de la transaction</string>
+    <string name="default_web_client_id" translatable="false">818015652338-mai9fv8ohqurs20b08fnupgg8k96110u.apps.googleusercontent.com</string>
     <string name="dont_tickets">Dont ticket</string>
     <string name="food_for_everyone">Food for Everyone</string>
+    <string name="gcm_defaultSenderId" translatable="false">818015652338</string>
+    <string name="google_api_key" translatable="false">AIzaSyAkZuDnFY1lZa4IL1xO_ru6Uo0bTKEgTw4</string>
+    <string name="google_app_id" translatable="false">1:818015652338:android:fcf59a1e4ca83264b8036b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAkZuDnFY1lZa4IL1xO_ru6Uo0bTKEgTw4</string>
+    <string name="google_storage_bucket" translatable="false">resto-app-721b0.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="montant">Montant</string>
     <string name="mot_de_passe">Mot de passe</string>
     <string name="nature_du_trasation">Nature du trasation</string>
     <string name="numero">Saisir son numéro de carte</string>
+    <string name="project_id" translatable="false">resto-app-721b0</string>
     <string name="saisir_le_nombre_de_ticket_s">Saisir le nombre de ticket(s)</string>
     <string name="se_regaler">Menu</string>
     <string name="selectionner">Selectionner</string>
     <string name="valider">Valider</string>
-    <style name="Theme.Restoapp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Restoapp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">#FA4A0C</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

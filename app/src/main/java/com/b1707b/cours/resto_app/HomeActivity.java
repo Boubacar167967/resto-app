@@ -34,6 +34,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityHomeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        new FirebaseDatabaseHelper().readData();
         //get names
         Bundle bundle =getIntent().getExtras();
         String name = bundle.getString("name");

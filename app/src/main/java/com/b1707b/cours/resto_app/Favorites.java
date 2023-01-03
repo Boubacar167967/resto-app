@@ -1,9 +1,8 @@
 package com.b1707b.cours.resto_app;
 
 import android.content.Context;
-import android.content.SharedPreferences;
+import android.os.Handler;
 import android.util.Log;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -30,15 +29,7 @@ public class Favorites {
     private Context mContext;
     private int id_menu;
 
-    public void setResponse(String s) {
-        this.mResponse = s;
-    }
-
-    public String getResponse() {
-        return this.mResponse;
-    }
-
-    public Favorites(int id_user, int id_plats,int id_menu, ImageView view, Context context) {
+    public Favorites(int id_user, int id_plats, int id_menu, ImageView view, Context context) {
         this.id_user = id_user;
         this.id_plats = id_plats;
         this.id_menu = id_menu;
@@ -51,51 +42,45 @@ public class Favorites {
         final boolean[] is_cliked = {false};
         Map<String, String> map = new HashMap<>();
         map.put("verifIdUser", "" + id_user);
-        map.put("verifIdPlats"+s, "" + id_plats);
-        map.put("verifIdMenu",""+id_menu);
-        getData(map,s);
-
+        map.put("verifIdPlats" + s, "" + id_plats);
+        map.put("verifIdMenu", "" + id_menu);
+        getData(map, s);
     }
-    private void getData(Map<String, String> hashMap,String s) {
-        String url = "http://" + LoginActivity.getIpAdd() + "/memoir/server/getFavorite.php";
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-                JSONObject jsonObject = null;
-                try {
-                    jsonObject = new JSONObject(response);
-                    String responsePhp = jsonObject.getString("response");
-                    //Log.d("clikeddddddddd",responsePhp);
-                    if (Objects.equals(responsePhp, "true")) {
-                        mImageView.setImageResource(R.drawable.ic_baseline_favorite_24);
-                        Toast.makeText(mContext, "je suis dans le if", Toast.LENGTH_SHORT).show();
-                    } else {
-                        mImageView.setImageResource(R.drawable.ic_baseline_favorite_border_24);
-                    }
-                    mImageView.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                            //Log.d("clikeddddddddd",responsePhp);
-                            String id_lastFav="";
-                            if (Objects.equals(responsePhp, "false")) {
-                                Map<String, String> mapMakFavorite = new HashMap<>();
-                                mapMakFavorite.put("CreateFavIdUser", "" + id_user);
-                                mapMakFavorite.put("CreateFavIdPlats"+s, "" + id_plats);
-                                mapMakFavorite.put("CreateFavIdMenu",""+ id_menu);
-                                getData(mapMakFavorite,s);
-                            } else {
-                                Map<String, String> mapAlterFavorite = new HashMap<>();
-                                mapAlterFavorite.put("AlterIdUser", "" + id_user);
-                                mapAlterFavorite.put("AlterIdPlats"+s, "" + id_plats);
-                                mapAlterFavorite.put("AlterIdMenu", "" + id_menu);
-                                getData(mapAlterFavorite,s);
-                            }
-                        }
-                    });
 
-                } catch (JSONException e) {
-                    e.printStackTrace();
+    private void getData(Map<String, String> hashMap, String s) {
+        String url = "http://" + LoginActivity.getIpAdd() + "/memoir/server/getFavorite.php";
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, url, response -> {
+            JSONObject jsonObject;
+            try {
+                jsonObject = new JSONObject(response);
+                String responsePhp = jsonObject.getString("response");
+                Log.d("tyyyyyytytytyty", "getData: " + response);
+                if (Objects.equals(responsePhp, "true")) {
+                    mImageView.setImageResource(R.drawable.ic_baseline_favorite_24);
+                    Toast.makeText(mContext, "je suis dans le if", Toast.LENGTH_SHORT).show();
+                } else {
+                    mImageView.setImageResource(R.drawable.ic_baseline_favorite_border_24);
                 }
+                mImageView.setOnClickListener(v -> {
+                    //Log.d("clikeddddddddd",responsePhp);
+                    String id_lastFav = "";
+                    if (Objects.equals(responsePhp, "false")) {
+                        Map<String, String> mapMakFavorite = new HashMap<>();
+                        mapMakFavorite.put("CreateFavIdUser", "" + id_user);
+                        mapMakFavorite.put("CreateFavIdPlats" + s, "" + id_plats);
+                        mapMakFavorite.put("CreateFavIdMenu", "" + id_menu);
+                        getData(mapMakFavorite, s);
+                    } else {
+                        Map<String, String> mapAlterFavorite = new HashMap<>();
+                        mapAlterFavorite.put("AlterIdUser", "" + id_user);
+                        mapAlterFavorite.put("AlterIdPlats" + s, "" + id_plats);
+                        mapAlterFavorite.put("AlterIdMenu", "" + id_menu);
+                        getData(mapAlterFavorite, s);
+                    }
+                });
+
+            } catch (JSONException e) {
+                e.printStackTrace();
             }
         }, new Response.ErrorListener() {
             @Override

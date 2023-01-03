@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">818015652338-mai9fv8ohqurs20b08fnupgg8k96110u.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">818015652338</string>
+    <string name="google_api_key" translatable="false">AIzaSyAkZuDnFY1lZa4IL1xO_ru6Uo0bTKEgTw4</string>
+    <string name="google_app_id" translatable="false">1:818015652338:android:fcf59a1e4ca83264b8036b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAkZuDnFY1lZa4IL1xO_ru6Uo0bTKEgTw4</string>
+    <string name="google_storage_bucket" translatable="false">resto-app-721b0.appspot.com</string>
+    <string name="project_id" translatable="false">resto-app-721b0</string>
+</resources>

@@ -45,6 +45,18 @@ public final class FragmentDetailMenuBinding implements ViewBinding {
   public final ImageView fsmFavRepas1;
 
   @NonNull
+  public final TextView fsmNbrFavDiner;
+
+  @NonNull
+  public final TextView fsmNbrFavDiner1;
+
+  @NonNull
+  public final TextView fsmNbrFavRepas;
+
+  @NonNull
+  public final TextView fsmNbrFavRepas1;
+
+  @NonNull
   public final ImageView imgDiner1;
 
   @NonNull
@@ -63,7 +75,9 @@ public final class FragmentDetailMenuBinding implements ViewBinding {
       @NonNull TextView diner1, @NonNull TextView fragmentDetailDateMenu,
       @NonNull TextView fragmentDetailTitleRepas, @NonNull ImageView fsmFavDiner,
       @NonNull ImageView fsmFavDiner1, @NonNull ImageView fsmFavRepas,
-      @NonNull ImageView fsmFavRepas1, @NonNull ImageView imgDiner1, @NonNull ImageView imgDiner2,
+      @NonNull ImageView fsmFavRepas1, @NonNull TextView fsmNbrFavDiner,
+      @NonNull TextView fsmNbrFavDiner1, @NonNull TextView fsmNbrFavRepas,
+      @NonNull TextView fsmNbrFavRepas1, @NonNull ImageView imgDiner1, @NonNull ImageView imgDiner2,
       @NonNull ImageView imgRepas1, @NonNull ImageView imgRepas2, @NonNull TextView repas1) {
     this.rootView = rootView;
     this.diner = diner;
@@ -74,6 +88,10 @@ public final class FragmentDetailMenuBinding implements ViewBinding {
     this.fsmFavDiner1 = fsmFavDiner1;
     this.fsmFavRepas = fsmFavRepas;
     this.fsmFavRepas1 = fsmFavRepas1;
+    this.fsmNbrFavDiner = fsmNbrFavDiner;
+    this.fsmNbrFavDiner1 = fsmNbrFavDiner1;
+    this.fsmNbrFavRepas = fsmNbrFavRepas;
+    this.fsmNbrFavRepas1 = fsmNbrFavRepas1;
     this.imgDiner1 = imgDiner1;
     this.imgDiner2 = imgDiner2;
     this.imgRepas1 = imgRepas1;
@@ -156,6 +174,30 @@ public final class FragmentDetailMenuBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.fsmNbrFavDiner;
+      TextView fsmNbrFavDiner = ViewBindings.findChildViewById(rootView, id);
+      if (fsmNbrFavDiner == null) {
+        break missingId;
+      }
+
+      id = R.id.fsmNbrFavDiner1;
+      TextView fsmNbrFavDiner1 = ViewBindings.findChildViewById(rootView, id);
+      if (fsmNbrFavDiner1 == null) {
+        break missingId;
+      }
+
+      id = R.id.fsmNbrFavRepas;
+      TextView fsmNbrFavRepas = ViewBindings.findChildViewById(rootView, id);
+      if (fsmNbrFavRepas == null) {
+        break missingId;
+      }
+
+      id = R.id.fsmNbrFavRepas1;
+      TextView fsmNbrFavRepas1 = ViewBindings.findChildViewById(rootView, id);
+      if (fsmNbrFavRepas1 == null) {
+        break missingId;
+      }
+
       id = R.id.img_diner1;
       ImageView imgDiner1 = ViewBindings.findChildViewById(rootView, id);
       if (imgDiner1 == null) {
@@ -188,7 +230,8 @@ public final class FragmentDetailMenuBinding implements ViewBinding {
 
       return new FragmentDetailMenuBinding((LinearLayout) rootView, diner, diner1,
           fragmentDetailDateMenu, fragmentDetailTitleRepas, fsmFavDiner, fsmFavDiner1, fsmFavRepas,
-          fsmFavRepas1, imgDiner1, imgDiner2, imgRepas1, imgRepas2, repas1);
+          fsmFavRepas1, fsmNbrFavDiner, fsmNbrFavDiner1, fsmNbrFavRepas, fsmNbrFavRepas1, imgDiner1,
+          imgDiner2, imgRepas1, imgRepas2, repas1);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
