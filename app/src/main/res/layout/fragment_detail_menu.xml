@@ -31,7 +31,6 @@ tools:context=".FragmentDetailMenu">
         >
 
     </TextView>
-
 </LinearLayout>
 <androidx.cardview.widget.CardView
     android:layout_height="wrap_content"
@@ -74,7 +73,15 @@ tools:context=".FragmentDetailMenu">
                     android:id="@+id/fsmFavRepas"
                     >
                 </ImageView>
-
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 like"
+                    android:textStyle="bold"
+                    android:id="@+id/fsmNbrFavRepas"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="16dp"
+                    />
             </LinearLayout>
 
             <ImageView
@@ -104,7 +111,15 @@ tools:context=".FragmentDetailMenu">
                     android:id="@+id/fsmFavRepas1"
                     >
                 </ImageView>
-
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 like"
+                    android:textStyle="bold"
+                    android:id="@+id/fsmNbrFavRepas1"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="16dp"
+                    />
             </LinearLayout>
             <ImageView
                 android:layout_width="180dp"
@@ -193,6 +208,15 @@ tools:context=".FragmentDetailMenu">
                     android:id="@+id/fsmFavDiner"
                     >
                 </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 like"
+                    android:textStyle="bold"
+                    android:id="@+id/fsmNbrFavDiner"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="16dp"
+                    />
 
             </LinearLayout>
             <ImageView
@@ -219,8 +243,18 @@ tools:context=".FragmentDetailMenu">
                     android:layout_marginLeft="5dp"
                     android:clickable="true"
                     android:focusable="true"
-                    android:src="@drawable/ic_baseline_favorite_24"></ImageView>
+                    android:src="@drawable/ic_baseline_favorite_24">
 
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 like"
+                    android:textStyle="bold"
+                    android:id="@+id/fsmNbrFavDiner1"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="16dp"
+                    />
             </LinearLayout>
             <ImageView
                 android:layout_width="180dp"
@@ -230,8 +264,6 @@ tools:context=".FragmentDetailMenu">
                 android:id="@+id/img_diner2"
                 >
             </ImageView>
-
-
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
