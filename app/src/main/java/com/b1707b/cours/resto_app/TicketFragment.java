@@ -3,6 +3,7 @@ package com.b1707b.cours.resto_app;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -33,7 +34,7 @@ public class TicketFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
         mBinding = FragmentTicketBinding.inflate(inflater,container,false);
@@ -41,54 +42,54 @@ public class TicketFragment extends Fragment {
         ArrayAdapter<String> adapter=new ArrayAdapter<>(getContext(),R.layout.drawpo,type);
         AutoCompleteTextView autoCompleteTextView=mBinding.autoComplexe ;
         autoCompleteTextView.setAdapter(adapter);
-        autoCompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+        autoCompleteTextView.setOnItemClickListener((adapterView, view, i, l) -> {
 
-                if (i==0){
-                    prix = 50;
-                }else
-                    prix = 100;
-            }
+            if (i==0){
+                prix = 50;
+            }else
+                prix = 100;
         });
         mBinding.fragmentTicketBtnLaunch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
-                String s= mBinding.ftNbrTicket.getText().toString();
-                nbrTicket = Integer.parseInt(s);
+                String s = mBinding.ftNbrTicket.getText().toString();
+                if (mBinding.ftNbrTicket.getText().toString().isEmpty()) {
+                    mBinding.ftNbrTicket.setError("Obligatoire");
+                } else {
+                    nbrTicket = Integer.parseInt(s);
+                    builder.setMessage(nbrTicket + " tickets vous Coûte: " + prix * nbrTicket + " FCFA")
+                            .setCancelable(false)
+                            .setPositiveButton("continuer", new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    HashMap params = new HashMap<>();
+                                    params.put("item_id", 2);
 
-                builder.setMessage(nbrTicket+" tickets vous Coûte: "+prix*nbrTicket+" FCFA")
-                        .setCancelable(false)
-                        .setPositiveButton("continuer", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                HashMap params = new HashMap<>();
-                                params.put("item_id", 2);
-
-                                new PayTech((AppCompatActivity) getActivity()).setRequestTokenUrl("https://sample.paytech.sn/paiement.php").setParams(params).setPresentationMode(PayTech.FLOATING_VIEW) // optional default to FULL_SCREEN
-                                        .setFloatTopMargin(25) // optional default to 25
-                                        .setLoadingDialogText("Chargement") //optional Chargement
-                                        .setCallback(new PCallback() {
-                                            @Override
-                                            public void onResult(Result result) {
-                                                if (result == Result.SUCCESS) {
-                                                    Toast.makeText(getActivity(), "Paiement Effectuer", Toast.LENGTH_SHORT).show();
-                                                } else if (result == Result.CANCEL) {
-                                                    Toast.makeText(getActivity(), "Vous avez annulez le paiement", Toast.LENGTH_SHORT).show();
-                                                } else if (result == Result.ERROR) {
-                                                    Toast.makeText(getActivity(), "Erreur lors du paiement", Toast.LENGTH_SHORT).show();
+                                    new PayTech((AppCompatActivity) getActivity()).setRequestTokenUrl("https://sample.paytech.sn/paiement.php").setParams(params).setPresentationMode(PayTech.FLOATING_VIEW) // optional default to FULL_SCREEN
+                                            .setFloatTopMargin(25) // optional default to 25
+                                            .setLoadingDialogText("Chargement") //optional Chargement
+                                            .setCallback(new PCallback() {
+                                                @Override
+                                                public void onResult(Result result) {
+                                                    if (result == Result.SUCCESS) {
+                                                        Toast.makeText(getActivity(), "Paiement Effectuer", Toast.LENGTH_SHORT).show();
+                                                    } else if (result == Result.CANCEL) {
+                                                        Toast.makeText(getActivity(), "Vous avez annulez le paiement", Toast.LENGTH_SHORT).show();
+                                                    } else if (result == Result.ERROR) {
+                                                        Toast.makeText(getActivity(), "Erreur lors du paiement", Toast.LENGTH_SHORT).show();
+                                                    }
                                                 }
-                                            }
-                                        }).send();
-                            }
-                        })
-                        .setNegativeButton("Annuler", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                dialog.cancel();
-                            }
-                        });
-                AlertDialog alert = builder.create();
-                alert.show();
+                                            }).send();
+                                }
+                            })
+                            .setNegativeButton("Annuler", new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    dialog.cancel();
+                                }
+                            });
+                    AlertDialog alert = builder.create();
+                    alert.show();
+                }
             }
         });
         return mBinding.getRoot();

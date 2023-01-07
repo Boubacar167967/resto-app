@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-54:12
+ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-51:12
 MERGED from [paytech-sdk-release.aar] C:\Users\B1707D\.gradle\caches\transforms-3\62f10a026500ce87113df5d0fd4d15e2\transformed\paytech-sdk-release\AndroidManifest.xml:2:1-24:12
 MERGED from [androidx.databinding:databinding-adapters:7.3.1] C:\Users\B1707D\.gradle\caches\transforms-3\20d0d202cb4e7a521f93dced21dc850e\transformed\databinding-adapters-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:databinding-runtime:7.3.1] C:\Users\B1707D\.gradle\caches\transforms-3\a84ac398ecc6b805b0c2ca4c01cd6164\transformed\databinding-runtime-7.3.1\AndroidManifest.xml:2:1-9:12
@@ -72,22 +72,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\B1707D\.gradle\c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\B1707D\.gradle\caches\transforms-3\da1a18f60a2417789d0b4fa8ec74b96e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\B1707D\.gradle\caches\transforms-3\2b5eff2d39fa2949f315d4dff1a6be56\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\534b1a9e075ab53b33dd7c9127d0d727\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-51:12
 	package
 		INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-54:12
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-51:12
 		INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-54:12
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-51:12
 		INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-54:12
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:1-51:12
 		INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:2:11-69
@@ -114,7 +114,7 @@ ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:6:5
 	android:name
 		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:6:22-73
 application
-ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:8:5-52:19
+ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:7:5-49:19
 MERGED from [paytech-sdk-release.aar] C:\Users\B1707D\.gradle\caches\transforms-3\62f10a026500ce87113df5d0fd4d15e2\transformed\paytech-sdk-release\AndroidManifest.xml:13:5-22:19
 MERGED from [paytech-sdk-release.aar] C:\Users\B1707D\.gradle\caches\transforms-3\62f10a026500ce87113df5d0fd4d15e2\transformed\paytech-sdk-release\AndroidManifest.xml:13:5-22:19
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\B1707D\.gradle\caches\transforms-3\2dd68467413811ce15f2102d4064058f\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
@@ -172,75 +172,71 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\B1
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] C:\Users\B1707D\.gradle\caches\transforms-3\792a563e1f643abc28fe286cbdefdc4f\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:16:9-41
-	android:hardwareAccelerated
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:9:9-44
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:13:9-41
 	android:fullBackupContent
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:11:9-54
 	android:roundIcon
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:17:9-54
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:14:9-54
 	tools:targetApi
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:20:9-29
-	android:largeHeap
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:10:9-33
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:17:9-29
 	android:icon
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:19:9-46
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:16:9-46
 	android:dataExtractionRules
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:13:9-65
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:10:9-65
 	android:usesCleartextTraffic
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:11:9-44
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:8:9-44
 activity#com.b1707b.cours.resto_app.HomeActivity
-ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:21:9-27:20
+ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:exported
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:22:13-41
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:19:13-41
 meta-data#android.app.lib_name
-ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:24:13-26:36
+ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:21:13-23:36
 	android:value
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:26:17-33
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:23:17-33
 	android:name
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:25:17-52
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:22:17-52
 activity#com.b1707b.cours.resto_app.LoginActivity
-ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:28:9-34:20
+ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:exported
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:29:13-42
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:26:13-42
 activity#com.b1707b.cours.resto_app.SplashActivity
-ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:35:9-44:20
+ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:32:9-41:20
 	android:label
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:38:13-45
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:35:13-45
 	android:exported
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:37:13-36
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:36:13-43
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:33:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:39:13-43:29
+ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:40:17-69
+ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:40:25-66
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:42:17-77
+ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:42:27-74
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:39:27-74
 activity#com.b1707b.cours.resto_app.CaptureAct
-ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:45:9-50:15
+ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:42:9-47:15
 	android:screenOrientation
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:47:13-51
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:44:13-51
 	android:stateNotNeeded
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:48:13-42
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:45:13-42
 	android:theme
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:49:13-54
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:46:13-54
 	android:name
-		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:46:13-39
+		ADDED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:43:13-39
 uses-sdk
 INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml

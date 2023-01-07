@@ -27,23 +27,22 @@ import java.io.InputStream;
 import java.net.URL;
 
 public  class FragmentDetailMenu extends Fragment{
-    SharedPreferences mPreferences;
 
-    private static String ipAdd = LoginActivity.getIpAdd();
+    private static final String ipAdd = LoginActivity.getIpAdd();
     Handler mainHandler = new Handler();
      FragmentDetailMenuBinding binding;
     ProgressDialog progressDialog;
     public FragmentDetailMenu() {
     }
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         binding = FragmentDetailMenuBinding.inflate(inflater,container,false);
+        assert getArguments() != null;
         String urlDiner = "http://"+ipAdd+""+"/memoir/res-web/"+getArguments().getString("imgDiner").replace("\\","/").replace("(","").replace(")","");
         String urlDiner1 = "http://"+ipAdd+""+"/memoir/res-web/"+getArguments().getString("imgDiner1").replace("\\","/").replace("(","").replace(")","");
         String urlRepas = "http://"+ipAdd+""+"/memoir/res-web/"+getArguments().getString("imgRepas").replace("\\","/").replace("(","").replace(")","");
         String urlRepas1 = "http://"+ipAdd+""+"/memoir/res-web/"+getArguments().getString("imgRepas1").replace("\\","/").replace("(","").replace(")","");
-        Log.d("url_diner",urlDiner);
         new RunFetchImage(new FetchImage(urlDiner,binding.imgDiner1)).start();
         new RunFetchImage(new FetchImage(urlDiner1,binding.imgDiner2)).start();
         new RunFetchImage(new FetchImage(urlRepas,binding.imgRepas1)).start();

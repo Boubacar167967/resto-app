@@ -1,6 +1,9 @@
 package com.b1707b.cours.resto_app.favorite;
 
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -9,13 +12,26 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.toolbox.StringRequest;
+import com.b1707b.cours.resto_app.HomeActivity;
+import com.b1707b.cours.resto_app.LoginActivity;
+import com.b1707b.cours.resto_app.MySingleton;
 import com.b1707b.cours.resto_app.R;
+import com.b1707b.cours.resto_app.functions.Tools;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Objects;
 
 public class FirebaseDatabase {
@@ -37,11 +53,8 @@ public class FirebaseDatabase {
         mReference.child(id_menu).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                if (snapshot.exists()) {
-                    Toast.makeText(mContext, "Cette menu exist deja", Toast.LENGTH_SHORT).show();
-                } else {
+                if (!snapshot.exists()) {
                     addMenu(menu, Integer.parseInt(id_menu)).addOnSuccessListener(unused -> {
-                        Toast.makeText(mContext, "Insersion a reussit", Toast.LENGTH_SHORT).show();
                     }).addOnFailureListener(e -> {
                         Toast.makeText(mContext, "Insersion a fail", Toast.LENGTH_SHORT).show();
                     });
@@ -100,6 +113,7 @@ public class FirebaseDatabase {
                 if (snapshot.exists()){
                     int nbrFavorite = (int) (snapshot.getChildrenCount()-1);
                     view.setText(nbrFavorite+" likes");
+                    savaNbrFavorite(lib,nbrFavorite,""+id_menu);
                 }else {
                     view.setText(0+" likes");
                 }
@@ -110,5 +124,27 @@ public class FirebaseDatabase {
 
             }
         });
+    }
+    public void savaNbrFavorite(String lib,int nbr_like,String id_menu){
+        {
+            String url = "http://"+ LoginActivity.getIpAdd()+"/memoir/server/savFavorite.php";
+            Map<String,String> hashMap = new HashMap<>();
+            hashMap.put("sav_fav_nbr_like",nbr_like+"");
+            hashMap.put("sav_fav_id_menu",id_menu);
+            hashMap.put("sav_fav_lib",lib);
+            StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
+                @Override
+                public void onResponse(String response) {
+
+                }
+            }, error -> Toast.makeText(mContext, error.getMessage(), Toast.LENGTH_SHORT).show()){
+                @NonNull
+                @Override
+                protected Map<String, String> getParams() throws AuthFailureError {
+                    return hashMap;
+                }
+            };
+            MySingleton.getInstance(mContext).addToRequestQueue(stringRequest);
+        }
     }
 }

@@ -60,14 +60,6 @@ public class DontFragment extends Fragment {
         binding.fdQrLaunch.setOnClickListener(v -> {
             scanQR();
         });
-        Date dateAndTime = Calendar.getInstance().getTime();
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("kk:mm:ss", Locale.ENGLISH);
-        String time = simpleDateFormat.format(dateAndTime);
-        String Date = dateFormat.format(dateAndTime);
-        String t1 = "6:00:00 PM";
-        String t2 = "7:00:00 PM";
-        Log.d("ttttttttttttttttt",""+time);
         return binding.getRoot();
     }
 
@@ -82,25 +74,19 @@ public class DontFragment extends Fragment {
 
     ActivityResultLauncher<ScanOptions> mLauncher = registerForActivityResult(new ScanContract(), result -> {
         if (result.getContents() != null) {
-            AlertDialog.Builder builder = new AlertDialog.Builder(requireActivity());
-            builder.setTitle("Result");
-            builder.setMessage(result.getContents());
-            builder.setPositiveButton("ok", (dialogInterface, i) -> dialogInterface.dismiss()).show();
             verifyIsExist(result.getContents());
         }
     });
 
     public void verifyIsExist(String s) {
-        String url = "http://" + LoginActivity.getIpAdd() + "/memoir/server/scanner.php";
+        String url = "http://" + LoginActivity.getIpAdd() + "/memoir/server/dont.php";
         Map<String, String> hashMap = new HashMap<>();
         hashMap.put("numberCartReceive", s);
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, response -> {
             JSONObject jsonObject;
             try {
                 jsonObject = new JSONObject(response);
-                Log.d("dontResponse", "onResponse: " + jsonObject);
                 String res = jsonObject.getString("response");
-                Toast.makeText(getContext(), "" + res, Toast.LENGTH_SHORT).show();
                 if (res.equals("numCard_not_exist")) {
                     new Tools(getContext()).displayAlert("erreur", "Etudiant in trouvable");
                 } else {
@@ -116,12 +102,7 @@ public class DontFragment extends Fragment {
                     AutoCompleteTextView autoCompleteTextView = view.findViewById(R.id.autoComplexeDialog);
                     autoCompleteTextView.setAdapter(adapter);
                     autoCompleteTextView.setOnItemClickListener((adapterView, view1, i, l) -> {
-
-                        if (i == 0) {
-                            typeTicket[0] = i;
-                        } else {
-                            typeTicket[0] = i;
-                        }
+                        typeTicket[0] = i;
                     });
                     buttonPositive.setOnClickListener(v -> {
                         if (Objects.requireNonNull(textInputLayout.getEditText()).getText().toString().isEmpty()) {
@@ -133,7 +114,6 @@ public class DontFragment extends Fragment {
                             Date dateAndTime = Calendar.getInstance().getTime();
                             SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-ss kk:mm:ss", Locale.getDefault());
                             String date = dateFormat.format(dateAndTime);
-                            Log.d("tttttttttttttzzzzzzzzzz", "verifyIsExist: "+date);
                             SharedPreferences sharedPreferences = requireActivity().getSharedPreferences("userDate", Context.MODE_PRIVATE);
                             String SenderNumberCart = sharedPreferences.getString("userNumberCart", "");
                             hashMap1.put("date",date);
@@ -171,7 +151,6 @@ public class DontFragment extends Fragment {
             try {
                 jsonObject = new JSONObject(response);
                 String responsePhp = jsonObject.getString("response1");
-                Log.d("response1", "onResponse: "+responsePhp);
                 mAlertDialog.dismiss();
                 if (responsePhp.equals("ok")) {
                     String st = Objects.equals(hashMap.get("type"), "petitDej") ? "petit deuj" : "repas";
@@ -189,32 +168,5 @@ public class DontFragment extends Fragment {
             }
         };
         MySingleton.getInstance(getContext()).addToRequestQueue(stringRequest);
-    }
-
-    public Boolean compareTime(String time1, String time2, String time) {
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("hh:mm:ss a", Locale.ENGLISH);
-        try {
-            Date timeOne = simpleDateFormat.parse(time1);
-            Date timeTwo = simpleDateFormat.parse(time2);
-            Date CompTime = simpleDateFormat.parse(time);
-            assert CompTime != null;
-            return CompTime.after(timeOne) && CompTime.before(timeTwo);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        return false;
-    }
-    public Boolean compareDateTime(String time1, String time2, String time) {
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy hh:mm:ss a", Locale.ENGLISH);
-        try {
-            Date timeOne = simpleDateFormat.parse(time1);
-            Date timeTwo = simpleDateFormat.parse(time2);
-            Date CompTime = simpleDateFormat.parse(time);
-            assert CompTime != null;
-            return CompTime.after(timeOne) && CompTime.before(timeTwo);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        return false;
     }
 }

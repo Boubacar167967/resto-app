@@ -79,7 +79,7 @@ public class RegisterFragment extends Fragment {
                             //Toast.makeText(RegisterActivity.this, response.toString(), Toast.LENGTH_SHORT).show();
                             //new Tools(RegisterActivity.this).displayAlert("Alert",jsonObject.getString("info"));
                             if(jsonObject.getString("info").equals("success")){
-                                Intent intent = new Intent(getContext(),HomeActivity.class);
+                                Intent intent = new Intent(getContext(),LoginActivity.class);
                                 Bundle bundle = new Bundle();
                                 bundle.putString("name",string_Name);
                                 bundle.putString("prenom",string_lastName);

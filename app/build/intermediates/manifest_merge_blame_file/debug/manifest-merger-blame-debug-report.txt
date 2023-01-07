@@ -74,220 +74,216 @@
 40-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
 41
 42    <application
-42-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:8:5-52:19
+42-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:7:5-49:19
 43        android:allowBackup="true"
-43-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:12:9-35
+43-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:9:9-35
 44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 44-->[androidx.core:core:1.8.0] C:\Users\B1707D\.gradle\caches\transforms-3\792a563e1f643abc28fe286cbdefdc4f\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 45        android:dataExtractionRules="@xml/data_extraction_rules"
-45-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:13:9-65
+45-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:10:9-65
 46        android:debuggable="true"
 47        android:fullBackupContent="@xml/backup_rules"
-47-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:14:9-54
-48        android:hardwareAccelerated="false"
-48-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:9:9-44
-49        android:icon="@mipmap/ic_launcher"
-49-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:15:9-43
-50        android:label="@string/app_name"
-50-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:16:9-41
-51        android:largeHeap="true"
-51-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:10:9-33
-52        android:roundIcon="@mipmap/ic_launcher_round"
-52-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:17:9-54
-53        android:supportsRtl="true"
-53-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:18:9-35
-54        android:testOnly="true"
-55        android:theme="@style/Theme.Restoapp"
-55-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:19:9-46
-56        android:usesCleartextTraffic="true" >
-56-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:11:9-44
-57        <activity
-57-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:21:9-27:20
-58            android:name="com.b1707b.cours.resto_app.HomeActivity"
-58-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:22:13-41
-59            android:exported="false" >
-59-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:23:13-37
-60            <meta-data
-60-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:24:13-26:36
-61                android:name="android.app.lib_name"
-61-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:25:17-52
-62                android:value="" />
-62-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:26:17-33
-63        </activity>
-64        <activity
-64-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:28:9-34:20
-65            android:name="com.b1707b.cours.resto_app.LoginActivity"
-65-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:29:13-42
-66            android:exported="false" >
-66-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:30:13-37
-67            <meta-data
-67-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:24:13-26:36
-68                android:name="android.app.lib_name"
-68-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:25:17-52
-69                android:value="" />
-69-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:26:17-33
-70        </activity>
-71        <activity
-71-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:35:9-44:20
-72            android:name="com.b1707b.cours.resto_app.SplashActivity"
-72-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:36:13-43
-73            android:exported="true"
-73-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:37:13-36
-74            android:label="@string/app_name" >
-74-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:38:13-45
-75            <intent-filter>
-75-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:39:13-43:29
-76                <action android:name="android.intent.action.MAIN" />
-76-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:40:17-69
-76-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:40:25-66
-77
-78                <category android:name="android.intent.category.LAUNCHER" />
-78-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:42:17-77
-78-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:42:27-74
-79            </intent-filter>
-80        </activity>
-81        <activity
-81-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:45:9-50:15
-82            android:name="com.b1707b.cours.resto_app.CaptureAct"
-82-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:46:13-39
-83            android:screenOrientation="fullSensor"
-83-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:47:13-51
-84            android:stateNotNeeded="true"
-84-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:48:13-42
-85            android:theme="@style/zxing_CaptureTheme" />
-85-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:49:13-54
-86        <activity
-86-->[paytech-sdk-release.aar] C:\Users\B1707D\.gradle\caches\transforms-3\62f10a026500ce87113df5d0fd4d15e2\transformed\paytech-sdk-release\AndroidManifest.xml:17:9-21:20
-87            android:name="sdk.paytech.sn.ViewActivity"
-87-->[paytech-sdk-release.aar] C:\Users\B1707D\.gradle\caches\transforms-3\62f10a026500ce87113df5d0fd4d15e2\transformed\paytech-sdk-release\AndroidManifest.xml:18:13-55
-88            android:configChanges="keyboardHidden|orientation|screenSize"
-88-->[paytech-sdk-release.aar] C:\Users\B1707D\.gradle\caches\transforms-3\62f10a026500ce87113df5d0fd4d15e2\transformed\paytech-sdk-release\AndroidManifest.xml:19:13-74
-89            android:screenOrientation="portrait" >
-89-->[paytech-sdk-release.aar] C:\Users\B1707D\.gradle\caches\transforms-3\62f10a026500ce87113df5d0fd4d15e2\transformed\paytech-sdk-release\AndroidManifest.xml:20:13-49
-90        </activity>
-91
-92        <service
-92-->[com.google.firebase:firebase-database:20.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b2c6cbc90205b80c60c3e2d335163d03\transformed\firebase-database-20.1.0\AndroidManifest.xml:28:9-34:19
-93            android:name="com.google.firebase.components.ComponentDiscoveryService"
-93-->[com.google.firebase:firebase-database:20.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b2c6cbc90205b80c60c3e2d335163d03\transformed\firebase-database-20.1.0\AndroidManifest.xml:29:13-84
-94            android:directBootAware="true"
-94-->[com.google.firebase:firebase-common:20.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\633d46b45bdf420c804188b569e9759b\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
-95            android:exported="false" >
-95-->[com.google.firebase:firebase-database:20.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b2c6cbc90205b80c60c3e2d335163d03\transformed\firebase-database-20.1.0\AndroidManifest.xml:30:13-37
-96            <meta-data
-96-->[com.google.firebase:firebase-database:20.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b2c6cbc90205b80c60c3e2d335163d03\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
-97                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-97-->[com.google.firebase:firebase-database:20.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b2c6cbc90205b80c60c3e2d335163d03\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
-98                android:value="com.google.firebase.components.ComponentRegistrar" />
-98-->[com.google.firebase:firebase-database:20.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b2c6cbc90205b80c60c3e2d335163d03\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
-99            <meta-data
-99-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\9ed6086cbf713485339d42ee70c41d2b\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
-100                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-100-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\9ed6086cbf713485339d42ee70c41d2b\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
-101                android:value="com.google.firebase.components.ComponentRegistrar" />
-101-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\9ed6086cbf713485339d42ee70c41d2b\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
-102            <meta-data
-102-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\abf6f4825031ebc5b8ac0d33a787cf3a\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
-103                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-103-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\abf6f4825031ebc5b8ac0d33a787cf3a\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
-104                android:value="com.google.firebase.components.ComponentRegistrar" />
-104-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\abf6f4825031ebc5b8ac0d33a787cf3a\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
-105        </service>
-106
-107        <activity
-107-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\d6fb40922576d745d1c6694a3bcb3ae8\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
-108            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-108-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\d6fb40922576d745d1c6694a3bcb3ae8\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
-109            android:clearTaskOnLaunch="true"
-109-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\d6fb40922576d745d1c6694a3bcb3ae8\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
-110            android:screenOrientation="sensorLandscape"
-110-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\d6fb40922576d745d1c6694a3bcb3ae8\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
-111            android:stateNotNeeded="true"
-111-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\d6fb40922576d745d1c6694a3bcb3ae8\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
-112            android:theme="@style/zxing_CaptureTheme"
-112-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\d6fb40922576d745d1c6694a3bcb3ae8\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
-113            android:windowSoftInputMode="stateAlwaysHidden" />
-113-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\d6fb40922576d745d1c6694a3bcb3ae8\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
-114
-115        <provider
-115-->[com.google.firebase:firebase-common:20.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\633d46b45bdf420c804188b569e9759b\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
-116            android:name="com.google.firebase.provider.FirebaseInitProvider"
-116-->[com.google.firebase:firebase-common:20.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\633d46b45bdf420c804188b569e9759b\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
-117            android:authorities="com.b1707b.cours.resto_app.firebaseinitprovider"
-117-->[com.google.firebase:firebase-common:20.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\633d46b45bdf420c804188b569e9759b\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
-118            android:directBootAware="true"
-118-->[com.google.firebase:firebase-common:20.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\633d46b45bdf420c804188b569e9759b\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
-119            android:exported="false"
-119-->[com.google.firebase:firebase-common:20.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\633d46b45bdf420c804188b569e9759b\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
-120            android:initOrder="100" />
-120-->[com.google.firebase:firebase-common:20.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\633d46b45bdf420c804188b569e9759b\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
-121
-122        <activity
-122-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\B1707D\.gradle\caches\transforms-3\fa96e177a17fa06c3e68a55242051e40\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-123            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-123-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\B1707D\.gradle\caches\transforms-3\fa96e177a17fa06c3e68a55242051e40\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-124            android:exported="false"
-124-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\B1707D\.gradle\caches\transforms-3\fa96e177a17fa06c3e68a55242051e40\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-125            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-125-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\B1707D\.gradle\caches\transforms-3\fa96e177a17fa06c3e68a55242051e40\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-126
-127        <receiver
-127-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
-128            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-128-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
-129            android:enabled="true"
-129-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
-130            android:exported="false" >
-130-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
-131        </receiver>
-132
-133        <service
-133-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
-134            android:name="com.google.android.gms.measurement.AppMeasurementService"
-134-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
-135            android:enabled="true"
-135-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
-136            android:exported="false" />
-136-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
-137        <service
-137-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
-138            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-138-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
-139            android:enabled="true"
-139-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
-140            android:exported="false"
-140-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
-141            android:permission="android.permission.BIND_JOB_SERVICE" />
-141-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
-142
-143        <meta-data
-143-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b454e6ca0ecdc420b2395ea3d7e5f325\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-144            android:name="com.google.android.gms.version"
-144-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b454e6ca0ecdc420b2395ea3d7e5f325\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-145            android:value="@integer/google_play_services_version" />
-145-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b454e6ca0ecdc420b2395ea3d7e5f325\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-146
-147        <provider
-147-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\5df4c4d34e34fcc60b14f6b4393465c7\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-148            android:name="androidx.startup.InitializationProvider"
-148-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\5df4c4d34e34fcc60b14f6b4393465c7\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-149            android:authorities="com.b1707b.cours.resto_app.androidx-startup"
-149-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\5df4c4d34e34fcc60b14f6b4393465c7\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-150            android:exported="false" >
-150-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\5df4c4d34e34fcc60b14f6b4393465c7\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-151            <meta-data
-151-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\5df4c4d34e34fcc60b14f6b4393465c7\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-152                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-152-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\5df4c4d34e34fcc60b14f6b4393465c7\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-153                android:value="androidx.startup" />
-153-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\5df4c4d34e34fcc60b14f6b4393465c7\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-154            <meta-data
-154-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\B1707D\.gradle\caches\transforms-3\cf820894941a6f9b821b0294dd706a5d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-155                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-155-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\B1707D\.gradle\caches\transforms-3\cf820894941a6f9b821b0294dd706a5d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-156                android:value="androidx.startup" />
-156-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\B1707D\.gradle\caches\transforms-3\cf820894941a6f9b821b0294dd706a5d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-157        </provider>
-158    </application>
-159
-160</manifest>
+47-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:11:9-54
+48        android:icon="@mipmap/ic_launcher"
+48-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:12:9-43
+49        android:label="@string/app_name"
+49-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:13:9-41
+50        android:roundIcon="@mipmap/ic_launcher_round"
+50-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:14:9-54
+51        android:supportsRtl="true"
+51-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:15:9-35
+52        android:testOnly="true"
+53        android:theme="@style/Theme.Restoapp"
+53-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:16:9-46
+54        android:usesCleartextTraffic="true" >
+54-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:8:9-44
+55        <activity
+55-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:18:9-24:20
+56            android:name="com.b1707b.cours.resto_app.HomeActivity"
+56-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:19:13-41
+57            android:exported="false" >
+57-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:20:13-37
+58            <meta-data
+58-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:21:13-23:36
+59                android:name="android.app.lib_name"
+59-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:22:17-52
+60                android:value="" />
+60-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:23:17-33
+61        </activity>
+62        <activity
+62-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:25:9-31:20
+63            android:name="com.b1707b.cours.resto_app.LoginActivity"
+63-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:26:13-42
+64            android:exported="false" >
+64-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:27:13-37
+65            <meta-data
+65-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:21:13-23:36
+66                android:name="android.app.lib_name"
+66-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:22:17-52
+67                android:value="" />
+67-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:23:17-33
+68        </activity>
+69        <activity
+69-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:32:9-41:20
+70            android:name="com.b1707b.cours.resto_app.SplashActivity"
+70-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:33:13-43
+71            android:exported="true"
+71-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:34:13-36
+72            android:label="@string/app_name" >
+72-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:35:13-45
+73            <intent-filter>
+73-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:36:13-40:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:37:17-69
+74-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:37:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:39:17-77
+76-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:39:27-74
+77            </intent-filter>
+78        </activity>
+79        <activity
+79-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:42:9-47:15
+80            android:name="com.b1707b.cours.resto_app.CaptureAct"
+80-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:43:13-39
+81            android:screenOrientation="fullSensor"
+81-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:44:13-51
+82            android:stateNotNeeded="true"
+82-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:45:13-42
+83            android:theme="@style/zxing_CaptureTheme" />
+83-->C:\xampp\htdocs\memoir\resto-app\app\src\main\AndroidManifest.xml:46:13-54
+84        <activity
+84-->[paytech-sdk-release.aar] C:\Users\B1707D\.gradle\caches\transforms-3\62f10a026500ce87113df5d0fd4d15e2\transformed\paytech-sdk-release\AndroidManifest.xml:17:9-21:20
+85            android:name="sdk.paytech.sn.ViewActivity"
+85-->[paytech-sdk-release.aar] C:\Users\B1707D\.gradle\caches\transforms-3\62f10a026500ce87113df5d0fd4d15e2\transformed\paytech-sdk-release\AndroidManifest.xml:18:13-55
+86            android:configChanges="keyboardHidden|orientation|screenSize"
+86-->[paytech-sdk-release.aar] C:\Users\B1707D\.gradle\caches\transforms-3\62f10a026500ce87113df5d0fd4d15e2\transformed\paytech-sdk-release\AndroidManifest.xml:19:13-74
+87            android:screenOrientation="portrait" >
+87-->[paytech-sdk-release.aar] C:\Users\B1707D\.gradle\caches\transforms-3\62f10a026500ce87113df5d0fd4d15e2\transformed\paytech-sdk-release\AndroidManifest.xml:20:13-49
+88        </activity>
+89
+90        <service
+90-->[com.google.firebase:firebase-database:20.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b2c6cbc90205b80c60c3e2d335163d03\transformed\firebase-database-20.1.0\AndroidManifest.xml:28:9-34:19
+91            android:name="com.google.firebase.components.ComponentDiscoveryService"
+91-->[com.google.firebase:firebase-database:20.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b2c6cbc90205b80c60c3e2d335163d03\transformed\firebase-database-20.1.0\AndroidManifest.xml:29:13-84
+92            android:directBootAware="true"
+92-->[com.google.firebase:firebase-common:20.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\633d46b45bdf420c804188b569e9759b\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+93            android:exported="false" >
+93-->[com.google.firebase:firebase-database:20.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b2c6cbc90205b80c60c3e2d335163d03\transformed\firebase-database-20.1.0\AndroidManifest.xml:30:13-37
+94            <meta-data
+94-->[com.google.firebase:firebase-database:20.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b2c6cbc90205b80c60c3e2d335163d03\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+95                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+95-->[com.google.firebase:firebase-database:20.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b2c6cbc90205b80c60c3e2d335163d03\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-database:20.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b2c6cbc90205b80c60c3e2d335163d03\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+97            <meta-data
+97-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\9ed6086cbf713485339d42ee70c41d2b\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+98                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+98-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\9ed6086cbf713485339d42ee70c41d2b\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\9ed6086cbf713485339d42ee70c41d2b\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\abf6f4825031ebc5b8ac0d33a787cf3a\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+101                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+101-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\abf6f4825031ebc5b8ac0d33a787cf3a\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\abf6f4825031ebc5b8ac0d33a787cf3a\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+103        </service>
+104
+105        <activity
+105-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\d6fb40922576d745d1c6694a3bcb3ae8\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+106            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+106-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\d6fb40922576d745d1c6694a3bcb3ae8\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+107            android:clearTaskOnLaunch="true"
+107-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\d6fb40922576d745d1c6694a3bcb3ae8\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+108            android:screenOrientation="sensorLandscape"
+108-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\d6fb40922576d745d1c6694a3bcb3ae8\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+109            android:stateNotNeeded="true"
+109-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\d6fb40922576d745d1c6694a3bcb3ae8\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+110            android:theme="@style/zxing_CaptureTheme"
+110-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\d6fb40922576d745d1c6694a3bcb3ae8\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+111            android:windowSoftInputMode="stateAlwaysHidden" />
+111-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\B1707D\.gradle\caches\transforms-3\d6fb40922576d745d1c6694a3bcb3ae8\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+112
+113        <provider
+113-->[com.google.firebase:firebase-common:20.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\633d46b45bdf420c804188b569e9759b\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+114            android:name="com.google.firebase.provider.FirebaseInitProvider"
+114-->[com.google.firebase:firebase-common:20.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\633d46b45bdf420c804188b569e9759b\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+115            android:authorities="com.b1707b.cours.resto_app.firebaseinitprovider"
+115-->[com.google.firebase:firebase-common:20.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\633d46b45bdf420c804188b569e9759b\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+116            android:directBootAware="true"
+116-->[com.google.firebase:firebase-common:20.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\633d46b45bdf420c804188b569e9759b\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+117            android:exported="false"
+117-->[com.google.firebase:firebase-common:20.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\633d46b45bdf420c804188b569e9759b\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+118            android:initOrder="100" />
+118-->[com.google.firebase:firebase-common:20.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\633d46b45bdf420c804188b569e9759b\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+119
+120        <activity
+120-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\B1707D\.gradle\caches\transforms-3\fa96e177a17fa06c3e68a55242051e40\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+121            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+121-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\B1707D\.gradle\caches\transforms-3\fa96e177a17fa06c3e68a55242051e40\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+122            android:exported="false"
+122-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\B1707D\.gradle\caches\transforms-3\fa96e177a17fa06c3e68a55242051e40\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+123-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\B1707D\.gradle\caches\transforms-3\fa96e177a17fa06c3e68a55242051e40\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+124
+125        <receiver
+125-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+126            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+126-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+127            android:enabled="true"
+127-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+128            android:exported="false" >
+128-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+129        </receiver>
+130
+131        <service
+131-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+132            android:name="com.google.android.gms.measurement.AppMeasurementService"
+132-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+133            android:enabled="true"
+133-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+134            android:exported="false" />
+134-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+135        <service
+135-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+136            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+136-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+137            android:enabled="true"
+137-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+138            android:exported="false"
+138-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+139            android:permission="android.permission.BIND_JOB_SERVICE" />
+139-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\e3b20002967166cfc4ad1691586357aa\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+140
+141        <meta-data
+141-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b454e6ca0ecdc420b2395ea3d7e5f325\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+142            android:name="com.google.android.gms.version"
+142-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b454e6ca0ecdc420b2395ea3d7e5f325\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+143            android:value="@integer/google_play_services_version" />
+143-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\B1707D\.gradle\caches\transforms-3\b454e6ca0ecdc420b2395ea3d7e5f325\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+144
+145        <provider
+145-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\5df4c4d34e34fcc60b14f6b4393465c7\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+146            android:name="androidx.startup.InitializationProvider"
+146-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\5df4c4d34e34fcc60b14f6b4393465c7\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+147            android:authorities="com.b1707b.cours.resto_app.androidx-startup"
+147-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\5df4c4d34e34fcc60b14f6b4393465c7\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+148            android:exported="false" >
+148-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\5df4c4d34e34fcc60b14f6b4393465c7\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+149            <meta-data
+149-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\5df4c4d34e34fcc60b14f6b4393465c7\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+150                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+150-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\5df4c4d34e34fcc60b14f6b4393465c7\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+151                android:value="androidx.startup" />
+151-->[androidx.emoji2:emoji2:1.2.0] C:\Users\B1707D\.gradle\caches\transforms-3\5df4c4d34e34fcc60b14f6b4393465c7\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+152            <meta-data
+152-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\B1707D\.gradle\caches\transforms-3\cf820894941a6f9b821b0294dd706a5d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+153                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+153-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\B1707D\.gradle\caches\transforms-3\cf820894941a6f9b821b0294dd706a5d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+154                android:value="androidx.startup" />
+154-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\B1707D\.gradle\caches\transforms-3\cf820894941a6f9b821b0294dd706a5d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+155        </provider>
+156    </application>
+157
+158</manifest>

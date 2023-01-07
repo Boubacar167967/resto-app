@@ -21,12 +21,9 @@ public class LoginActivity extends AppCompatActivity {
         ipAdd = ip;
     }
     private  final String url = "http://"+LoginActivity.getIpAdd()+"/memoir/server/logApp.php";
-    private FirebaseDatabase mFirebaseDatabase;
-    private DatabaseReference mDatabaseReferenceMenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         setIpadd("192.168.56.1");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);

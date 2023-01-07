@@ -73,7 +73,6 @@ public class EatFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 getData(hashMapResto.get(view.getId()));
-                Toast.makeText(getContext(), ""+hashMapResto.get(view.getId()), Toast.LENGTH_SHORT).show();
             }
         });
     }
